@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-27",
+  "genere_le": "2026-10-27T10:16:15Z",
+  "graine": "20261028-2026-10-27",
+  "mode_test": true,
+  "ordres": [
+    {
+      "action": "acheter",
+      "ticker": "AAPL",
+      "nom": "Apple",
+      "secteur": "Technologie",
+      "pays": "États-Unis",
+      "montant_chf": 80.13,
+      "raison": "Tirage au sort du premier jour.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    },
+    {
+      "action": "acheter",
+      "ticker": "LONN.SW",
+      "nom": "Lonza",
+      "secteur": "Santé",
+      "pays": "Suisse",
+      "montant_chf": 64.43,
+      "raison": "Tirage au sort du premier jour.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    },
+    {
+      "action": "acheter",
+      "ticker": "COIN",
+      "nom": "Coinbase",
+      "secteur": "Crypto",
+      "pays": "États-Unis",
+      "montant_chf": 45.44,
+      "raison": "Tirage au sort du premier jour.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    }
+  ]
+}

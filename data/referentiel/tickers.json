@@ -1,0 +1,68 @@
+{
+  "AAPL": {
+    "devise": "USD",
+    "type": "EQUITY",
+    "nom_yahoo": "Apple Inc.",
+    "marche": "US"
+  },
+  "ACWI": {
+    "devise": "USD",
+    "type": "ETF",
+    "nom_yahoo": "iShares MSCI ACWI ETF",
+    "marche": "US"
+  },
+  "AVGO": {
+    "devise": "USD",
+    "type": "EQUITY",
+    "nom_yahoo": "Broadcom Inc.",
+    "marche": "US"
+  },
+  "COIN": {
+    "devise": "USD",
+    "type": "EQUITY",
+    "nom_yahoo": "Coinbase Global, Inc.",
+    "marche": "US"
+  },
+  "GLD": {
+    "devise": "USD",
+    "type": "ETF",
+    "nom_yahoo": "SPDR Gold Shares",
+    "marche": "US"
+  },
+  "JNJ": {
+    "devise": "USD",
+    "type": "EQUITY",
+    "nom_yahoo": "Johnson & Johnson",
+    "marche": "US"
+  },
+  "KO": {
+    "devise": "USD",
+    "type": "EQUITY",
+    "nom_yahoo": "The Coca-Cola Company",
+    "marche": "US"
+  },
+  "LONN.SW": {
+    "devise": "CHF",
+    "type": "EQUITY",
+    "nom_yahoo": "Lonza Group AG",
+    "marche": "CH"
+  },
+  "MSTR": {
+    "devise": "USD",
+    "type": "EQUITY",
+    "nom_yahoo": "Strategy Inc",
+    "marche": "US"
+  },
+  "NVDA": {
+    "devise": "USD",
+    "type": "EQUITY",
+    "nom_yahoo": "NVIDIA Corporation",
+    "marche": "US"
+  },
+  "VT": {
+    "devise": "USD",
+    "type": "ETF",
+    "nom_yahoo": "Vanguard Total World Stock Index Fund ETF Shares",
+    "marche": "US"
+  }
+}
