@@ -1,0 +1,53 @@
+{
+  "nom": "Labo Bourse",
+  "date_debut": "2026-10-28",
+  "date_fin": "2026-11-27",
+  "fuseau": "Europe/Zurich",
+  "devise": "CHF",
+  "capital_initial_chf": 200,
+  "slippage_pct": 0.1,
+  "frais": {
+    "fixe_par_ordre_chf": 1.0,
+    "commission_pct": 0.0,
+    "change_pct": 0.5
+  },
+  "max_ordres_par_session": 5,
+  "montant_min_ordre_chf": 10,
+  "modele_claude": "sonnet",
+  "max_tours_claude": 60,
+  "jours_feries": {
+    "CH": [],
+    "EU": [],
+    "UK": [],
+    "US": ["2026-11-26"]
+  },
+  "ouvertures_heure_zurich": {
+    "CH": "09:00",
+    "EU": "09:00",
+    "UK": "09:00",
+    "US": "15:30"
+  },
+  "secteurs": [
+    "Technologie",
+    "Semi-conducteurs",
+    "Communication",
+    "Santé",
+    "Finance",
+    "Consommation de base",
+    "Consommation discrétionnaire",
+    "Industrie",
+    "Énergie",
+    "Matériaux",
+    "Or et métaux précieux",
+    "Services publics",
+    "Immobilier",
+    "Crypto",
+    "ETF diversifié"
+  ],
+  "singe": {
+    "graine": 20261028,
+    "max_positions": 5,
+    "proba_vente": 0.3,
+    "proba_achat": 0.35
+  }
+}

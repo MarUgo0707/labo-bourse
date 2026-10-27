@@ -1,0 +1,40 @@
+name: Vérification de la chaîne (sans IA, sans commit)
+
+# Rejoue toute la chaîne avec des décisions simulées sur les deux derniers jours ouvrables,
+# puis construit l'app. Ne commite rien et ne consomme pas de quota Claude.
+on:
+  workflow_dispatch:
+  pull_request:
+
+permissions:
+  contents: read
+
+env:
+  PYTHONWARNINGS: ignore
+
+jobs:
+  verifier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r scripts/requirements.txt
+      - name: Simuler deux séances complètes
+        run: |
+          JOURS=$(python scripts/derniers_jours_ouvrables.py 2)
+          for D in $JOURS; do
+            python scripts/preparer_session.py --date "$D" --test
+            python scripts/simuler_decisions.py --date "$D"
+            python scripts/singe.py --date "$D" --test
+            python scripts/valider.py --date "$D" --test
+            python scripts/cloture.py --date "$D" --test
+          done
+          python scripts/rapport.py --test
+          python scripts/lire.py etat | head -20
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci && npm run build
+        working-directory: app

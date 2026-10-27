@@ -1,0 +1,213 @@
+{
+  "_note": "Stratégies pré-enregistrées. Ce fichier est verrouillé dès la date de début de l'étude : toute modification ultérieure est refusée par le validateur.",
+  "portefeuilles": [
+    {
+      "id": "patient",
+      "nom": "Le Patient",
+      "emoji": "🏛️",
+      "couleur": { "clair": "#2a78d6", "sombre": "#3987e5" },
+      "pilote": "ia",
+      "description": "Investit à long terme dans 1 à 3 ETF très diversifiés, puis ne bouge plus. C'est la référence.",
+      "regles": [
+        "Univers : uniquement les ETF de la liste autorisée (monde et Suisse).",
+        "1 à 3 positions. Tout est investi dès le premier jour (garder au plus 5 % de cash).",
+        "Ne touche plus à rien ensuite, sauf rééquilibrage si une position s'écarte de plus de 10 points de sa part cible.",
+        "Ne réagit jamais aux nouvelles du jour."
+      ],
+      "contraintes": {
+        "max_positions": 3,
+        "max_pct_position": 80,
+        "tickers_autorises": ["VT", "ACWI", "URTH", "VWRL.SW", "CHSPI.SW", "CSSMI.SW", "SPICHA.SW"],
+        "types_autorises": ["ETF"]
+      }
+    },
+    {
+      "id": "journaliste",
+      "nom": "Le Journaliste",
+      "emoji": "📰",
+      "couleur": { "clair": "#eb6834", "sombre": "#d95926" },
+      "pilote": "ia",
+      "description": "Réagit aux actualités du jour : résultats trimestriels, annonces, macroéconomie.",
+      "regles": [
+        "Univers : actions de toutes les places autorisées.",
+        "Jusqu'à 5 positions, 40 % maximum par position.",
+        "Achète quand une nouvelle concrète et récente change les perspectives d'une entreprise ; vend quand la nouvelle est digérée ou contredite.",
+        "Chaque ordre doit citer la nouvelle qui le justifie."
+      ],
+      "contraintes": { "max_positions": 5, "max_pct_position": 40, "types_autorises": ["EQUITY"] }
+    },
+    {
+      "id": "risque",
+      "nom": "Le Risque-tout",
+      "emoji": "🔥",
+      "couleur": { "clair": "#1baf7a", "sombre": "#199e70" },
+      "pilote": "ia",
+      "description": "Cherche la forte volatilité : petites capitalisations, valeurs spéculatives, actions liées à la crypto.",
+      "regles": [
+        "Univers : actions volatiles (petites capitalisations, biotech, crypto-actions, valeurs « à la mode »).",
+        "Se concentre sur 2 à 4 positions, jusqu'à 60 % par position.",
+        "Pas de levier ni de produit inversé : uniquement des actions ordinaires.",
+        "Accepte de fortes pertes temporaires, mais vend si la raison de l'achat disparaît."
+      ],
+      "contraintes": { "max_positions": 4, "max_pct_position": 60, "types_autorises": ["EQUITY"] }
+    },
+    {
+      "id": "ia",
+      "nom": "Le Thématique IA",
+      "emoji": "🤖",
+      "couleur": { "clair": "#eda100", "sombre": "#c98500" },
+      "pilote": "ia",
+      "description": "Uniquement l'intelligence artificielle et les semi-conducteurs : puces, cloud, logiciels IA.",
+      "regles": [
+        "Univers : fabricants de puces, équipementiers, cloud et logiciels dont l'IA est le cœur du métier.",
+        "Jusqu'à 5 positions, 40 % maximum par position.",
+        "Secteurs autorisés : Semi-conducteurs, Technologie, Communication.",
+        "Garde ses convictions plusieurs jours ; vend si le récit IA de l'entreprise s'affaiblit."
+      ],
+      "contraintes": {
+        "max_positions": 5,
+        "max_pct_position": 40,
+        "types_autorises": ["EQUITY", "ETF"],
+        "secteurs_autorises": ["Semi-conducteurs", "Technologie", "Communication"]
+      }
+    },
+    {
+      "id": "suisse",
+      "nom": "Le Suisse",
+      "emoji": "🇨🇭",
+      "couleur": { "clair": "#e87ba4", "sombre": "#d55181" },
+      "pilote": "ia",
+      "description": "Uniquement des actions cotées à la bourse suisse (SIX), avec un biais qualité et dividendes.",
+      "regles": [
+        "Univers : actions cotées à la SIX (tickers finissant par .SW).",
+        "Jusqu'à 5 positions, 35 % maximum par position.",
+        "Préfère les entreprises solides, rentables et qui versent un dividende régulier.",
+        "Rotation faible : vend seulement si la qualité se dégrade ou si une bien meilleure occasion apparaît."
+      ],
+      "contraintes": {
+        "max_positions": 5,
+        "max_pct_position": 35,
+        "types_autorises": ["EQUITY"],
+        "suffixes_autorises": [".SW"]
+      }
+    },
+    {
+      "id": "contrarien",
+      "nom": "Le Contrarien",
+      "emoji": "🔄",
+      "couleur": { "clair": "#008300", "sombre": "#008300" },
+      "pilote": "ia",
+      "description": "Achète des entreprises solides après une forte baisse et revend après un rebond.",
+      "regles": [
+        "Univers : grandes entreprises rentables de toutes les places autorisées.",
+        "Jusqu'à 5 positions, 40 % maximum par position.",
+        "N'achète qu'après une baisse marquée (environ 10 % ou plus en quelques semaines) sans raison grave et durable.",
+        "Vend après un rebond net (environ +8 %) ou si la baisse s'avère justifiée."
+      ],
+      "contraintes": { "max_positions": 5, "max_pct_position": 40, "types_autorises": ["EQUITY"] }
+    },
+    {
+      "id": "momentum",
+      "nom": "Le Momentum",
+      "emoji": "📈",
+      "couleur": { "clair": "#6250d6", "sombre": "#9085e9" },
+      "pilote": "ia",
+      "description": "Suit les tendances : renforce les gagnants et coupe vite les perdants.",
+      "regles": [
+        "Univers : actions et ETF de toutes les places autorisées.",
+        "Jusqu'à 5 positions, 40 % maximum par position.",
+        "Achète ce qui monte fortement depuis plusieurs semaines ; renforce ce qui continue de monter.",
+        "Coupe une position dès qu'elle perd environ 7 % depuis l'achat ou que la tendance se casse."
+      ],
+      "contraintes": { "max_positions": 5, "max_pct_position": 40, "types_autorises": ["EQUITY", "ETF"] }
+    },
+    {
+      "id": "defensif",
+      "nom": "Le Défensif",
+      "emoji": "🛡️",
+      "couleur": { "clair": "#e34948", "sombre": "#e66767" },
+      "pilote": "ia",
+      "description": "Or, santé, consommation de base et services publics : vise la faible volatilité.",
+      "regles": [
+        "Univers : or et métaux précieux (ETF ou mines), santé, consommation de base, services publics.",
+        "Jusqu'à 5 positions, 40 % maximum par position.",
+        "Privilégie la stabilité plutôt que la performance ; bouge peu.",
+        "Vend si un titre devient nettement plus volatil que prévu."
+      ],
+      "contraintes": {
+        "max_positions": 5,
+        "max_pct_position": 40,
+        "types_autorises": ["EQUITY", "ETF"],
+        "secteurs_autorises": ["Or et métaux précieux", "Santé", "Consommation de base", "Services publics"]
+      }
+    },
+    {
+      "id": "singe",
+      "nom": "Le Singe",
+      "emoji": "🎲",
+      "couleur": { "clair": "#7a7974", "sombre": "#9a9993" },
+      "pilote": "script",
+      "description": "Témoin scientifique sans IA : achète et vend au hasard (tirage rejouable) pour mesurer si l'IA fait mieux que la chance.",
+      "regles": [
+        "Aucune intelligence : un script tire au sort ses ordres avec une graine fixe (rejouable).",
+        "Univers : une cinquantaine de grandes actions suisses, européennes et américaines.",
+        "Jusqu'à 5 positions. Le premier jour, il achète 3 titres au hasard.",
+        "Ensuite, chaque jour : une chance sur trois environ de vendre un titre, et autant d'en acheter un."
+      ],
+      "contraintes": { "max_positions": 5, "max_pct_position": 100, "types_autorises": ["EQUITY"] },
+      "univers": [
+        { "ticker": "NESN.SW", "nom": "Nestlé", "secteur": "Consommation de base", "pays": "Suisse" },
+        { "ticker": "NOVN.SW", "nom": "Novartis", "secteur": "Santé", "pays": "Suisse" },
+        { "ticker": "ROG.SW", "nom": "Roche", "secteur": "Santé", "pays": "Suisse" },
+        { "ticker": "UBSG.SW", "nom": "UBS", "secteur": "Finance", "pays": "Suisse" },
+        { "ticker": "ZURN.SW", "nom": "Zurich Insurance", "secteur": "Finance", "pays": "Suisse" },
+        { "ticker": "ABBN.SW", "nom": "ABB", "secteur": "Industrie", "pays": "Suisse" },
+        { "ticker": "CFR.SW", "nom": "Richemont", "secteur": "Consommation discrétionnaire", "pays": "Suisse" },
+        { "ticker": "LOGN.SW", "nom": "Logitech", "secteur": "Technologie", "pays": "Suisse" },
+        { "ticker": "SIKA.SW", "nom": "Sika", "secteur": "Matériaux", "pays": "Suisse" },
+        { "ticker": "GIVN.SW", "nom": "Givaudan", "secteur": "Matériaux", "pays": "Suisse" },
+        { "ticker": "LONN.SW", "nom": "Lonza", "secteur": "Santé", "pays": "Suisse" },
+        { "ticker": "SREN.SW", "nom": "Swiss Re", "secteur": "Finance", "pays": "Suisse" },
+        { "ticker": "SCMN.SW", "nom": "Swisscom", "secteur": "Communication", "pays": "Suisse" },
+        { "ticker": "HOLN.SW", "nom": "Holcim", "secteur": "Matériaux", "pays": "Suisse" },
+        { "ticker": "ASML.AS", "nom": "ASML", "secteur": "Semi-conducteurs", "pays": "Pays-Bas" },
+        { "ticker": "SAP.DE", "nom": "SAP", "secteur": "Technologie", "pays": "Allemagne" },
+        { "ticker": "SIE.DE", "nom": "Siemens", "secteur": "Industrie", "pays": "Allemagne" },
+        { "ticker": "ALV.DE", "nom": "Allianz", "secteur": "Finance", "pays": "Allemagne" },
+        { "ticker": "BMW.DE", "nom": "BMW", "secteur": "Consommation discrétionnaire", "pays": "Allemagne" },
+        { "ticker": "MC.PA", "nom": "LVMH", "secteur": "Consommation discrétionnaire", "pays": "France" },
+        { "ticker": "OR.PA", "nom": "L'Oréal", "secteur": "Consommation de base", "pays": "France" },
+        { "ticker": "TTE.PA", "nom": "TotalEnergies", "secteur": "Énergie", "pays": "France" },
+        { "ticker": "AIR.PA", "nom": "Airbus", "secteur": "Industrie", "pays": "France" },
+        { "ticker": "SAN.PA", "nom": "Sanofi", "secteur": "Santé", "pays": "France" },
+        { "ticker": "ENEL.MI", "nom": "Enel", "secteur": "Services publics", "pays": "Italie" },
+        { "ticker": "IBE.MC", "nom": "Iberdrola", "secteur": "Services publics", "pays": "Espagne" },
+        { "ticker": "AAPL", "nom": "Apple", "secteur": "Technologie", "pays": "États-Unis" },
+        { "ticker": "MSFT", "nom": "Microsoft", "secteur": "Technologie", "pays": "États-Unis" },
+        { "ticker": "NVDA", "nom": "Nvidia", "secteur": "Semi-conducteurs", "pays": "États-Unis" },
+        { "ticker": "AMZN", "nom": "Amazon", "secteur": "Consommation discrétionnaire", "pays": "États-Unis" },
+        { "ticker": "GOOGL", "nom": "Alphabet", "secteur": "Communication", "pays": "États-Unis" },
+        { "ticker": "META", "nom": "Meta Platforms", "secteur": "Communication", "pays": "États-Unis" },
+        { "ticker": "TSLA", "nom": "Tesla", "secteur": "Consommation discrétionnaire", "pays": "États-Unis" },
+        { "ticker": "JPM", "nom": "JPMorgan Chase", "secteur": "Finance", "pays": "États-Unis" },
+        { "ticker": "V", "nom": "Visa", "secteur": "Finance", "pays": "États-Unis" },
+        { "ticker": "JNJ", "nom": "Johnson & Johnson", "secteur": "Santé", "pays": "États-Unis" },
+        { "ticker": "PFE", "nom": "Pfizer", "secteur": "Santé", "pays": "États-Unis" },
+        { "ticker": "KO", "nom": "Coca-Cola", "secteur": "Consommation de base", "pays": "États-Unis" },
+        { "ticker": "PG", "nom": "Procter & Gamble", "secteur": "Consommation de base", "pays": "États-Unis" },
+        { "ticker": "WMT", "nom": "Walmart", "secteur": "Consommation de base", "pays": "États-Unis" },
+        { "ticker": "XOM", "nom": "ExxonMobil", "secteur": "Énergie", "pays": "États-Unis" },
+        { "ticker": "CAT", "nom": "Caterpillar", "secteur": "Industrie", "pays": "États-Unis" },
+        { "ticker": "BA", "nom": "Boeing", "secteur": "Industrie", "pays": "États-Unis" },
+        { "ticker": "DIS", "nom": "Disney", "secteur": "Communication", "pays": "États-Unis" },
+        { "ticker": "NFLX", "nom": "Netflix", "secteur": "Communication", "pays": "États-Unis" },
+        { "ticker": "AMD", "nom": "AMD", "secteur": "Semi-conducteurs", "pays": "États-Unis" },
+        { "ticker": "INTC", "nom": "Intel", "secteur": "Semi-conducteurs", "pays": "États-Unis" },
+        { "ticker": "NEE", "nom": "NextEra Energy", "secteur": "Services publics", "pays": "États-Unis" },
+        { "ticker": "NEM", "nom": "Newmont", "secteur": "Or et métaux précieux", "pays": "États-Unis" },
+        { "ticker": "COIN", "nom": "Coinbase", "secteur": "Crypto", "pays": "États-Unis" },
+        { "ticker": "PLTR", "nom": "Palantir", "secteur": "Technologie", "pays": "États-Unis" }
+      ]
+    }
+  ]
+}

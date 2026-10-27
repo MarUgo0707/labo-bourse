@@ -1,0 +1,58 @@
+name: Clôture du soir (sans IA)
+
+on:
+  schedule:
+    - cron: "0 22 * * 1-5" # 22:00 UTC = 23:00 à Zurich, après la clôture américaine
+  workflow_dispatch:
+    inputs:
+      mode_test:
+        description: "Mode test : clôture la date du jour même hors calendrier"
+        type: boolean
+        default: false
+
+concurrency:
+  group: labo-bourse-donnees
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  PYTHONWARNINGS: ignore
+  TEST_FLAG: ${{ inputs.mode_test && '--test' || '' }}
+
+jobs:
+  cloture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - run: pip install -r scripts/requirements.txt
+
+      - name: Exécuter les ordres et valoriser
+        run: python scripts/cloture.py --date "$(TZ=Europe/Zurich date +%F)" $TEST_FLAG
+
+      - name: Indicateurs et rapport
+        run: python scripts/rapport.py $TEST_FLAG
+
+      - name: Commit et push
+        run: |
+          git config user.name "labo-bourse-robot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          git diff --cached --quiet && { echo "Rien à publier."; exit 0; }
+          git commit -q -m "Clôture du $(TZ=Europe/Zurich date +%F)${{ inputs.mode_test && ' (test)' || '' }}"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i * 10))
+          done
+          exit 1

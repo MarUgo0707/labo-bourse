@@ -1,0 +1,109 @@
+name: Séance du matin (Claude)
+
+on:
+  schedule:
+    - cron: "0 7 * * 1-5" # 07:00 UTC = 08:00 à Zurich (heure d'hiver, valable toute l'étude)
+  workflow_dispatch:
+    inputs:
+      mode_test:
+        description: "Mode test : ignore le calendrier, séance courte (données à effacer ensuite)"
+        type: boolean
+        default: false
+
+concurrency:
+  group: labo-bourse-donnees
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  id-token: write
+  actions: write
+
+env:
+  PYTHONWARNINGS: ignore
+  TEST_FLAG: ${{ inputs.mode_test && '--test' || '' }}
+
+jobs:
+  seance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 80
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Installer les dépendances
+        run: pip install -r scripts/requirements.txt
+
+      - name: Configurer git
+        run: |
+          git config user.name "labo-bourse-robot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Préparer la séance (calendrier, verrou, marché de la veille)
+        id: prep
+        run: python scripts/preparer_session.py --date "$(TZ=Europe/Zurich date +%F)" $TEST_FLAG
+
+      - name: Commit local avant Claude (référence du garde-fichiers)
+        if: steps.prep.outputs.lancer == 'true'
+        run: |
+          git add -A data
+          git commit -q -m "Préparation de la séance du ${{ steps.prep.outputs.date }}" || true
+
+      - name: Séance Claude
+        if: steps.prep.outputs.lancer == 'true'
+        id: claude
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            Tu es l'analyste de Labo Bourse. Lis le fichier prompts/session.md et suis-le à la lettre.
+            Date de la séance : ${{ steps.prep.outputs.date }} (jour ${{ steps.prep.outputs.jour }} sur ${{ steps.prep.outputs.nb_jours }}).
+            Mode test : ${{ inputs.mode_test && 'OUI — séance courte, deux recherches web au maximum, données effacées ensuite' || 'non' }}.
+            Fichiers à écrire : data/decisions/${{ steps.prep.outputs.date }}.json et data/journal/${{ steps.prep.outputs.date }}.md
+          claude_args: >-
+            --model ${{ steps.prep.outputs.modele }}
+            --max-turns ${{ inputs.mode_test && '30' || steps.prep.outputs.max_tours }}
+            --allowedTools "Read,Glob,Grep,WebSearch,WebFetch,Bash(python scripts/lire.py:*),Bash(python3 scripts/lire.py:*),Write(data/decisions/**),Write(data/journal/**),Edit(data/decisions/**),Edit(data/journal/**)"
+            --disallowedTools "Bash(git:*),Bash(rm:*),Bash(curl:*),Bash(pip:*)"
+
+      - name: Garde-fichiers (annule toute écriture hors décisions/journal)
+        if: steps.prep.outputs.lancer == 'true'
+        run: python scripts/garde.py --date "${{ steps.prep.outputs.date }}"
+
+      - name: Le Singe tire ses ordres au sort
+        if: steps.prep.outputs.lancer == 'true'
+        run: python scripts/singe.py --date "${{ steps.prep.outputs.date }}" $TEST_FLAG
+
+      - name: Valider les ordres
+        if: steps.prep.outputs.lancer == 'true'
+        run: python scripts/valider.py --date "${{ steps.prep.outputs.date }}" $TEST_FLAG
+
+      - name: Commit et push
+        if: always()
+        run: |
+          git add -A data
+          git commit -q -m "Séance du ${{ steps.prep.outputs.date }}${{ inputs.mode_test && ' (test)' || '' }}" || true
+          if [ "$(git rev-list --count origin/main..HEAD)" = "0" ]; then echo "Rien à publier."; exit 0; fi
+          for i in 1 2 3 4 5; do
+            git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i * 10))
+          done
+          exit 1
+
+      - name: Résumé
+        if: always()
+        run: |
+          {
+            echo "### Séance du ${{ steps.prep.outputs.date }}"
+            echo "- Lancement : ${{ steps.prep.outputs.lancer }} (${{ steps.prep.outputs.raison }})"
+            echo "- Séance Claude : ${{ steps.claude.outcome }}"
+          } >> "$GITHUB_STEP_SUMMARY"
