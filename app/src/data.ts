@@ -107,14 +107,14 @@ function parDate<T>(mods: Record<string, unknown>): Record<string, T> {
   return out;
 }
 
-const g = import.meta.glob;
-export const etatsParDate = parDate<Etat>(g("../../data/etat/*.json", { eager: true, import: "default" }));
-export const decisionsParDate = parDate<Decisions>(g("../../data/decisions/*.json", { eager: true, import: "default" }));
-export const ordresParDate = parDate<Ordres>(g("../../data/ordres/*.json", { eager: true, import: "default" }));
-export const contexteParDate = parDate<Contexte>(g("../../data/contexte/*.json", { eager: true, import: "default" }));
-export const journaux = parDate<string>(g("../../data/journal/*.md", { eager: true, query: "?raw", import: "default" }));
 
-const uniques = g(["../../data/indicateurs.json", "../../data/rapport-final.json"], { eager: true, import: "default" });
+export const etatsParDate = parDate<Etat>(import.meta.glob("../../data/etat/*.json", { eager: true, import: "default" }));
+export const decisionsParDate = parDate<Decisions>(import.meta.glob("../../data/decisions/*.json", { eager: true, import: "default" }));
+export const ordresParDate = parDate<Ordres>(import.meta.glob("../../data/ordres/*.json", { eager: true, import: "default" }));
+export const contexteParDate = parDate<Contexte>(import.meta.glob("../../data/contexte/*.json", { eager: true, import: "default" }));
+export const journaux = parDate<string>(import.meta.glob("../../data/journal/*.md", { eager: true, query: "?raw", import: "default" }));
+
+const uniques = import.meta.glob(["../../data/indicateurs.json", "../../data/rapport-final.json"], { eager: true, import: "default" });
 export const indicateurs = (Object.entries(uniques).find(([k]) => k.endsWith("indicateurs.json"))?.[1] ?? null) as Indicateurs | null;
 export const rapport = (Object.entries(uniques).find(([k]) => k.endsWith("rapport-final.json"))?.[1] ?? null) as Rapport | null;
 
