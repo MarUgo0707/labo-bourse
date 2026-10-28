@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-28",
+  "jour": 1,
+  "genere_le": "2026-10-28T00:56:58Z",
+  "mode_test": false,
+  "session_ia": "absente",
+  "taux_change_chf": {
+    "EUR": 0.92268,
+    "GBP": 1.10341,
+    "USD": 0.82931
+  },
+  "portefeuilles": {
+    "patient": {
+      "cash_chf": 200.0,
+      "valeur_positions_chf": 0.0,
+      "valeur_totale_chf": 200.0,
+      "frais_cumules_chf": 0.0,
+      "nb_ordres_cumules": 0,
+      "positions": [],
+      "bilan_titres": {},
+      "variation_jour_chf": 0.0,
+      "variation_jour_pct": 0.0,
+      "gain_total_chf": 0.0,
+      "gain_total_pct": 0.0
+    },
+    "journaliste": {
+      "cash_chf": 200.0,
+      "valeur_positions_chf": 0.0,
+      "valeur_totale_chf": 200.0,
+      "frais_cumules_chf": 0.0,
+      "nb_ordres_cumules": 0,
+      "positions": [],
+      "bilan_titres": {},
+      "variation_jour_chf": 0.0,
+      "variation_jour_pct": 0.0,
+      "gain_total_chf": 0.0,
+      "gain_total_pct": 0.0
+    },
+    "risque": {
+      "cash_chf": 200.0,
+      "valeur_positions_chf": 0.0,
+      "valeur_totale_chf": 200.0,
+      "frais_cumules_chf": 0.0,
+      "nb_ordres_cumules": 0,
+      "positions": [],
+      "bilan_titres": {},
+      "variation_jour_chf": 0.0,
+      "variation_jour_pct": 0.0,
+      "gain_total_chf": 0.0,
+      "gain_total_pct": 0.0
+    },
+    "ia": {
+      "cash_chf": 200.0,
+      "valeur_positions_chf": 0.0,
+      "valeur_totale_chf": 200.0,
+      "frais_cumules_chf": 0.0,
+      "nb_ordres_cumules": 0,
+      "positions": [],
+      "bilan_titres": {},
+      "variation_jour_chf": 0.0,
+      "variation_jour_pct": 0.0,
+      "gain_total_chf": 0.0,
+      "gain_total_pct": 0.0
+    },
+    "suisse": {
+      "cash_chf": 200.0,
+      "valeur_positions_chf": 0.0,
+      "valeur_totale_chf": 200.0,
+      "frais_cumules_chf": 0.0,
+      "nb_ordres_cumules": 0,
+      "positions": [],
+      "bilan_titres": {},
+      "variation_jour_chf": 0.0,
+      "variation_jour_pct": 0.0,
+      "gain_total_chf": 0.0,
+      "gain_total_pct": 0.0
+    },
+    "contrarien": {
+      "cash_chf": 200.0,
+      "valeur_positions_chf": 0.0,
+      "valeur_totale_chf": 200.0,
+      "frais_cumules_chf": 0.0,
+      "nb_ordres_cumules": 0,
+      "positions": [],
+      "bilan_titres": {},
+      "variation_jour_chf": 0.0,
+      "variation_jour_pct": 0.0,
+      "gain_total_chf": 0.0,
+      "gain_total_pct": 0.0
+    },
+    "momentum": {
+      "cash_chf": 200.0,
+      "valeur_positions_chf": 0.0,
+      "valeur_totale_chf": 200.0,
+      "frais_cumules_chf": 0.0,
+      "nb_ordres_cumules": 0,
+      "positions": [],
+      "bilan_titres": {},
+      "variation_jour_chf": 0.0,
+      "variation_jour_pct": 0.0,
+      "gain_total_chf": 0.0,
+      "gain_total_pct": 0.0
+    },
+    "defensif": {
+      "cash_chf": 200.0,
+      "valeur_positions_chf": 0.0,
+      "valeur_totale_chf": 200.0,
+      "frais_cumules_chf": 0.0,
+      "nb_ordres_cumules": 0,
+      "positions": [],
+      "bilan_titres": {},
+      "variation_jour_chf": 0.0,
+      "variation_jour_pct": 0.0,
+      "gain_total_chf": 0.0,
+      "gain_total_pct": 0.0
+    },
+    "singe": {
+      "cash_chf": 200.0,
+      "valeur_positions_chf": 0.0,
+      "valeur_totale_chf": 200.0,
+      "frais_cumules_chf": 0.0,
+      "nb_ordres_cumules": 0,
+      "positions": [],
+      "bilan_titres": {},
+      "variation_jour_chf": 0.0,
+      "variation_jour_pct": 0.0,
+      "gain_total_chf": 0.0,
+      "gain_total_pct": 0.0
+    }
+  },
+  "transactions": []
+}
