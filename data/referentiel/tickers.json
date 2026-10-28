@@ -1,0 +1,62 @@
+{
+  "COIN": {
+    "devise": "USD",
+    "type": "EQUITY",
+    "nom_yahoo": "Coinbase Global, Inc.",
+    "marche": "US"
+  },
+  "GLD": {
+    "devise": "USD",
+    "type": "ETF",
+    "nom_yahoo": "SPDR Gold Shares",
+    "marche": "US"
+  },
+  "MSTR": {
+    "devise": "USD",
+    "type": "EQUITY",
+    "nom_yahoo": "Strategy Inc",
+    "marche": "US"
+  },
+  "NEE": {
+    "devise": "USD",
+    "type": "EQUITY",
+    "nom_yahoo": "NextEra Energy, Inc.",
+    "marche": "US"
+  },
+  "NEM": {
+    "devise": "USD",
+    "type": "EQUITY",
+    "nom_yahoo": "Newmont Corporation",
+    "marche": "US"
+  },
+  "NVDA": {
+    "devise": "USD",
+    "type": "EQUITY",
+    "nom_yahoo": "NVIDIA Corporation",
+    "marche": "US"
+  },
+  "PG": {
+    "devise": "USD",
+    "type": "EQUITY",
+    "nom_yahoo": "The Procter & Gamble Company",
+    "marche": "US"
+  },
+  "TSLA": {
+    "devise": "USD",
+    "type": "EQUITY",
+    "nom_yahoo": "Tesla, Inc.",
+    "marche": "US"
+  },
+  "TSM": {
+    "devise": "USD",
+    "type": "EQUITY",
+    "nom_yahoo": "Taiwan Semiconductor Manufacturing Company Limited",
+    "marche": "US"
+  },
+  "VT": {
+    "devise": "USD",
+    "type": "ETF",
+    "nom_yahoo": "Vanguard Total World Stock Index Fund ETF Shares",
+    "marche": "US"
+  }
+}

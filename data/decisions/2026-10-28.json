@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-28",
+  "heure_session": "08:05",
+  "brief_marche": "Hier, les bourses ont terminé en hausse : S&P 500 +0,6 %, Nasdaq +1,2 %, SMI +0,4 %, Euro Stoxx 50 +0,8 %. L'indice de la peur (VIX) a reculé à 17,5. L'or gagne 0,9 % et le bitcoin 1 %. Je n'ai pas pu confirmer de nouvelles datées de ce matin.",
+  "points_cles": [
+    "Hausse générale hier, Nasdaq en tête (+1,2 %)",
+    "Bourses CH, EU et UK déjà ouvertes : seuls les ordres US sont possibles",
+    "Aucune nouvelle fiable ce matin : plusieurs portefeuilles ne font rien"
+  ],
+  "sources": [
+    { "titre": "Indices et devises à la clôture du 2026-10-27 (scripts/lire.py contexte, données Yahoo Finance)", "url": "https://finance.yahoo.com" }
+  ],
+  "portefeuilles": {
+    "patient": {
+      "decision": "agir",
+      "resume": "Premier jour : j'investis presque tout dans un seul ETF mondial, VT, puis je ne bouge plus.",
+      "ordres": [
+        {
+          "action": "acheter",
+          "ticker": "VT",
+          "nom": "Vanguard Total World Stock ETF",
+          "secteur": "ETF diversifié",
+          "pays": "Monde",
+          "montant_chf": 195,
+          "raison": "Base diversifiée sur le monde entier, à garder toute l'étude. Un seul ETF limite les frais.",
+          "confiance": "élevé",
+          "horizon": "toute l'étude"
+        }
+      ],
+      "prediction": {
+        "texte": "Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui.",
+        "ticker": "VT",
+        "direction": "hausse",
+        "horizon_jours": 10
+      }
+    },
+    "journaliste": {
+      "decision": "rien",
+      "resume": "Je n'ai trouvé aucune nouvelle concrète et vérifiable pour ce matin. Sans nouvelle, pas d'ordre.",
+      "ordres": [],
+      "prediction": {
+        "texte": "Je pense que MSFT finira la semaine plus haut qu'aujourd'hui.",
+        "ticker": "MSFT",
+        "direction": "hausse",
+        "horizon_jours": 5
+      }
+    },
+    "risque": {
+      "decision": "agir",
+      "resume": "Deux paris très volatils liés au bitcoin, en actions ordinaires : MSTR et COIN. Mises modestes car très spéculatifs.",
+      "ordres": [
+        {
+          "action": "acheter",
+          "ticker": "MSTR",
+          "nom": "Strategy Inc",
+          "secteur": "Crypto",
+          "pays": "États-Unis",
+          "montant_chf": 95,
+          "raison": "Action très sensible au bitcoin, qui a gagné 1 % hier ; forte volatilité recherchée.",
+          "confiance": "faible",
+          "horizon": "2 à 4 semaines"
+        },
+        {
+          "action": "acheter",
+          "ticker": "COIN",
+          "nom": "Coinbase Global",
+          "secteur": "Crypto",
+          "pays": "États-Unis",
+          "montant_chf": 95,
+          "raison": "Plateforme crypto en recul d'environ 7 % sur dix jours ; pari sur un rebond du secteur.",
+          "confiance": "faible",
+          "horizon": "2 à 4 semaines"
+        }
+      ],
+      "prediction": {
+        "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.",
+        "ticker": "COIN",
+        "direction": "hausse",
+        "horizon_jours": 10
+      }
+    },
+    "ia": {
+      "decision": "agir",
+      "resume": "Je prends deux piliers de l'IA : NVIDIA (puces) et TSMC (fabrication des puces).",
+      "ordres": [
+        {
+          "action": "acheter",
+          "ticker": "NVDA",
+          "nom": "NVIDIA Corporation",
+          "secteur": "Semi-conducteurs",
+          "pays": "États-Unis",
+          "montant_chf": 90,
+          "raison": "Leader des puces pour l'IA, au cœur du récit IA.",
+          "confiance": "moyen",
+          "horizon": "plusieurs semaines"
+        },
+        {
+          "action": "acheter",
+          "ticker": "TSM",
+          "nom": "Taiwan Semiconductor Manufacturing",
+          "secteur": "Semi-conducteurs",
+          "pays": "Taïwan",
+          "montant_chf": 90,
+          "raison": "Fabrique la plupart des puces IA avancées ; +1,6 % sur dix jours.",
+          "confiance": "moyen",
+          "horizon": "plusieurs semaines"
+        }
+      ],
+      "prediction": {
+        "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.",
+        "ticker": "NVDA",
+        "direction": "hausse",
+        "horizon_jours": 10
+      }
+    },
+    "suisse": {
+      "decision": "rien",
+      "resume": "La bourse suisse est déjà ouverte à l'heure de ma séance : un ordre serait annulé. J'attendrai la prochaine séance.",
+      "ordres": [],
+      "prediction": {
+        "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.",
+        "ticker": "NESN.SW",
+        "direction": "hausse",
+        "horizon_jours": 5
+      }
+    },
+    "contrarien": {
+      "decision": "rien",
+      "resume": "Je n'ai vu aucune entreprise solide en baisse marquée d'environ 10 % (COIN : −7 % seulement, et peu solide). Je n'achète pas.",
+      "ordres": [],
+      "prediction": {
+        "texte": "Je pense que COIN finira dans 5 séances plus haut qu'aujourd'hui.",
+        "ticker": "COIN",
+        "direction": "hausse",
+        "horizon_jours": 5
+      }
+    },
+    "momentum": {
+      "decision": "rien",
+      "resume": "Je n'ai vu aucune tendance forte sur plusieurs semaines dans les cours vérifiés (dix jours seulement, plutôt en dents de scie). Je n'achète pas.",
+      "ordres": [],
+      "prediction": {
+        "texte": "Je pense que JNJ, qui monte depuis dix jours, finira la semaine plus haut qu'aujourd'hui.",
+        "ticker": "JNJ",
+        "direction": "hausse",
+        "horizon_jours": 5
+      }
+    },
+    "defensif": {
+      "decision": "agir",
+      "resume": "Je construis une base calme : de l'or (GLD) et de la consommation de base (Procter & Gamble).",
+      "ordres": [
+        {
+          "action": "acheter",
+          "ticker": "GLD",
+          "nom": "SPDR Gold Shares",
+          "secteur": "Or et métaux précieux",
+          "pays": "États-Unis",
+          "montant_chf": 100,
+          "raison": "L'or sert de valeur refuge ; l'once a gagné 0,9 % hier.",
+          "confiance": "moyen",
+          "horizon": "plusieurs mois"
+        },
+        {
+          "action": "acheter",
+          "ticker": "PG",
+          "nom": "The Procter & Gamble Company",
+          "secteur": "Consommation de base",
+          "pays": "États-Unis",
+          "montant_chf": 80,
+          "raison": "Produits du quotidien, activité stable et peu volatile.",
+          "confiance": "moyen",
+          "horizon": "plusieurs mois"
+        }
+      ],
+      "prediction": {
+        "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.",
+        "ticker": "GLD",
+        "direction": "hausse",
+        "horizon_jours": 10
+      }
+    }
+  },
+  "incertitudes": [
+    "Ma recherche web n'a donné aucune nouvelle datée du 28 octobre 2026.",
+    "Les places CH, EU et UK étaient déjà ouvertes : aucun ordre dessus.",
+    "Je n'ai regardé que dix jours de cours, pas plusieurs semaines.",
+    "La source citée est générique (indices et devises du script de lecture), pas un article."
+  ]
+}

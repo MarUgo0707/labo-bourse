@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-28",
+  "genere_le": "2026-10-28T13:51:46Z",
+  "graine": "20261028-2026-10-28",
+  "mode_test": false,
+  "ordres": [
+    {
+      "action": "acheter",
+      "ticker": "NEE",
+      "nom": "NextEra Energy",
+      "secteur": "Services publics",
+      "pays": "États-Unis",
+      "montant_chf": 55.54,
+      "raison": "Tirage au sort du premier jour.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    },
+    {
+      "action": "acheter",
+      "ticker": "NEM",
+      "nom": "Newmont",
+      "secteur": "Or et métaux précieux",
+      "pays": "États-Unis",
+      "montant_chf": 62.54,
+      "raison": "Tirage au sort du premier jour.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    },
+    {
+      "action": "acheter",
+      "ticker": "TSLA",
+      "nom": "Tesla",
+      "secteur": "Consommation discrétionnaire",
+      "pays": "États-Unis",
+      "montant_chf": 71.92,
+      "raison": "Tirage au sort du premier jour.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    }
+  ]
+}
