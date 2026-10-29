@@ -1,11 +1,11 @@
 {
-  "genere_le": "2026-10-29T01:31:48Z",
+  "genere_le": "2026-10-29T13:59:12Z",
   "provisoire": true,
   "periode": {
     "debut": "2026-10-28",
     "fin": "2026-11-27",
     "nb_jours": 23,
-    "seances_cloturees": 2
+    "seances_cloturees": 1
   },
   "classement": [
     {
@@ -52,7 +52,7 @@
       "taux_gagnants_pct": null,
       "nb_titres": 0,
       "nb_ordres": 0,
-      "nb_annules": 0,
+      "nb_annules": 2,
       "frais_chf": 0.0,
       "poids_frais_pct": 0.0,
       "performance_sans_frais_pct": 0.0,
@@ -137,7 +137,7 @@
       "taux_gagnants_pct": null,
       "nb_titres": 0,
       "nb_ordres": 0,
-      "nb_annules": 0,
+      "nb_annules": 1,
       "frais_chf": 0.0,
       "poids_frais_pct": 0.0,
       "performance_sans_frais_pct": 0.0,
@@ -154,7 +154,7 @@
       "taux_gagnants_pct": null,
       "nb_titres": 0,
       "nb_ordres": 0,
-      "nb_annules": 0,
+      "nb_annules": 3,
       "frais_chf": 0.0,
       "poids_frais_pct": 0.0,
       "performance_sans_frais_pct": 0.0,
@@ -175,8 +175,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": 0.0,
-      "date_fin": "2026-10-29"
+      "variation_pct": 0.38,
+      "date_fin": "2026-10-28"
     },
     {
       "date": "2026-10-28",
@@ -186,8 +186,8 @@
       "direction": "hausse",
       "horizon_jours": 5,
       "verdict": "en cours",
-      "variation_pct": 0.0,
-      "date_fin": "2026-10-29"
+      "variation_pct": -0.06,
+      "date_fin": "2026-10-28"
     },
     {
       "date": "2026-10-28",
@@ -197,8 +197,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": 0.0,
-      "date_fin": "2026-10-29"
+      "variation_pct": 0.76,
+      "date_fin": "2026-10-28"
     },
     {
       "date": "2026-10-28",
@@ -208,8 +208,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": 0.0,
-      "date_fin": "2026-10-29"
+      "variation_pct": -1.17,
+      "date_fin": "2026-10-28"
     },
     {
       "date": "2026-10-28",
@@ -219,8 +219,8 @@
       "direction": "hausse",
       "horizon_jours": 5,
       "verdict": "en cours",
-      "variation_pct": 0.0,
-      "date_fin": "2026-10-29"
+      "variation_pct": -0.53,
+      "date_fin": "2026-10-28"
     },
     {
       "date": "2026-10-28",
@@ -230,8 +230,8 @@
       "direction": "hausse",
       "horizon_jours": 5,
       "verdict": "en cours",
-      "variation_pct": 0.0,
-      "date_fin": "2026-10-29"
+      "variation_pct": 0.76,
+      "date_fin": "2026-10-28"
     },
     {
       "date": "2026-10-28",
@@ -241,8 +241,8 @@
       "direction": "hausse",
       "horizon_jours": 5,
       "verdict": "en cours",
-      "variation_pct": 0.0,
-      "date_fin": "2026-10-29"
+      "variation_pct": 0.86,
+      "date_fin": "2026-10-28"
     },
     {
       "date": "2026-10-28",
@@ -252,8 +252,96 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
+      "variation_pct": 0.33,
+      "date_fin": "2026-10-28"
+    },
+    {
+      "date": "2026-10-29",
+      "portefeuille": "patient",
+      "texte": "Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "VT",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
       "variation_pct": 0.0,
-      "date_fin": "2026-10-29"
+      "date_fin": "2026-10-28"
+    },
+    {
+      "date": "2026-10-29",
+      "portefeuille": "journaliste",
+      "texte": "Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui.",
+      "ticker": "MSFT",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": 0.0,
+      "date_fin": "2026-10-28"
+    },
+    {
+      "date": "2026-10-29",
+      "portefeuille": "risque",
+      "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "COIN",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
+      "variation_pct": 0.0,
+      "date_fin": "2026-10-28"
+    },
+    {
+      "date": "2026-10-29",
+      "portefeuille": "ia",
+      "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "NVDA",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
+      "variation_pct": 0.0,
+      "date_fin": "2026-10-28"
+    },
+    {
+      "date": "2026-10-29",
+      "portefeuille": "suisse",
+      "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.",
+      "ticker": "NESN.SW",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": 0.0,
+      "date_fin": "2026-10-28"
+    },
+    {
+      "date": "2026-10-29",
+      "portefeuille": "contrarien",
+      "texte": "Je pense que COIN finira dans 5 séances plus haut qu'aujourd'hui.",
+      "ticker": "COIN",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": 0.0,
+      "date_fin": "2026-10-28"
+    },
+    {
+      "date": "2026-10-29",
+      "portefeuille": "momentum",
+      "texte": "Je pense que JNJ finira dans 5 séances plus haut qu'aujourd'hui.",
+      "ticker": "JNJ",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": 0.0,
+      "date_fin": "2026-10-28"
+    },
+    {
+      "date": "2026-10-29",
+      "portefeuille": "defensif",
+      "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "GLD",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
+      "variation_pct": 0.0,
+      "date_fin": "2026-10-28"
     }
   ],
   "lecons": [

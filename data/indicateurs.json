@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-10-29T01:31:46Z",
+  "genere_le": "2026-10-29T13:59:09Z",
   "explications": {
     "performance_pct": "Combien le portefeuille a gagné ou perdu depuis le début, en pourcentage des 200 CHF.",
     "volatilite_pct": "De combien la valeur bouge en moyenne d'un jour à l'autre : plus c'est haut, plus c'est agité.",
@@ -11,7 +11,7 @@
     "ecart_patient_pts": "Différence de performance avec le Patient (la référence passive), en points de pourcentage.",
     "ecart_singe_pts": "Différence de performance avec le Singe (le hasard), en points de pourcentage."
   },
-  "date": "2026-10-29",
+  "date": "2026-10-28",
   "portefeuilles": {
     "patient": {
       "valeur_chf": 200.0,
@@ -54,7 +54,7 @@
       "taux_gagnants_pct": null,
       "nb_titres": 0,
       "nb_ordres": 0,
-      "nb_annules": 0,
+      "nb_annules": 2,
       "frais_chf": 0.0,
       "poids_frais_pct": 0.0,
       "performance_sans_frais_pct": 0.0,
@@ -134,7 +134,7 @@
       "taux_gagnants_pct": null,
       "nb_titres": 0,
       "nb_ordres": 0,
-      "nb_annules": 0,
+      "nb_annules": 1,
       "frais_chf": 0.0,
       "poids_frais_pct": 0.0,
       "performance_sans_frais_pct": 0.0,
@@ -150,7 +150,7 @@
       "taux_gagnants_pct": null,
       "nb_titres": 0,
       "nb_ordres": 0,
-      "nb_annules": 0,
+      "nb_annules": 3,
       "frais_chf": 0.0,
       "poids_frais_pct": 0.0,
       "performance_sans_frais_pct": 0.0,

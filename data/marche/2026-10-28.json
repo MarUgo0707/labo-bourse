@@ -1,11 +1,54 @@
 {
   "date": "2026-10-28",
-  "genere_le": "2026-10-28T00:56:58Z",
+  "genere_le": "2026-10-29T13:59:09Z",
   "mode_test": false,
   "taux_change_chf": {
-    "EUR": 0.92268,
-    "GBP": 1.10341,
-    "USD": 0.82931
+    "EUR": 0.92229,
+    "GBP": 1.10292,
+    "USD": 0.8288
   },
-  "prix": {}
+  "prix": {
+    "COIN": {
+      "devise": "USD",
+      "ouverture": 157.160004,
+      "cloture": 162.320007,
+      "date_cloture": "2026-10-28",
+      "a_cote_ce_jour": true
+    },
+    "MSTR": {
+      "devise": "USD",
+      "ouverture": 139.600006,
+      "cloture": 145.160004,
+      "date_cloture": "2026-10-28",
+      "a_cote_ce_jour": true
+    },
+    "NEE": {
+      "devise": "USD",
+      "ouverture": 82.300003,
+      "cloture": 81.019997,
+      "date_cloture": "2026-10-28",
+      "a_cote_ce_jour": true
+    },
+    "NEM": {
+      "devise": "USD",
+      "ouverture": 111.980003,
+      "cloture": 113.919998,
+      "date_cloture": "2026-10-28",
+      "a_cote_ce_jour": true
+    },
+    "PG": {
+      "devise": "USD",
+      "ouverture": 157.990005,
+      "cloture": 158.259995,
+      "date_cloture": "2026-10-28",
+      "a_cote_ce_jour": true
+    },
+    "TSLA": {
+      "devise": "USD",
+      "ouverture": 410.160004,
+      "cloture": 404.220001,
+      "date_cloture": "2026-10-28",
+      "a_cote_ce_jour": true
+    }
+  }
 }
