@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-29",
+  "heure_session": "08:05",
+  "brief_marche": "Aux dernières clôtures (28 octobre), Wall Street était en légère hausse (S&P 500 +0,28 %, Nasdaq +0,27 %), le DAX +0,44 % et le SMI -0,11 %. Le VIX est à 16,9, un niveau calme. L'or recule un peu (-0,56 %). Ma recherche web n'a donné aucune actualité fiable datée d'aujourd'hui.",
+  "points_cles": [
+    "Wall Street en légère hausse hier, VIX calme à 16,9",
+    "Bourses suisse, européennes et de Londres déjà ouvertes : seuls les ordres US passent",
+    "Je refais les ordres rejetés hier (limites de taille)"
+  ],
+  "sources": [
+    { "titre": "Indices et devises du script de lecture (lire.py contexte), clôtures du 28 octobre 2026", "url": "https://finance.yahoo.com/" }
+  ],
+  "portefeuilles": {
+    "patient": {
+      "decision": "agir",
+      "resume": "Hier, mon ordre unique sur VT a été rejeté (98 % > 80 % maximum). Je répartis donc en deux ETF mondiaux pour investir au moins 95 %.",
+      "ordres": [
+        { "action": "acheter", "ticker": "VT", "nom": "Vanguard Total World Stock ETF", "secteur": "ETF diversifié", "pays": "Monde", "montant_chf": 120, "raison": "Base diversifiée sur le monde entier, à garder toute l'étude.", "confiance": "élevé", "horizon": "toute l'étude" },
+        { "action": "acheter", "ticker": "ACWI", "nom": "iShares MSCI ACWI ETF", "secteur": "ETF diversifié", "pays": "Monde", "montant_chf": 75, "raison": "Deuxième ETF mondial pour respecter la limite de 80 % par position.", "confiance": "élevé", "horizon": "toute l'étude" }
+      ],
+      "prediction": { "texte": "Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "VT", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "journaliste": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : ma recherche web n'a trouvé aucune nouvelle concrète datée d'aujourd'hui. Sans nouvelle vérifiable, pas d'ordre.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "MSFT", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "risque": {
+      "decision": "rien",
+      "resume": "Je ne fais rien de nouveau : mes achats d'hier (MSTR, COIN) ont été acceptés, je n'ajoute rien.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "COIN", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "ia": {
+      "decision": "agir",
+      "resume": "Hier, mes deux ordres dépassaient 40 % par position et ont été rejetés. Je les refais à 75 CHF chacun (37,5 %).",
+      "ordres": [
+        { "action": "acheter", "ticker": "NVDA", "nom": "NVIDIA Corporation", "secteur": "Semi-conducteurs", "pays": "États-Unis", "montant_chf": 75, "raison": "Puces de référence pour l'IA.", "confiance": "moyen", "horizon": "plusieurs semaines" },
+        { "action": "acheter", "ticker": "TSM", "nom": "Taiwan Semiconductor Manufacturing", "secteur": "Semi-conducteurs", "pays": "Taïwan", "montant_chf": 75, "raison": "Fabrique une grande part des puces d'IA ; tendance récente positive.", "confiance": "moyen", "horizon": "plusieurs semaines" }
+      ],
+      "prediction": { "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "NVDA", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "suisse": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : la bourse suisse est déjà ouverte, un ordre serait annulé. J'attends la prochaine séance.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "NESN.SW", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "contrarien": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : pas de grande entreprise solide vérifiée en baisse marquée sans raison grave.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que COIN finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "COIN", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "momentum": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : pas de tendance haussière claire sur plusieurs semaines vérifiée.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que JNJ finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "JNJ", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "defensif": {
+      "decision": "agir",
+      "resume": "Hier, GLD (100 CHF) a été rejeté car trop gros (max 40 %). Je le refais à 75 CHF ; l'achat de PG avait été accepté.",
+      "ordres": [
+        { "action": "acheter", "ticker": "GLD", "nom": "SPDR Gold Shares", "secteur": "Or et métaux précieux", "pays": "Monde", "montant_chf": 75, "raison": "Or en ETF comme valeur refuge, base calme.", "confiance": "moyen", "horizon": "plusieurs mois" }
+      ],
+      "prediction": { "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "GLD", "direction": "hausse", "horizon_jours": 10 }
+    }
+  },
+  "incertitudes": [
+    "Aucune actualité datée du 29 octobre trouvée par la recherche web.",
+    "L'état des portefeuilles n'affiche pas encore les achats acceptés hier (MSTR, COIN, PG) ; je suppose qu'ils sont exécutés.",
+    "Je n'ai pas vérifié les résultats d'entreprises du jour."
+  ]
+}

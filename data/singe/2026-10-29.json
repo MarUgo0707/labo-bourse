@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-29",
+  "genere_le": "2026-10-29T13:58:22Z",
+  "graine": "20261028-2026-10-29",
+  "mode_test": false,
+  "ordres": [
+    {
+      "action": "acheter",
+      "ticker": "PG",
+      "nom": "Procter & Gamble",
+      "secteur": "Consommation de base",
+      "pays": "États-Unis",
+      "montant_chf": 52.99,
+      "raison": "Tirage au sort du premier jour.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    },
+    {
+      "action": "acheter",
+      "ticker": "LOGN.SW",
+      "nom": "Logitech",
+      "secteur": "Technologie",
+      "pays": "Suisse",
+      "montant_chf": 77.01,
+      "raison": "Tirage au sort du premier jour.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    },
+    {
+      "action": "acheter",
+      "ticker": "BMW.DE",
+      "nom": "BMW",
+      "secteur": "Consommation discrétionnaire",
+      "pays": "Allemagne",
+      "montant_chf": 60.0,
+      "raison": "Tirage au sort du premier jour.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    }
+  ]
+}

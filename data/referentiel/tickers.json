@@ -1,4 +1,16 @@
 {
+  "ACWI": {
+    "devise": "USD",
+    "type": "ETF",
+    "nom_yahoo": "iShares MSCI ACWI ETF",
+    "marche": "US"
+  },
+  "BMW.DE": {
+    "devise": "EUR",
+    "type": "EQUITY",
+    "nom_yahoo": "Bayerische Motoren Werke Aktiengesellschaft",
+    "marche": "EU"
+  },
   "COIN": {
     "devise": "USD",
     "type": "EQUITY",
@@ -10,6 +22,12 @@
     "type": "ETF",
     "nom_yahoo": "SPDR Gold Shares",
     "marche": "US"
+  },
+  "LOGN.SW": {
+    "devise": "CHF",
+    "type": "EQUITY",
+    "nom_yahoo": "Logitech International S.A.",
+    "marche": "CH"
   },
   "MSTR": {
     "devise": "USD",
