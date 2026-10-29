@@ -52,7 +52,9 @@ jobs:
       - name: Rattraper une clôture manquante (si le cron du soir n'est pas passé)
         if: ${{ !inputs.mode_test }}
         continue-on-error: true
-        run: python scripts/cloture.py && python scripts/rapport.py
+        run: |
+          python scripts/cloture.py
+          if [ -n "$(git status --porcelain data/etat)" ]; then python scripts/rapport.py; fi
 
       - name: Préparer la séance (calendrier, verrou, marché de la veille)
         id: prep
