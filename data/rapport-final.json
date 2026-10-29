@@ -1,11 +1,11 @@
 {
-  "genere_le": "2026-10-28T00:56:59Z",
+  "genere_le": "2026-10-29T01:31:48Z",
   "provisoire": true,
   "periode": {
     "debut": "2026-10-28",
     "fin": "2026-11-27",
     "nb_jours": 23,
-    "seances_cloturees": 1
+    "seances_cloturees": 2
   },
   "classement": [
     {
@@ -166,7 +166,96 @@
   "titres": [],
   "meilleurs_paris": [],
   "pires_paris": [],
-  "predictions": [],
+  "predictions": [
+    {
+      "date": "2026-10-28",
+      "portefeuille": "patient",
+      "texte": "Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "VT",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
+      "variation_pct": 0.0,
+      "date_fin": "2026-10-29"
+    },
+    {
+      "date": "2026-10-28",
+      "portefeuille": "journaliste",
+      "texte": "Je pense que MSFT finira la semaine plus haut qu'aujourd'hui.",
+      "ticker": "MSFT",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": 0.0,
+      "date_fin": "2026-10-29"
+    },
+    {
+      "date": "2026-10-28",
+      "portefeuille": "risque",
+      "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "COIN",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
+      "variation_pct": 0.0,
+      "date_fin": "2026-10-29"
+    },
+    {
+      "date": "2026-10-28",
+      "portefeuille": "ia",
+      "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "NVDA",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
+      "variation_pct": 0.0,
+      "date_fin": "2026-10-29"
+    },
+    {
+      "date": "2026-10-28",
+      "portefeuille": "suisse",
+      "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.",
+      "ticker": "NESN.SW",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": 0.0,
+      "date_fin": "2026-10-29"
+    },
+    {
+      "date": "2026-10-28",
+      "portefeuille": "contrarien",
+      "texte": "Je pense que COIN finira dans 5 séances plus haut qu'aujourd'hui.",
+      "ticker": "COIN",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": 0.0,
+      "date_fin": "2026-10-29"
+    },
+    {
+      "date": "2026-10-28",
+      "portefeuille": "momentum",
+      "texte": "Je pense que JNJ, qui monte depuis dix jours, finira la semaine plus haut qu'aujourd'hui.",
+      "ticker": "JNJ",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": 0.0,
+      "date_fin": "2026-10-29"
+    },
+    {
+      "date": "2026-10-28",
+      "portefeuille": "defensif",
+      "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "GLD",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
+      "variation_pct": 0.0,
+      "date_fin": "2026-10-29"
+    }
+  ],
   "lecons": [
     "Meilleure stratégie : 🏛️ Le Patient (+0.00 %). Moins bonne : 🎲 Le Singe (+0.00 %).",
     "0 stratégie(s) IA active(s) sur 7 ont fait mieux que le Singe (le hasard), et 0 sur 7 mieux que le Patient (ne rien faire).",
