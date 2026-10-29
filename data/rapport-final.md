@@ -1,6 +1,6 @@
 # Rapport provisoire — Labo Bourse
 
-Période : 2026-10-28 → 2026-11-27 · 1 séance(s) clôturée(s) sur 23.
+Période : 2026-10-28 → 2026-11-27 · 2 séance(s) clôturée(s) sur 23.
 
 > **À lire avant tout.** Un mois est un échantillon très court. Sur une période aussi brève, le hasard pèse souvent plus lourd que la qualité d'une stratégie : un bon classement ici ne prouve pas qu'une stratégie est bonne, et un mauvais ne prouve pas qu'elle est mauvaise. Les résultats sont simulés (argent fictif).
 

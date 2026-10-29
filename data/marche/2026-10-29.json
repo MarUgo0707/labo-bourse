@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-29",
+  "genere_le": "2026-10-29T21:45:48Z",
+  "mode_test": false,
+  "taux_change_chf": {
+    "EUR": 0.92087,
+    "GBP": 1.10152,
+    "USD": 0.8235
+  },
+  "prix": {
+    "ACWI": {
+      "devise": "USD",
+      "ouverture": 158.639999,
+      "cloture": 158.809998,
+      "date_cloture": "2026-10-29",
+      "a_cote_ce_jour": true
+    },
+    "BMW.DE": {
+      "devise": "EUR",
+      "ouverture": 57.200001,
+      "cloture": 57.68,
+      "date_cloture": "2026-10-29",
+      "a_cote_ce_jour": true
+    },
+    "GLD": {
+      "devise": "USD",
+      "ouverture": 368.799988,
+      "cloture": 368.570007,
+      "date_cloture": "2026-10-29",
+      "a_cote_ce_jour": true
+    },
+    "LOGN.SW": {
+      "devise": "CHF",
+      "ouverture": 81.099998,
+      "cloture": 81.660004,
+      "date_cloture": "2026-10-29",
+      "a_cote_ce_jour": true
+    },
+    "NVDA": {
+      "devise": "USD",
+      "ouverture": 214.350006,
+      "cloture": 213.660004,
+      "date_cloture": "2026-10-29",
+      "a_cote_ce_jour": true
+    },
+    "PG": {
+      "devise": "USD",
+      "ouverture": 160.089996,
+      "cloture": 160.589996,
+      "date_cloture": "2026-10-29",
+      "a_cote_ce_jour": true
+    },
+    "TSM": {
+      "devise": "USD",
+      "ouverture": 431.690002,
+      "cloture": 431.809998,
+      "date_cloture": "2026-10-29",
+      "a_cote_ce_jour": true
+    },
+    "VT": {
+      "devise": "USD",
+      "ouverture": 157.710007,
+      "cloture": 157.970001,
+      "date_cloture": "2026-10-29",
+      "a_cote_ce_jour": true
+    }
+  }
+}
