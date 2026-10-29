@@ -12,7 +12,7 @@ import argparse
 import sys
 
 from commun import (DATA, MARCHES, NOMS_MARCHES, ajouter_texte, cours, dates_disponibles, derniere_cloture, dernier_etat,
-                    ecrire_json, etude, iso_utc, jours_etude, maintenant_utc, marche_ouvert, numero_jour, ouverture_utc,
+                    ecrire_json, etude, iso_utc, jours_etude, maintenant_utc, marche_ouvert, numero_jour, ouverture_heure_zurich, ouverture_utc,
                     plus_jours, portefeuilles, sortie_github, verifier_verrou, aujourdhui)
 
 INDICES = {
@@ -91,9 +91,15 @@ def main() -> int:
         marches[m] = {
             "nom": NOMS_MARCHES[m],
             "ouvert_aujourdhui": ouvert,
-            "ouverture_heure_zurich": config["ouvertures_heure_zurich"][m],
+            "ouverture_heure_zurich": ouverture_heure_zurich(date, m, config),
             "deja_ouvert_au_moment_de_la_session": deja,
         }
+
+    if not test and not any(v["ouvert_aujourdhui"] and not v["deja_ouvert_au_moment_de_la_session"] for v in marches.values()):
+        # Séance trop tardive (cron très en retard) : plus aucun ordre possible, on ne lance pas Claude pour rien.
+        ajouter_texte(DATA / "journal" / f"{date}.md",
+                      f"# Séance du {date}\n\nSéance ratée : le déclenchement est arrivé après l'ouverture de toutes les bourses.\n")
+        return stop("Toutes les bourses ouvertes aujourd'hui ont déjà ouvert : séance ratée (jamais rattrapée).")
 
     seances_ratees = [d for d in jours if d < date and not (DATA / "decisions" / f"{d}.json").exists()]
     clotures_manquantes = [d for d in jours if d < date and not (DATA / "etat" / f"{d}.json").exists()]

@@ -21,11 +21,11 @@
     "UK": [],
     "US": ["2026-11-26"]
   },
-  "ouvertures_heure_zurich": {
-    "CH": "09:00",
-    "EU": "09:00",
-    "UK": "09:00",
-    "US": "15:30"
+  "ouvertures_heure_locale": {
+    "CH": ["Europe/Zurich", "09:00"],
+    "EU": ["Europe/Berlin", "09:00"],
+    "UK": ["Europe/London", "08:00"],
+    "US": ["America/New_York", "09:30"]
   },
   "secteurs": [
     "Technologie",

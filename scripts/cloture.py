@@ -13,7 +13,7 @@ import argparse
 import copy
 import sys
 
-from commun import (DATA, arrondi, aujourdhui, calcul_frais, cours, derniere_cloture, dernier_etat, ecrire_json, etude,
+from commun import (DATA, arrondi, aujourdhui, calcul_frais, derniere_date_cloturable, cours, derniere_cloture, dernier_etat, ecrire_json, etude,
                     iso_utc, jours_etude, lire_iso, lire_json, marche_du_ticker, numero_jour, ouverture_utc, plus_jours,
                     portefeuilles, taux_chf)
 
@@ -180,15 +180,17 @@ def executer(date: str, etat_prec: dict, config: dict, test: bool) -> dict:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--date", default=aujourdhui())
+    parser.add_argument("--date", default=None)
     parser.add_argument("--test", action="store_true")
     args = parser.parse_args()
     config = etude()
 
     if args.test:
-        a_traiter = [args.date]
+        a_traiter = [args.date or aujourdhui()]
     else:
-        a_traiter = [d for d in jours_etude(config) if d <= args.date and not (DATA / "etat" / f"{d}.json").exists()]
+        # Jamais un jour dont la bourse n'a pas encore fermé, même si le cron part en retard ou si --date est trop loin.
+        limite = min(args.date or "9999-12-31", derniere_date_cloturable())
+        a_traiter = [d for d in jours_etude(config) if d <= limite and not (DATA / "etat" / f"{d}.json").exists()]
     if not a_traiter:
         print("Rien à clôturer.")
         return 0

@@ -81,6 +81,15 @@ def aujourdhui() -> str:
     return dt.datetime.now(ZURICH).date().isoformat()
 
 
+def derniere_date_cloturable() -> str:
+    """Dernier jour dont la bourse américaine a fermé (16h00 à New York, + 30 min de marge).
+
+    Le cron GitHub peut partir avec plusieurs heures de retard, après minuit : on ne doit pas
+    alors clôturer le nouveau jour (pas encore ouvert) à la place de la veille.
+    """
+    return (dt.datetime.now(ZoneInfo("America/New_York")) - dt.timedelta(hours=16, minutes=30)).date().isoformat()
+
+
 def maintenant_utc() -> dt.datetime:
     return dt.datetime.now(dt.timezone.utc).replace(microsecond=0)
 
@@ -127,10 +136,16 @@ def marche_ouvert(date: str, marche: str, config: dict | None = None) -> bool:
 
 
 def ouverture_utc(date: str, marche: str, config: dict | None = None) -> dt.datetime:
+    """Heure d'ouverture dans le fuseau de la bourse : suit les changements d'heure de chaque pays."""
     config = config or etude()
-    h, m = (int(x) for x in config["ouvertures_heure_zurich"][marche].split(":"))
-    local = dt.datetime.combine(jour(date), dt.time(h, m), tzinfo=ZURICH)
+    fuseau, heure = config["ouvertures_heure_locale"][marche]
+    h, m = (int(x) for x in heure.split(":"))
+    local = dt.datetime.combine(jour(date), dt.time(h, m), tzinfo=ZoneInfo(fuseau))
     return local.astimezone(dt.timezone.utc)
+
+
+def ouverture_heure_zurich(date: str, marche: str, config: dict | None = None) -> str:
+    return ouverture_utc(date, marche, config).astimezone(ZURICH).strftime("%H:%M")
 
 
 def jours_etude(config: dict | None = None) -> list[str]:

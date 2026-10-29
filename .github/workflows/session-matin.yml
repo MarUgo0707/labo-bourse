@@ -2,7 +2,10 @@ name: Séance du matin (Claude)
 
 on:
   schedule:
-    - cron: "0 7 * * 1-5" # 07:00 UTC = 08:00 à Zurich (heure d'hiver, valable toute l'étude)
+    # GitHub lance les crons avec parfois plusieurs heures de retard : plusieurs créneaux (minute impaire, moins
+    # chargée). Le premier qui part fait la séance, les suivants s'arrêtent (« séance déjà eue lieu »).
+    # En UTC : 03:23 → 07:23 à Zurich (heure d'hiver, valable toute l'étude), avant toute ouverture.
+    - cron: "23 2,4,5,6 * * 1-5"
   workflow_dispatch:
     inputs:
       mode_test:
@@ -45,6 +48,11 @@ jobs:
         run: |
           git config user.name "labo-bourse-robot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Rattraper une clôture manquante (si le cron du soir n'est pas passé)
+        if: ${{ !inputs.mode_test }}
+        continue-on-error: true
+        run: python scripts/cloture.py && python scripts/rapport.py
 
       - name: Préparer la séance (calendrier, verrou, marché de la veille)
         id: prep
