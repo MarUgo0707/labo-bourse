@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-30",
+  "genere_le": "2026-10-30T21:45:50Z",
+  "mode_test": false,
+  "taux_change_chf": {
+    "CHF": 1.0,
+    "EUR": 0.92017,
+    "GBP": 1.10445,
+    "USD": 0.8249
+  },
+  "prix": {
+    "JNJ": {
+      "devise": "USD",
+      "ouverture": 280.0,
+      "cloture": 273.200012,
+      "date_cloture": "2026-10-30",
+      "a_cote_ce_jour": true
+    },
+    "NESN.SW": {
+      "devise": "CHF",
+      "ouverture": 83.669998,
+      "cloture": 84.699997,
+      "date_cloture": "2026-10-30",
+      "a_cote_ce_jour": true
+    },
+    "NOVN.SW": {
+      "devise": "CHF",
+      "ouverture": 134.5,
+      "cloture": 133.779999,
+      "date_cloture": "2026-10-30",
+      "a_cote_ce_jour": true
+    },
+    "PG": {
+      "devise": "USD",
+      "ouverture": 164.619995,
+      "cloture": 161.570007,
+      "date_cloture": "2026-10-30",
+      "a_cote_ce_jour": true
+    },
+    "SIKA.SW": {
+      "devise": "CHF",
+      "ouverture": 178.550003,
+      "cloture": 179.100006,
+      "date_cloture": "2026-10-30",
+      "a_cote_ce_jour": true
+    }
+  }
+}
