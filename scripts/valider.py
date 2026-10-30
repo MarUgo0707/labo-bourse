@@ -13,8 +13,8 @@ import re
 import sys
 
 from commun import (DATA, MOTS_LEVIER, ajouter_texte, arrondi, aujourdhui, calcul_frais, derniere_cloture, dernier_etat,
-                    ecrire_json, etude, infos_titre, iso_utc, lire_json, marche_du_ticker, marche_ouvert, portefeuilles,
-                    taux_chf, verifier_verrou)
+                    ecrire_json, etude, infos_titre, iso_utc, lire_json, maintenant_utc, marche_du_ticker, marche_ouvert,
+                    ouverture_utc, portefeuilles, taux_chf, verifier_verrou)
 
 ACTIONS = {"acheter": "achat", "renforcer": "achat", "achat": "achat",
            "vendre": "vente", "alleger": "vente", "alléger": "vente", "vente": "vente"}
@@ -51,6 +51,8 @@ def main() -> int:
         print("VERROU ROMPU :", *erreurs_verrou, sep="\n  ", file=sys.stderr)
         return 1
 
+    # Les décisions sont lues maintenant : c'est cette heure qui compte face aux ouvertures des bourses.
+    valide_le = maintenant_utc()
     decisions, session_ia = lire_decisions(date)
     singe = lire_json(DATA / "singe" / f"{date}.json", {"ordres": []})
     etat = dernier_etat(date, config, args.test)
@@ -107,6 +109,8 @@ def main() -> int:
                     raise Rejet("place boursière non couverte par l'étude (SIX, Europe, Londres, États-Unis seulement)")
                 if not marche_ouvert(date, ligne["marche"], config):
                     raise Rejet("cette bourse est fermée aujourd'hui")
+                if not args.test and valide_le >= ouverture_utc(date, ligne["marche"], config):
+                    raise Rejet("cette bourse est déjà ouverte : l'ordre serait annulé à la clôture (règle anti-triche)")
                 if "tickers_autorises" in c and ticker not in c["tickers_autorises"]:
                     raise Rejet(f"hors de la liste autorisée pour ce portefeuille ({', '.join(c['tickers_autorises'])})")
                 if "suffixes_autorises" in c and not any(ticker.endswith(s) for s in c["suffixes_autorises"]):
@@ -171,7 +175,7 @@ def main() -> int:
     ecrire_json(DATA / "ordres" / f"{date}.json", {
         "date": date,
         "mode_test": args.test,
-        "horodatage_validation": iso_utc(),
+        "horodatage_validation": iso_utc(valide_le),
         "session_ia": session_ia,
         "ordres": sortie,
         "resume": {"acceptes": len(sortie) - len(rejetes), "rejetes": len(rejetes)},

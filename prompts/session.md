@@ -45,7 +45,7 @@ La date de la séance, le numéro du jour et le mode (test ou réel) te sont don
 ```
 python scripts/lire.py contexte     # date, jour X/N, bourses ouvertes ou fermées, indices de la veille
 python scripts/lire.py etat         # portefeuilles : cash, positions, règles et contraintes
-python scripts/lire.py historique   # tes décisions et prédictions récentes, ordres rejetés hier
+python scripts/lire.py historique   # tes décisions et prédictions récentes, ordres rejetés ou annulés
 python scripts/lire.py cours NVDA NESN.SW   # derniers cours d'un ou plusieurs tickers (vérifie qu'ils existent)
 ```
 
@@ -53,6 +53,11 @@ Tu peux aussi lire les fichiers de `data/` et `config/` avec l'outil Read.
 **Avant de proposer un ticker, vérifie-le** avec `python scripts/lire.py cours TICKER` : s'il est introuvable,
 l'ordre sera rejeté. Si une bourse est fermée aujourd'hui ou déjà ouverte au moment de la séance, n'y passe pas
 d'ordre (il serait annulé).
+
+**Ce que tu possèdes vraiment, c'est ce qu'affiche `lire.py etat`** (cash et positions après la dernière clôture).
+Un ordre « accepté » par le validateur peut encore être annulé à la clôture : ne suppose jamais qu'une décision
+passée a été exécutée. Si un portefeuille est encore en cash alors que sa stratégie demande d'être investi, il
+investit aujourd'hui.
 
 ### 2. Brief du marché (court)
 

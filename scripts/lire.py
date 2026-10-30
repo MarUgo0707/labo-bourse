@@ -106,9 +106,17 @@ def cmd_historique() -> None:
     for d in ordres:
         rejets = [o for o in lire_json(DATA / "ordres" / f"{d}.json", {}).get("ordres", []) if o["statut"] == "rejeté"]
         if rejets:
-            print(f"\nOrdres rejetés le {d} :")
+            print(f"\nOrdres rejetés par le validateur le {d} :")
             for o in rejets:
                 print(f"  {o['portefeuille']} {o['action']} {o['ticker']} : {o['motif']}")
+    # Un ordre accepté le matin peut encore être annulé à la clôture : seul l'état dit ce qui a été exécuté.
+    for d in [x for x in dates_disponibles("etat") if x < date][-3:]:
+        annules = [t for t in lire_json(DATA / "etat" / f"{d}.json", {}).get("transactions", []) if t.get("statut") == "annulé"]
+        if annules:
+            print(f"\nOrdres ANNULÉS à la clôture du {d} (jamais exécutés, aucune position achetée ou vendue) :")
+            for t in annules:
+                print(f"  {t['portefeuille']} {t['action']} {t['ticker']} : {t['motif']}")
+    print("\nSeules les positions affichées par `python scripts/lire.py etat` sont réelles.")
 
 
 def main() -> int:
