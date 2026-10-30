@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-30",
+  "genere_le": "2026-10-30T06:07:22Z",
+  "graine": "20261028-2026-10-30",
+  "mode_test": false,
+  "ordres": [
+    {
+      "action": "acheter",
+      "ticker": "SIKA.SW",
+      "nom": "Sika",
+      "secteur": "Matériaux",
+      "pays": "Suisse",
+      "montant_chf": 71.18,
+      "raison": "Tirage au sort du premier jour.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    },
+    {
+      "action": "acheter",
+      "ticker": "JNJ",
+      "nom": "Johnson & Johnson",
+      "secteur": "Santé",
+      "pays": "États-Unis",
+      "montant_chf": 64.88,
+      "raison": "Tirage au sort du premier jour.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    },
+    {
+      "action": "acheter",
+      "ticker": "PG",
+      "nom": "Procter & Gamble",
+      "secteur": "Consommation de base",
+      "pays": "États-Unis",
+      "montant_chf": 53.94,
+      "raison": "Tirage au sort du premier jour.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    }
+  ]
+}

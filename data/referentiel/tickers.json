@@ -23,6 +23,12 @@
     "nom_yahoo": "SPDR Gold Shares",
     "marche": "US"
   },
+  "JNJ": {
+    "devise": "USD",
+    "type": "EQUITY",
+    "nom_yahoo": "Johnson & Johnson",
+    "marche": "US"
+  },
   "LOGN.SW": {
     "devise": "CHF",
     "type": "EQUITY",
@@ -47,6 +53,18 @@
     "nom_yahoo": "Newmont Corporation",
     "marche": "US"
   },
+  "NESN.SW": {
+    "devise": "CHF",
+    "type": "EQUITY",
+    "nom_yahoo": "Nestlé S.A.",
+    "marche": "CH"
+  },
+  "NOVN.SW": {
+    "devise": "CHF",
+    "type": "EQUITY",
+    "nom_yahoo": "Novartis AG",
+    "marche": "CH"
+  },
   "NVDA": {
     "devise": "USD",
     "type": "EQUITY",
@@ -58,6 +76,12 @@
     "type": "EQUITY",
     "nom_yahoo": "The Procter & Gamble Company",
     "marche": "US"
+  },
+  "SIKA.SW": {
+    "devise": "CHF",
+    "type": "EQUITY",
+    "nom_yahoo": "Sika AG",
+    "marche": "CH"
   },
   "TSLA": {
     "devise": "USD",

@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-30",
+  "heure_session": "08:05",
+  "brief_marche": "À la dernière clôture (29 octobre), Wall Street a reculé : S&P 500 −0,30 %, Nasdaq −1,38 %. L'Europe a progressé (DAX +1,31 %, SMI +1,21 %). Le VIX est à 17,2 et l'or recule de 0,5 %. Je n'ai trouvé aucune actualité datée d'aujourd'hui. Les bourses suisse, européennes et de Londres ouvrent à 9h, les américaines à 14h30 : tous les ordres sont possibles.",
+  "points_cles": [
+    "Wall Street en baisse hier (Nasdaq −1,38 %), Europe en hausse (DAX +1,31 %)",
+    "Les bourses suisse et européennes ouvrent à 9h, après la séance",
+    "Un seul portefeuille agit : le Suisse achète Nestlé et Novartis"
+  ],
+  "sources": [
+    { "titre": "Cours et indices via scripts/lire.py (Yahoo Finance)", "url": "https://finance.yahoo.com" },
+    { "titre": "Récap actu du 20 octobre 2026 (Invesse) – contexte seulement", "url": "https://invesse.fr/actus/recap-actu-2026-10-20/" }
+  ],
+  "portefeuilles": {
+    "patient": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : mes achats de VT (120 CHF) et d'ACWI (75 CHF) d'hier ont été acceptés. Le Patient ne réagit pas aux nouvelles.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "VT", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "journaliste": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : aucune nouvelle concrète et vérifiable datée d'aujourd'hui ; sans nouvelle, pas d'ordre.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "MSFT", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "risque": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : je garde mes paris sur MSTR et COIN (achats du 28 octobre acceptés) ; la raison de l'achat n'a pas changé.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "COIN", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "ia": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : mes achats de NVDA et TSM d'hier (75 CHF chacun) ont été acceptés ; je garde mes convictions plusieurs jours.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "NVDA", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "suisse": {
+      "decision": "agir",
+      "resume": "La bourse suisse ouvre à 9h, après ma séance : je peux enfin investir. J'achète deux valeurs de qualité qui versent un dividende, 70 CHF chacune (35 % maximum).",
+      "ordres": [
+        {
+          "action": "acheter",
+          "ticker": "NESN.SW",
+          "nom": "Nestlé",
+          "secteur": "Consommation de base",
+          "pays": "Suisse",
+          "montant_chf": 70,
+          "raison": "Géant de l'alimentation, rentable, dividende régulier ; cours stable autour de 83 CHF ces dernières semaines.",
+          "confiance": "moyen",
+          "horizon": "plusieurs mois"
+        },
+        {
+          "action": "acheter",
+          "ticker": "NOVN.SW",
+          "nom": "Novartis",
+          "secteur": "Santé",
+          "pays": "Suisse",
+          "montant_chf": 70,
+          "raison": "Groupe pharmaceutique solide avec un dividende régulier ; le cours monte doucement depuis mi-octobre (125,9 à 129,2 CHF).",
+          "confiance": "moyen",
+          "horizon": "plusieurs mois"
+        }
+      ],
+      "prediction": { "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "NESN.SW", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "contrarien": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : ABB a perdu environ 10 % en octobre (75,7 à 67,8 CHF) mais a déjà rebondi à 73,1 CHF, et je n'ai pas pu vérifier la cause de la baisse.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "ABBN.SW", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "momentum": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : pas de tendance nette sur plusieurs semaines. TSM monte un peu (+4,6 % en dix séances), trop peu pour justifier des frais.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que TSM finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "TSM", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "defensif": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : mes achats déjà acceptés suffisent, le Défensif bouge peu.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "GLD", "direction": "hausse", "horizon_jours": 10 }
+    }
+  },
+  "incertitudes": [
+    "Aucune actualité datée du 30 octobre trouvée : le Journaliste ne peut pas agir.",
+    "L'état des portefeuilles affiche encore 200 CHF de cash et aucune position malgré les ordres acceptés des 28 et 29 octobre : je n'ai pas pu vérifier leur exécution et je ne les ai pas répétés.",
+    "Je n'ai pas vérifié la cause de la baisse d'ABB en octobre."
+  ]
+}
