@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-02",
+  "genere_le": "2026-11-02T06:07:10Z",
+  "graine": "20261028-2026-11-02",
+  "mode_test": false,
+  "ordres": [
+    {
+      "action": "vendre",
+      "ticker": "PG",
+      "nom": "Procter & Gamble",
+      "secteur": "Consommation de base",
+      "pays": "États-Unis",
+      "tout": true,
+      "montant_chf": 52.89,
+      "raison": "Tirage au sort : vente de toute la position.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    },
+    {
+      "action": "acheter",
+      "ticker": "CFR.SW",
+      "nom": "Richemont",
+      "secteur": "Consommation discrétionnaire",
+      "pays": "Suisse",
+      "montant_chf": 27.79,
+      "raison": "Tirage au sort : achat d'un titre au hasard.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    }
+  ]
+}

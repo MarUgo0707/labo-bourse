@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-02",
+  "heure_session": "07:10",
+  "brief_marche": "Vendredi, Wall Street a nettement reculé (S&P 500 -1,8 %, Nasdaq -2,9 %) et l'indice de la peur (VIX) a bondi à 19,4. L'Europe a aussi baissé (Euro Stoxx 50 -1,2 %) alors que la Suisse a résisté (SMI +0,4 %). L'or a perdu 3,3 %. Mes recherches web de ce matin n'ont pas donné de nouvelles fiables sur la nuit.",
+  "points_cles": [
+    "Vendredi : Wall Street en baisse, Nasdaq -2,9 %, VIX à 19,4",
+    "La Suisse résiste (SMI +0,4 %), l'or recule de 3,3 %",
+    "Quatre portefeuilles encore en cash investissent aujourd'hui"
+  ],
+  "sources": [
+    { "titre": "Cours et indices de la dernière clôture (lire.py, données Yahoo Finance)", "url": "https://finance.yahoo.com" }
+  ],
+  "portefeuilles": {
+    "patient": {
+      "decision": "agir",
+      "resume": "Les ordres des jours précédents ont été annulés : je suis encore en cash, donc j'investis aujourd'hui environ 95 % dans deux ETF mondiaux, puis je ne bouge plus.",
+      "ordres": [
+        { "action": "acheter", "ticker": "VT", "nom": "Vanguard Total World Stock ETF", "secteur": "ETF diversifié", "pays": "Monde", "montant_chf": 115, "raison": "Base diversifiée sur le monde entier, à garder toute l'étude.", "confiance": "élevé", "horizon": "toute l'étude" },
+        { "action": "acheter", "ticker": "ACWI", "nom": "iShares MSCI ACWI ETF", "secteur": "ETF diversifié", "pays": "Monde", "montant_chf": 75, "raison": "Second ETF mondial, proche de VT, pour répartir la base.", "confiance": "élevé", "horizon": "toute l'étude" }
+      ],
+      "prediction": { "texte": "Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "VT", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "journaliste": {
+      "decision": "rien",
+      "resume": "Mes recherches ce matin n'ont donné aucune nouvelle d'entreprise récente et vérifiable ; sans nouvelle concrète, je n'achète pas.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "MSFT", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "risque": {
+      "decision": "agir",
+      "resume": "Je suis encore en cash : j'achète deux actions liées au bitcoin, en repli d'environ 11 à 13 % sur une semaine, très volatiles.",
+      "ordres": [
+        { "action": "acheter", "ticker": "COIN", "nom": "Coinbase Global", "secteur": "Crypto", "pays": "États-Unis", "montant_chf": 95, "raison": "Action très liée au bitcoin, en repli d'environ 13 % sur une semaine : pari à forte volatilité.", "confiance": "faible", "horizon": "1 à 2 semaines" },
+        { "action": "acheter", "ticker": "MSTR", "nom": "Strategy Inc", "secteur": "Crypto", "pays": "États-Unis", "montant_chf": 95, "raison": "Action fortement liée au bitcoin, en repli d'environ 11 % sur une semaine ; rebond possible mais risqué.", "confiance": "faible", "horizon": "1 à 2 semaines" }
+      ],
+      "prediction": { "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "COIN", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "ia": {
+      "decision": "agir",
+      "resume": "Je suis encore en cash : j'investis dans deux piliers de l'IA, NVIDIA et TSMC, après la baisse du Nasdaq de vendredi.",
+      "ordres": [
+        { "action": "acheter", "ticker": "NVDA", "nom": "NVIDIA", "secteur": "Semi-conducteurs", "pays": "États-Unis", "montant_chf": 75, "raison": "Fournisseur central des puces d'IA ; le repli récent est une occasion d'entrer.", "confiance": "moyen", "horizon": "plusieurs semaines" },
+        { "action": "acheter", "ticker": "TSM", "nom": "Taiwan Semiconductor Manufacturing", "secteur": "Semi-conducteurs", "pays": "Taïwan", "montant_chf": 75, "raison": "Fabrique les puces d'IA de la plupart des grands acteurs.", "confiance": "moyen", "horizon": "plusieurs semaines" }
+      ],
+      "prediction": { "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "NVDA", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "suisse": {
+      "decision": "rien",
+      "resume": "Je détiens déjà Nestlé et Novartis ; rotation faible, rien ne justifie de payer des frais.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "NESN.SW", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "contrarien": {
+      "decision": "rien",
+      "resume": "Aucune grande entreprise solide n'a baissé d'environ 10 % sans raison grave ; les plus fortes baisses sont des valeurs crypto, trop spéculatives pour moi.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "ABBN.SW", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "momentum": {
+      "decision": "rien",
+      "resume": "Les marchés ont chuté vendredi ; aucune tendance assez nette pour justifier des frais d'entrée, je reste en cash.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que JNJ finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "JNJ", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "defensif": {
+      "decision": "agir",
+      "resume": "Je suis encore en cash : j'achète de l'or (ETF GLD) et Procter & Gamble, des valeurs stables.",
+      "ordres": [
+        { "action": "acheter", "ticker": "GLD", "nom": "SPDR Gold Shares", "secteur": "Or et métaux précieux", "pays": "États-Unis", "montant_chf": 80, "raison": "Or via ETF, refuge en période de nervosité ; il a reculé vendredi.", "confiance": "moyen", "horizon": "plusieurs semaines" },
+        { "action": "acheter", "ticker": "PG", "nom": "Procter & Gamble", "secteur": "Consommation de base", "pays": "États-Unis", "montant_chf": 70, "raison": "Produits du quotidien, demande stable et dividende régulier.", "confiance": "moyen", "horizon": "plusieurs semaines" }
+      ],
+      "prediction": { "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "GLD", "direction": "hausse", "horizon_jours": 10 }
+    }
+  },
+  "incertitudes": [
+    "Je n'ai trouvé aucune nouvelle datée de la nuit : le brief repose sur les cours de clôture de vendredi.",
+    "Agenda du jour (résultats, banques centrales, chiffres macro) non vérifié.",
+    "Je n'ai pas pu vérifier la raison de la baisse de vendredi."
+  ]
+}

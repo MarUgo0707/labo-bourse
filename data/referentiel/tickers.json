@@ -11,6 +11,12 @@
     "nom_yahoo": "Bayerische Motoren Werke Aktiengesellschaft",
     "marche": "EU"
   },
+  "CFR.SW": {
+    "devise": "CHF",
+    "type": "EQUITY",
+    "nom_yahoo": "Compagnie Financière Richemont SA",
+    "marche": "CH"
+  },
   "COIN": {
     "devise": "USD",
     "type": "EQUITY",
