@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-11-02T21:45:52Z",
+  "genere_le": "2026-11-03T21:46:00Z",
   "explications": {
     "performance_pct": "Combien le portefeuille a gagné ou perdu depuis le début, en pourcentage des 200 CHF.",
     "volatilite_pct": "De combien la valeur bouge en moyenne d'un jour à l'autre : plus c'est haut, plus c'est agité.",
@@ -11,23 +11,23 @@
     "ecart_patient_pts": "Différence de performance avec le Patient (la référence passive), en points de pourcentage.",
     "ecart_singe_pts": "Différence de performance avec le Singe (le hasard), en points de pourcentage."
   },
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "portefeuilles": {
     "patient": {
-      "valeur_chf": 195.54,
-      "performance_pct": -2.23,
-      "volatilite_pct": 0.966,
+      "valeur_chf": 196.21,
+      "performance_pct": -1.89,
+      "volatilite_pct": 0.936,
       "pire_chute_pct": -2.23,
-      "ratio_rendement_risque": -0.577,
+      "ratio_rendement_risque": -0.403,
       "taux_gagnants_pct": 0.0,
       "nb_titres": 2,
       "nb_ordres": 2,
       "nb_annules": 2,
       "frais_chf": 2.95,
       "poids_frais_pct": 1.48,
-      "performance_sans_frais_pct": -0.76,
+      "performance_sans_frais_pct": -0.42,
       "ecart_patient_pts": 0.0,
-      "ecart_singe_pts": 1.26
+      "ecart_singe_pts": 2.43
     },
     "journaliste": {
       "valeur_chf": 200.0,
@@ -42,56 +42,56 @@
       "frais_chf": 0.0,
       "poids_frais_pct": 0.0,
       "performance_sans_frais_pct": 0.0,
-      "ecart_patient_pts": 2.23,
-      "ecart_singe_pts": 3.49
+      "ecart_patient_pts": 1.89,
+      "ecart_singe_pts": 4.32
     },
     "risque": {
-      "valeur_chf": 194.08,
-      "performance_pct": -2.96,
-      "volatilite_pct": 1.282,
+      "valeur_chf": 203.35,
+      "performance_pct": 1.68,
+      "volatilite_pct": 2.487,
       "pire_chute_pct": -2.96,
-      "ratio_rendement_risque": -0.577,
-      "taux_gagnants_pct": 0.0,
+      "ratio_rendement_risque": 0.146,
+      "taux_gagnants_pct": 100.0,
       "nb_titres": 2,
       "nb_ordres": 2,
       "nb_annules": 2,
       "frais_chf": 2.96,
       "poids_frais_pct": 1.48,
-      "performance_sans_frais_pct": -1.48,
-      "ecart_patient_pts": -0.73,
-      "ecart_singe_pts": 0.53
+      "performance_sans_frais_pct": 3.16,
+      "ecart_patient_pts": 3.57,
+      "ecart_singe_pts": 6.0
     },
     "ia": {
-      "valeur_chf": 192.57,
-      "performance_pct": -3.72,
-      "volatilite_pct": 1.609,
+      "valeur_chf": 195.84,
+      "performance_pct": -2.08,
+      "volatilite_pct": 1.782,
       "pire_chute_pct": -3.72,
-      "ratio_rendement_risque": -0.577,
+      "ratio_rendement_risque": -0.226,
       "taux_gagnants_pct": 0.0,
       "nb_titres": 2,
       "nb_ordres": 2,
       "nb_annules": 2,
       "frais_chf": 2.76,
       "poids_frais_pct": 1.38,
-      "performance_sans_frais_pct": -2.34,
-      "ecart_patient_pts": -1.49,
-      "ecart_singe_pts": -0.23
+      "performance_sans_frais_pct": -0.7,
+      "ecart_patient_pts": -0.19,
+      "ecart_singe_pts": 2.24
     },
     "suisse": {
-      "valeur_chf": 197.12,
-      "performance_pct": -1.44,
-      "volatilite_pct": 0.368,
-      "pire_chute_pct": -1.44,
-      "ratio_rendement_risque": -0.98,
+      "valeur_chf": 196.92,
+      "performance_pct": -1.54,
+      "volatilite_pct": 0.346,
+      "pire_chute_pct": -1.54,
+      "ratio_rendement_risque": -0.895,
       "taux_gagnants_pct": 0.0,
       "nb_titres": 2,
       "nb_ordres": 2,
       "nb_annules": 0,
       "frais_chf": 2.0,
       "poids_frais_pct": 1.0,
-      "performance_sans_frais_pct": -0.44,
-      "ecart_patient_pts": 0.79,
-      "ecart_singe_pts": 2.05
+      "performance_sans_frais_pct": -0.54,
+      "ecart_patient_pts": 0.35,
+      "ecart_singe_pts": 2.78
     },
     "contrarien": {
       "valeur_chf": 200.0,
@@ -106,8 +106,8 @@
       "frais_chf": 0.0,
       "poids_frais_pct": 0.0,
       "performance_sans_frais_pct": 0.0,
-      "ecart_patient_pts": 2.23,
-      "ecart_singe_pts": 3.49
+      "ecart_patient_pts": 1.89,
+      "ecart_singe_pts": 4.32
     },
     "momentum": {
       "valeur_chf": 200.0,
@@ -122,39 +122,39 @@
       "frais_chf": 0.0,
       "poids_frais_pct": 0.0,
       "performance_sans_frais_pct": 0.0,
-      "ecart_patient_pts": 2.23,
-      "ecart_singe_pts": 3.49
+      "ecart_patient_pts": 1.89,
+      "ecart_singe_pts": 4.32
     },
     "defensif": {
-      "valeur_chf": 197.65,
-      "performance_pct": -1.17,
-      "volatilite_pct": 0.509,
-      "pire_chute_pct": -1.17,
-      "ratio_rendement_risque": -0.577,
+      "valeur_chf": 196.96,
+      "performance_pct": -1.52,
+      "volatilite_pct": 0.456,
+      "pire_chute_pct": -1.52,
+      "ratio_rendement_risque": -0.669,
       "taux_gagnants_pct": 0.0,
       "nb_titres": 2,
       "nb_ordres": 2,
       "nb_annules": 2,
       "frais_chf": 2.75,
       "poids_frais_pct": 1.38,
-      "performance_sans_frais_pct": 0.2,
-      "ecart_patient_pts": 1.06,
-      "ecart_singe_pts": 2.32
+      "performance_sans_frais_pct": -0.14,
+      "ecart_patient_pts": 0.37,
+      "ecart_singe_pts": 2.8
     },
     "singe": {
-      "valeur_chf": 193.02,
-      "performance_pct": -3.49,
-      "volatilite_pct": 1.276,
-      "pire_chute_pct": -3.49,
-      "ratio_rendement_risque": -0.687,
+      "valeur_chf": 191.37,
+      "performance_pct": -4.32,
+      "volatilite_pct": 1.142,
+      "pire_chute_pct": -4.32,
+      "ratio_rendement_risque": -0.764,
       "taux_gagnants_pct": 25.0,
       "nb_titres": 4,
       "nb_ordres": 5,
       "nb_annules": 6,
       "frais_chf": 5.85,
       "poids_frais_pct": 2.92,
-      "performance_sans_frais_pct": -0.57,
-      "ecart_patient_pts": -1.26,
+      "performance_sans_frais_pct": -1.39,
+      "ecart_patient_pts": -2.43,
       "ecart_singe_pts": 0.0
     }
   }
