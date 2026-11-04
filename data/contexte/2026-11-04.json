@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-04",
+  "mode_test": false,
+  "genere_le": "2026-11-04T06:05:42Z",
+  "jour": 6,
+  "nb_jours": 23,
+  "dernier_jour": false,
+  "marches": {
+    "CH": {
+      "nom": "Bourse suisse (SIX)",
+      "ouvert_aujourdhui": true,
+      "ouverture_heure_zurich": "09:00",
+      "deja_ouvert_au_moment_de_la_session": false
+    },
+    "EU": {
+      "nom": "Bourses européennes",
+      "ouvert_aujourdhui": true,
+      "ouverture_heure_zurich": "09:00",
+      "deja_ouvert_au_moment_de_la_session": false
+    },
+    "UK": {
+      "nom": "Bourse de Londres",
+      "ouvert_aujourdhui": true,
+      "ouverture_heure_zurich": "09:00",
+      "deja_ouvert_au_moment_de_la_session": false
+    },
+    "US": {
+      "nom": "Bourses américaines",
+      "ouvert_aujourdhui": true,
+      "ouverture_heure_zurich": "15:30",
+      "deja_ouvert_au_moment_de_la_session": false
+    }
+  },
+  "indices_veille": {
+    "^SSMI": {
+      "nom": "SMI (Suisse)",
+      "date": "2026-11-03",
+      "cloture": 14743.0898,
+      "variation_pct": -0.4
+    },
+    "^GSPC": {
+      "nom": "S&P 500 (États-Unis)",
+      "date": "2026-11-03",
+      "cloture": 7568.9199,
+      "variation_pct": 0.36
+    },
+    "^IXIC": {
+      "nom": "Nasdaq (États-Unis)",
+      "date": "2026-11-03",
+      "cloture": 25372.0098,
+      "variation_pct": 0.83
+    },
+    "^STOXX50E": {
+      "nom": "Euro Stoxx 50 (zone euro)",
+      "date": "2026-11-03",
+      "cloture": 6144.5601,
+      "variation_pct": -0.51
+    },
+    "^GDAXI": {
+      "nom": "DAX (Allemagne)",
+      "date": "2026-11-03",
+      "cloture": 25864.6191,
+      "variation_pct": -0.45
+    },
+    "^VIX": {
+      "nom": "VIX (indice de la peur)",
+      "date": "2026-11-03",
+      "cloture": 20.83,
+      "variation_pct": -1.51
+    },
+    "GC=F": {
+      "nom": "Or (once, USD)",
+      "date": "2026-11-03",
+      "cloture": 3940.3999,
+      "variation_pct": -0.74
+    },
+    "BTC-USD": {
+      "nom": "Bitcoin (USD)",
+      "date": "2026-11-02",
+      "cloture": 76677.2969,
+      "variation_pct": -2.01
+    },
+    "USDCHF=X": {
+      "nom": "Dollar → franc",
+      "date": "2026-11-03",
+      "cloture": 0.8184,
+      "variation_pct": -0.77
+    },
+    "EURCHF=X": {
+      "nom": "Euro → franc",
+      "date": "2026-11-03",
+      "cloture": 0.9161,
+      "variation_pct": -0.44
+    }
+  },
+  "etat_de_reference": "2026-11-03",
+  "seances_ratees": [],
+  "clotures_manquantes": [],
+  "portefeuilles_ia": [
+    "patient",
+    "journaliste",
+    "risque",
+    "ia",
+    "suisse",
+    "contrarien",
+    "momentum",
+    "defensif"
+  ]
+}
