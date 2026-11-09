@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-09",
+  "heure_session": "08:05",
+  "brief_marche": "Vendredi, les Bourses européennes ont reculé (DAX −1,9 %, SMI −1,1 %), pénalisées par l'inquiétude autour de l'encadrement légal de l'IA, alors que le Nasdaq a rebondi de 1,1 %. Le VIX reste élevé (25,6) mais a baissé. L'or est autour de 4075 USD. Je n'ai trouvé aucune couverture datée de ce matin : l'ouverture d'aujourd'hui est donc inconnue.",
+  "points_cles": [
+    "Europe en baisse vendredi, Nasdaq en rebond",
+    "Peur sur les marchés encore élevée (VIX 25,6)",
+    "Séance prudente : aucun ordre, huit portefeuilles inchangés"
+  ],
+  "sources": [
+    { "titre": "Les Bourses européennes ouvrent en forte baisse (6 nov. 2026)", "url": "https://www.dhnet.be/dernieres-depeches/2026/11/06/les-bourses-europeennes-ouvrent-en-forte-baisse-DJZWBLJYIFGK7FEH3NYDXVYWYI/" },
+    { "titre": "Un vent de défiance souffle sur les marchés (6 nov. 2026)", "url": "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-11-06-un-vent-de-defiance-souffle-sur-les-marches.html" }
+  ],
+  "portefeuilles": {
+    "patient": {
+      "decision": "rien",
+      "resume": "Je garde VT et ACWI : la stratégie est de ne plus bouger, et aucune position ne s'écarte de 10 points de sa cible.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "VT", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "journaliste": {
+      "decision": "rien",
+      "resume": "Pas d'ordre : je n'ai pas pu vérifier ce matin de nouvelle concrète, récente et propre à une entreprise. Chaque ordre coûte environ 1 CHF.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "MSFT", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "risque": {
+      "decision": "rien",
+      "resume": "Je garde MSTR et COIN (environ −4 % et −5 %) : la raison de l'achat, la volatilité liée à la crypto, est toujours là.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "COIN", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "ia": {
+      "decision": "rien",
+      "resume": "Je garde TSM et NVDA, en baisse d'environ 10 %. Le récit IA n'a pas changé ; je n'ai pas pu vérifier les nouvelles réglementaires évoquées dans la presse.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "NVDA", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "suisse": {
+      "decision": "rien",
+      "resume": "Je garde Nestlé et Novartis ; rotation faible, aucune raison de bouger.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "NESN.SW", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "contrarien": {
+      "decision": "rien",
+      "resume": "Rien à acheter : ABB est à environ −8 % de son récent sommet, sous le seuil d'une baisse marquée (~10 %), et je n'ai pas vérifié la cause du recul.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "ABBN.SW", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "momentum": {
+      "decision": "rien",
+      "resume": "Rien : je ne vois pas de tendance haussière nette sur plusieurs semaines parmi les titres vérifiés (MSFT, JNJ, GLD sont irréguliers).",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que JNJ finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "JNJ", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "defensif": {
+      "decision": "rien",
+      "resume": "Je garde GLD et PG, stables ; ce portefeuille bouge peu.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "GLD", "direction": "hausse", "horizon_jours": 10 }
+    }
+  },
+  "incertitudes": [
+    "Aucune information sur l'ouverture ou les futures de ce matin.",
+    "Le recul du Nasdaq de jeudi cité par la presse n'a pas été recoupé avec les cours.",
+    "Causes du recul d'ABB non vérifiées."
+  ]
+}
