@@ -29,10 +29,22 @@
     "nom_yahoo": "SPDR Gold Shares",
     "marche": "US"
   },
+  "GOOGL": {
+    "devise": "USD",
+    "type": "EQUITY",
+    "nom_yahoo": "Alphabet Inc.",
+    "marche": "US"
+  },
   "JNJ": {
     "devise": "USD",
     "type": "EQUITY",
     "nom_yahoo": "Johnson & Johnson",
+    "marche": "US"
+  },
+  "LLY": {
+    "devise": "USD",
+    "type": "EQUITY",
+    "nom_yahoo": "Eli Lilly and Company",
     "marche": "US"
   },
   "LOGN.SW": {

@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-11",
+  "heure_session": "08:05",
+  "brief_marche": "Hier, Wall Street a reculé (S&P 500 −0,38 %, Nasdaq −0,74 %) tandis que l'Europe et la Suisse progressaient (SMI +0,61 %, Euro Stoxx 50 +0,59 %). Le VIX recule à 19,5. L'or perd 2 % vers 4030 USD. NVIDIA continue de chuter (environ −21 % en deux semaines). Je n'ai trouvé aucune couverture datée de ce matin : je ne sais pas comment s'annonce l'ouverture.",
+  "points_cles": [
+    "Wall Street en léger recul hier, Europe et SMI en hausse (+0,6 %)",
+    "NVIDIA poursuit sa chute (environ −21 % en deux semaines), l'or perd 2 %",
+    "Aucune nouvelle datée de ce matin : un seul ordre, Momentum achète Eli Lilly"
+  ],
+  "sources": [
+    { "titre": "Indices et cours de la veille (scripts/lire.py contexte et cours, données Yahoo Finance)", "url": "https://finance.yahoo.com/" }
+  ],
+  "portefeuilles": {
+    "patient": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : je garde VT et ACWI. Sa stratégie est de ne plus bouger, aucune position ne s'écarte de 10 points de sa cible.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "VT", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "journaliste": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : je n'ai trouvé aucune nouvelle concrète et datée de ce matin sur une entreprise précise. Un ordre coûte environ 1 CHF, il lui faut une vraie raison.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "MSFT", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "risque": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : je garde MSTR et COIN (environ −9 % et −7 %). La raison de l'achat, la volatilité liée à la crypto, est toujours là.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "COIN", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "ia": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : je garde TSM et NVDA (NVDA environ −20 %). Je n'ai pas pu vérifier la cause de la baisse ; sans preuve que le récit IA s'affaiblit, je ne vends pas.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "NVDA", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "suisse": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : je garde Nestlé et Novartis. Sa rotation est faible et rien ne justifie de bouger.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "NESN.SW", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "contrarien": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : ABB est à environ −6 % de son récent sommet, sous le seuil d'une baisse marquée (~10 %). NVIDIA a beaucoup baissé mais je n'ai pas pu vérifier que la cause n'est pas grave et durable.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "ABBN.SW", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "momentum": {
+      "decision": "agir",
+      "resume": "J'achète Eli Lilly : l'action est passée d'environ 1288 à 1432 USD en deux semaines (+11 %), la tendance la plus nette parmi les titres vérifiés. Je garde du cash, la taille reste sous 40 %.",
+      "ordres": [
+        {
+          "action": "acheter",
+          "ticker": "LLY",
+          "nom": "Eli Lilly and Company",
+          "secteur": "Santé",
+          "pays": "États-Unis",
+          "montant_chf": 75,
+          "raison": "Hausse d'environ 11 % en deux semaines et clôture proche du plus haut de la période : tendance haussière nette.",
+          "confiance": "faible",
+          "horizon": "quelques semaines"
+        }
+      ],
+      "prediction": { "texte": "Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "LLY", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "defensif": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : je garde GLD et PG, stables. Ce portefeuille bouge peu.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "GLD", "direction": "hausse", "horizon_jours": 10 }
+    }
+  },
+  "incertitudes": [
+    "Aucune nouvelle datée de ce matin trouvée : ouverture des marchés inconnue.",
+    "Cause de la chute de NVIDIA non vérifiée.",
+    "Raisons de la hausse d'Eli Lilly non vérifiées (décision fondée sur les cours seuls)."
+  ]
+}

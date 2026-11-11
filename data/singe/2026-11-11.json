@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-11",
+  "genere_le": "2026-11-11T06:06:57Z",
+  "graine": "20261028-2026-11-11",
+  "mode_test": false,
+  "ordres": [
+    {
+      "action": "vendre",
+      "ticker": "JNJ",
+      "nom": "Johnson & Johnson",
+      "secteur": "Santé",
+      "pays": "États-Unis",
+      "tout": true,
+      "montant_chf": 65.03,
+      "raison": "Tirage au sort : vente de toute la position.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    },
+    {
+      "action": "acheter",
+      "ticker": "GOOGL",
+      "nom": "Alphabet",
+      "secteur": "Communication",
+      "pays": "États-Unis",
+      "montant_chf": 65.79,
+      "raison": "Tirage au sort : achat d'un titre au hasard.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    }
+  ]
+}
