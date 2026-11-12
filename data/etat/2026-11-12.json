@@ -1,0 +1,567 @@
+{
+  "date": "2026-11-12",
+  "jour": 12,
+  "genere_le": "2026-11-12T21:45:50Z",
+  "mode_test": false,
+  "session_ia": "ok",
+  "taux_change_chf": {
+    "CHF": 1.0,
+    "EUR": 0.9235,
+    "GBP": 1.10575,
+    "USD": 0.83542
+  },
+  "portefeuilles": {
+    "patient": {
+      "cash_chf": 7.05,
+      "valeur_positions_chf": 193.22,
+      "valeur_totale_chf": 200.27,
+      "frais_cumules_chf": 2.95,
+      "nb_ordres_cumules": 2,
+      "positions": [
+        {
+          "ticker": "VT",
+          "nom": "Vanguard Total World Stock ETF",
+          "secteur": "ETF diversifié",
+          "pays": "Monde",
+          "marche": "US",
+          "devise": "USD",
+          "quantite": 0.89898173,
+          "cout_chf": 116.57,
+          "date_achat": "2026-11-02",
+          "prix_cloture": 155.75,
+          "date_prix": "2026-11-12",
+          "taux_chf": 0.83542,
+          "valeur_chf": 116.97,
+          "gain_chf": 0.4,
+          "gain_pct": 0.35,
+          "part_pct": 58.41
+        },
+        {
+          "ticker": "ACWI",
+          "nom": "iShares MSCI ACWI ETF",
+          "secteur": "ETF diversifié",
+          "pays": "Monde",
+          "marche": "US",
+          "devise": "USD",
+          "quantite": 0.58311821,
+          "cout_chf": 76.38,
+          "date_achat": "2026-11-02",
+          "prix_cloture": 156.529999,
+          "date_prix": "2026-11-12",
+          "taux_chf": 0.83542,
+          "valeur_chf": 76.25,
+          "gain_chf": -0.13,
+          "gain_pct": -0.17,
+          "part_pct": 38.07
+        }
+      ],
+      "bilan_titres": {
+        "VT": {
+          "nom": "Vanguard Total World Stock ETF",
+          "secteur": "ETF diversifié",
+          "pays": "Monde",
+          "investi_chf": 116.57,
+          "recupere_chf": 0.0,
+          "frais_chf": 1.57,
+          "valeur_actuelle_chf": 116.97,
+          "resultat_chf": 0.4,
+          "nb_ordres": 1
+        },
+        "ACWI": {
+          "nom": "iShares MSCI ACWI ETF",
+          "secteur": "ETF diversifié",
+          "pays": "Monde",
+          "investi_chf": 76.38,
+          "recupere_chf": 0.0,
+          "frais_chf": 1.38,
+          "valeur_actuelle_chf": 76.25,
+          "resultat_chf": -0.13,
+          "nb_ordres": 1
+        }
+      },
+      "variation_jour_chf": -0.65,
+      "variation_jour_pct": -0.32,
+      "gain_total_chf": 0.27,
+      "gain_total_pct": 0.13
+    },
+    "journaliste": {
+      "cash_chf": 200.0,
+      "valeur_positions_chf": 0.0,
+      "valeur_totale_chf": 200.0,
+      "frais_cumules_chf": 0.0,
+      "nb_ordres_cumules": 0,
+      "positions": [],
+      "bilan_titres": {},
+      "variation_jour_chf": 0.0,
+      "variation_jour_pct": 0.0,
+      "gain_total_chf": 0.0,
+      "gain_total_pct": 0.0
+    },
+    "risque": {
+      "cash_chf": 7.04,
+      "valeur_positions_chf": 174.0,
+      "valeur_totale_chf": 181.04,
+      "frais_cumules_chf": 2.96,
+      "nb_ordres_cumules": 2,
+      "positions": [
+        {
+          "ticker": "COIN",
+          "nom": "Coinbase Global",
+          "secteur": "Crypto",
+          "pays": "États-Unis",
+          "marche": "US",
+          "devise": "USD",
+          "quantite": 0.82541655,
+          "cout_chf": 96.48,
+          "date_achat": "2026-11-02",
+          "prix_cloture": 130.669998,
+          "date_prix": "2026-11-12",
+          "taux_chf": 0.83542,
+          "valeur_chf": 90.11,
+          "gain_chf": -6.37,
+          "gain_pct": -6.61,
+          "part_pct": 49.77
+        },
+        {
+          "ticker": "MSTR",
+          "nom": "Strategy Inc",
+          "secteur": "Crypto",
+          "pays": "États-Unis",
+          "marche": "US",
+          "devise": "USD",
+          "quantite": 0.87770799,
+          "cout_chf": 96.48,
+          "date_achat": "2026-11-02",
+          "prix_cloture": 114.410004,
+          "date_prix": "2026-11-12",
+          "taux_chf": 0.83542,
+          "valeur_chf": 83.89,
+          "gain_chf": -12.59,
+          "gain_pct": -13.05,
+          "part_pct": 46.34
+        }
+      ],
+      "bilan_titres": {
+        "COIN": {
+          "nom": "Coinbase Global",
+          "secteur": "Crypto",
+          "pays": "États-Unis",
+          "investi_chf": 96.48,
+          "recupere_chf": 0.0,
+          "frais_chf": 1.48,
+          "valeur_actuelle_chf": 90.11,
+          "resultat_chf": -6.37,
+          "nb_ordres": 1
+        },
+        "MSTR": {
+          "nom": "Strategy Inc",
+          "secteur": "Crypto",
+          "pays": "États-Unis",
+          "investi_chf": 96.48,
+          "recupere_chf": 0.0,
+          "frais_chf": 1.48,
+          "valeur_actuelle_chf": 83.89,
+          "resultat_chf": -12.59,
+          "nb_ordres": 1
+        }
+      },
+      "variation_jour_chf": -9.19,
+      "variation_jour_pct": -4.83,
+      "gain_total_chf": -18.96,
+      "gain_total_pct": -9.48
+    },
+    "ia": {
+      "cash_chf": 47.24,
+      "valeur_positions_chf": 136.41,
+      "valeur_totale_chf": 183.65,
+      "frais_cumules_chf": 2.76,
+      "nb_ordres_cumules": 2,
+      "positions": [
+        {
+          "ticker": "TSM",
+          "nom": "Taiwan Semiconductor Manufacturing",
+          "secteur": "Semi-conducteurs",
+          "pays": "Taïwan",
+          "marche": "US",
+          "devise": "USD",
+          "quantite": 0.22192757,
+          "cout_chf": 76.38,
+          "date_achat": "2026-11-02",
+          "prix_cloture": 405.48999,
+          "date_prix": "2026-11-12",
+          "taux_chf": 0.83542,
+          "valeur_chf": 75.18,
+          "gain_chf": -1.2,
+          "gain_pct": -1.57,
+          "part_pct": 40.94
+        },
+        {
+          "ticker": "NVDA",
+          "nom": "NVIDIA",
+          "secteur": "Semi-conducteurs",
+          "pays": "États-Unis",
+          "marche": "US",
+          "devise": "USD",
+          "quantite": 0.44101142,
+          "cout_chf": 76.38,
+          "date_achat": "2026-11-02",
+          "prix_cloture": 166.190002,
+          "date_prix": "2026-11-12",
+          "taux_chf": 0.83542,
+          "valeur_chf": 61.23,
+          "gain_chf": -15.15,
+          "gain_pct": -19.84,
+          "part_pct": 33.34
+        }
+      ],
+      "bilan_titres": {
+        "NVDA": {
+          "nom": "NVIDIA",
+          "secteur": "Semi-conducteurs",
+          "pays": "États-Unis",
+          "investi_chf": 76.38,
+          "recupere_chf": 0.0,
+          "frais_chf": 1.38,
+          "valeur_actuelle_chf": 61.23,
+          "resultat_chf": -15.15,
+          "nb_ordres": 1
+        },
+        "TSM": {
+          "nom": "Taiwan Semiconductor Manufacturing",
+          "secteur": "Semi-conducteurs",
+          "pays": "Taïwan",
+          "investi_chf": 76.38,
+          "recupere_chf": 0.0,
+          "frais_chf": 1.38,
+          "valeur_actuelle_chf": 75.18,
+          "resultat_chf": -1.2,
+          "nb_ordres": 1
+        }
+      },
+      "variation_jour_chf": -3.86,
+      "variation_jour_pct": -2.06,
+      "gain_total_chf": -16.35,
+      "gain_total_pct": -8.17
+    },
+    "suisse": {
+      "cash_chf": 58.0,
+      "valeur_positions_chf": 142.13,
+      "valeur_totale_chf": 200.13,
+      "frais_cumules_chf": 2.0,
+      "nb_ordres_cumules": 2,
+      "positions": [
+        {
+          "ticker": "NESN.SW",
+          "nom": "Nestlé",
+          "secteur": "Consommation de base",
+          "pays": "Suisse",
+          "marche": "CH",
+          "devise": "CHF",
+          "quantite": 0.83578429,
+          "cout_chf": 71.0,
+          "date_achat": "2026-10-30",
+          "prix_cloture": 86.57,
+          "date_prix": "2026-11-12",
+          "taux_chf": 1.0,
+          "valeur_chf": 72.35,
+          "gain_chf": 1.35,
+          "gain_pct": 1.91,
+          "part_pct": 36.15
+        },
+        {
+          "ticker": "NOVN.SW",
+          "nom": "Novartis",
+          "secteur": "Santé",
+          "pays": "Suisse",
+          "marche": "CH",
+          "devise": "CHF",
+          "quantite": 0.51992617,
+          "cout_chf": 71.0,
+          "date_achat": "2026-10-30",
+          "prix_cloture": 134.220001,
+          "date_prix": "2026-11-12",
+          "taux_chf": 1.0,
+          "valeur_chf": 69.78,
+          "gain_chf": -1.22,
+          "gain_pct": -1.71,
+          "part_pct": 34.87
+        }
+      ],
+      "bilan_titres": {
+        "NESN.SW": {
+          "nom": "Nestlé",
+          "secteur": "Consommation de base",
+          "pays": "Suisse",
+          "investi_chf": 71.0,
+          "recupere_chf": 0.0,
+          "frais_chf": 1.0,
+          "valeur_actuelle_chf": 72.35,
+          "resultat_chf": 1.35,
+          "nb_ordres": 1
+        },
+        "NOVN.SW": {
+          "nom": "Novartis",
+          "secteur": "Santé",
+          "pays": "Suisse",
+          "investi_chf": 71.0,
+          "recupere_chf": 0.0,
+          "frais_chf": 1.0,
+          "valeur_actuelle_chf": 69.78,
+          "resultat_chf": -1.22,
+          "nb_ordres": 1
+        }
+      },
+      "variation_jour_chf": 1.31,
+      "variation_jour_pct": 0.66,
+      "gain_total_chf": 0.13,
+      "gain_total_pct": 0.07
+    },
+    "contrarien": {
+      "cash_chf": 200.0,
+      "valeur_positions_chf": 0.0,
+      "valeur_totale_chf": 200.0,
+      "frais_cumules_chf": 0.0,
+      "nb_ordres_cumules": 0,
+      "positions": [],
+      "bilan_titres": {},
+      "variation_jour_chf": 0.0,
+      "variation_jour_pct": 0.0,
+      "gain_total_chf": 0.0,
+      "gain_total_pct": 0.0
+    },
+    "momentum": {
+      "cash_chf": 123.62,
+      "valeur_positions_chf": 75.61,
+      "valeur_totale_chf": 199.23,
+      "frais_cumules_chf": 1.38,
+      "nb_ordres_cumules": 1,
+      "positions": [
+        {
+          "ticker": "LLY",
+          "nom": "Eli Lilly and Company",
+          "secteur": "Santé",
+          "pays": "États-Unis",
+          "marche": "US",
+          "devise": "USD",
+          "quantite": 0.06341436,
+          "cout_chf": 76.38,
+          "date_achat": "2026-11-11",
+          "prix_cloture": 1427.280029,
+          "date_prix": "2026-11-12",
+          "taux_chf": 0.83542,
+          "valeur_chf": 75.61,
+          "gain_chf": -0.77,
+          "gain_pct": -1.0,
+          "part_pct": 37.95
+        }
+      ],
+      "bilan_titres": {
+        "LLY": {
+          "nom": "Eli Lilly and Company",
+          "secteur": "Santé",
+          "pays": "États-Unis",
+          "investi_chf": 76.38,
+          "recupere_chf": 0.0,
+          "frais_chf": 1.38,
+          "valeur_actuelle_chf": 75.61,
+          "resultat_chf": -0.77,
+          "nb_ordres": 1
+        }
+      },
+      "variation_jour_chf": -0.33,
+      "variation_jour_pct": -0.17,
+      "gain_total_chf": -0.77,
+      "gain_total_pct": -0.38
+    },
+    "defensif": {
+      "cash_chf": 47.25,
+      "valeur_positions_chf": 153.97,
+      "valeur_totale_chf": 201.22,
+      "frais_cumules_chf": 2.75,
+      "nb_ordres_cumules": 2,
+      "positions": [
+        {
+          "ticker": "GLD",
+          "nom": "SPDR Gold Shares",
+          "secteur": "Or et métaux précieux",
+          "pays": "États-Unis",
+          "marche": "US",
+          "devise": "USD",
+          "quantite": 0.26995319,
+          "cout_chf": 81.4,
+          "date_achat": "2026-11-02",
+          "prix_cloture": 354.890015,
+          "date_prix": "2026-11-12",
+          "taux_chf": 0.83542,
+          "valeur_chf": 80.04,
+          "gain_chf": -1.36,
+          "gain_pct": -1.68,
+          "part_pct": 39.78
+        },
+        {
+          "ticker": "PG",
+          "nom": "Procter & Gamble",
+          "secteur": "Consommation de base",
+          "pays": "États-Unis",
+          "marche": "US",
+          "devise": "USD",
+          "quantite": 0.52666576,
+          "cout_chf": 71.35,
+          "date_achat": "2026-11-02",
+          "prix_cloture": 168.029999,
+          "date_prix": "2026-11-12",
+          "taux_chf": 0.83542,
+          "valeur_chf": 73.93,
+          "gain_chf": 2.58,
+          "gain_pct": 3.62,
+          "part_pct": 36.74
+        }
+      ],
+      "bilan_titres": {
+        "GLD": {
+          "nom": "SPDR Gold Shares",
+          "secteur": "Or et métaux précieux",
+          "pays": "États-Unis",
+          "investi_chf": 81.4,
+          "recupere_chf": 0.0,
+          "frais_chf": 1.4,
+          "valeur_actuelle_chf": 80.04,
+          "resultat_chf": -1.36,
+          "nb_ordres": 1
+        },
+        "PG": {
+          "nom": "Procter & Gamble",
+          "secteur": "Consommation de base",
+          "pays": "États-Unis",
+          "investi_chf": 71.35,
+          "recupere_chf": 0.0,
+          "frais_chf": 1.35,
+          "valeur_actuelle_chf": 73.93,
+          "resultat_chf": 2.58,
+          "nb_ordres": 1
+        }
+      },
+      "variation_jour_chf": -1.73,
+      "variation_jour_pct": -0.85,
+      "gain_total_chf": 1.22,
+      "gain_total_pct": 0.61
+    },
+    "singe": {
+      "cash_chf": 118.5327,
+      "valeur_positions_chf": 77.22,
+      "valeur_totale_chf": 195.7527,
+      "frais_cumules_chf": 10.83,
+      "nb_ordres_cumules": 9,
+      "positions": [
+        {
+          "ticker": "SIKA.SW",
+          "nom": "Sika",
+          "secteur": "Matériaux",
+          "pays": "Suisse",
+          "marche": "CH",
+          "devise": "CHF",
+          "quantite": 0.39825757,
+          "cout_chf": 72.18,
+          "date_achat": "2026-10-30",
+          "prix_cloture": 193.899994,
+          "date_prix": "2026-11-12",
+          "taux_chf": 1.0,
+          "valeur_chf": 77.22,
+          "gain_chf": 5.04,
+          "gain_pct": 6.99,
+          "part_pct": 39.45
+        }
+      ],
+      "bilan_titres": {
+        "SIKA.SW": {
+          "nom": "Sika",
+          "secteur": "Matériaux",
+          "pays": "Suisse",
+          "investi_chf": 72.18,
+          "recupere_chf": 0.0,
+          "frais_chf": 1.0,
+          "valeur_actuelle_chf": 77.22,
+          "resultat_chf": 5.04,
+          "nb_ordres": 1
+        },
+        "JNJ": {
+          "nom": "Johnson & Johnson",
+          "secteur": "Santé",
+          "pays": "États-Unis",
+          "investi_chf": 66.2,
+          "recupere_chf": 63.6038,
+          "frais_chf": 2.64,
+          "valeur_actuelle_chf": 0.0,
+          "resultat_chf": -2.5962,
+          "nb_ordres": 2
+        },
+        "PG": {
+          "nom": "Procter & Gamble",
+          "secteur": "Consommation de base",
+          "pays": "États-Unis",
+          "investi_chf": 55.21,
+          "recupere_chf": 51.3765,
+          "frais_chf": 2.53,
+          "valeur_actuelle_chf": 0.0,
+          "resultat_chf": -3.8335,
+          "nb_ordres": 2
+        },
+        "CFR.SW": {
+          "nom": "Richemont",
+          "secteur": "Consommation discrétionnaire",
+          "pays": "Suisse",
+          "investi_chf": 28.79,
+          "recupere_chf": 27.6827,
+          "frais_chf": 2.0,
+          "valeur_actuelle_chf": 0.0,
+          "resultat_chf": -1.1073,
+          "nb_ordres": 2
+        },
+        "GOOGL": {
+          "nom": "Alphabet",
+          "secteur": "Communication",
+          "pays": "États-Unis",
+          "investi_chf": 67.12,
+          "recupere_chf": 65.3697,
+          "frais_chf": 2.66,
+          "valeur_actuelle_chf": 0.0,
+          "resultat_chf": -1.7503,
+          "nb_ordres": 2
+        }
+      },
+      "variation_jour_chf": -1.26,
+      "variation_jour_pct": -0.64,
+      "gain_total_chf": -4.25,
+      "gain_total_pct": -2.12
+    }
+  },
+  "transactions": [
+    {
+      "portefeuille": "singe",
+      "auteur": "script",
+      "action": "vendre",
+      "sens": "vente",
+      "ticker": "GOOGL",
+      "nom": "Alphabet",
+      "secteur": "Communication",
+      "pays": "États-Unis",
+      "marche": "US",
+      "raison": "Tirage au sort : vente de toute la position.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)",
+      "date": "2026-11-12",
+      "montant_demande_chf": 66.49,
+      "montant_chf": 66.7,
+      "quantite": 0.271928,
+      "cash_chf": 65.37,
+      "resultat_realise_chf": -1.75,
+      "statut": "exécuté",
+      "motif": "",
+      "prix_execution": 293.606094,
+      "prix_ouverture": 293.899994,
+      "devise": "USD",
+      "taux_chf": 0.83542,
+      "frais_chf": 1.33
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-12",
+  "genere_le": "2026-11-12T21:45:50Z",
+  "mode_test": false,
+  "taux_change_chf": {
+    "CHF": 1.0,
+    "EUR": 0.9235,
+    "GBP": 1.10575,
+    "USD": 0.83542
+  },
+  "prix": {
+    "ACWI": {
+      "devise": "USD",
+      "ouverture": 156.070007,
+      "cloture": 156.529999,
+      "date_cloture": "2026-11-12",
+      "a_cote_ce_jour": true
+    },
+    "COIN": {
+      "devise": "USD",
+      "ouverture": 129.970001,
+      "cloture": 130.669998,
+      "date_cloture": "2026-11-12",
+      "a_cote_ce_jour": true
+    },
+    "GLD": {
+      "devise": "USD",
+      "ouverture": 357.600006,
+      "cloture": 354.890015,
+      "date_cloture": "2026-11-12",
+      "a_cote_ce_jour": true
+    },
+    "GOOGL": {
+      "devise": "USD",
+      "ouverture": 293.899994,
+      "cloture": 298.700012,
+      "date_cloture": "2026-11-12",
+      "a_cote_ce_jour": true
+    },
+    "LLY": {
+      "devise": "USD",
+      "ouverture": 1446.550049,
+      "cloture": 1427.280029,
+      "date_cloture": "2026-11-12",
+      "a_cote_ce_jour": true
+    },
+    "MSTR": {
+      "devise": "USD",
+      "ouverture": 114.07,
+      "cloture": 114.410004,
+      "date_cloture": "2026-11-12",
+      "a_cote_ce_jour": true
+    },
+    "NESN.SW": {
+      "devise": "CHF",
+      "ouverture": 86.800003,
+      "cloture": 86.57,
+      "date_cloture": "2026-11-12",
+      "a_cote_ce_jour": true
+    },
+    "NOVN.SW": {
+      "devise": "CHF",
+      "ouverture": 134.279999,
+      "cloture": 134.220001,
+      "date_cloture": "2026-11-12",
+      "a_cote_ce_jour": true
+    },
+    "NVDA": {
+      "devise": "USD",
+      "ouverture": 151.005005,
+      "cloture": 166.190002,
+      "date_cloture": "2026-11-12",
+      "a_cote_ce_jour": true
+    },
+    "PG": {
+      "devise": "USD",
+      "ouverture": 169.039993,
+      "cloture": 168.029999,
+      "date_cloture": "2026-11-12",
+      "a_cote_ce_jour": true
+    },
+    "SIKA.SW": {
+      "devise": "CHF",
+      "ouverture": 195.0,
+      "cloture": 193.899994,
+      "date_cloture": "2026-11-12",
+      "a_cote_ce_jour": true
+    },
+    "TSM": {
+      "devise": "USD",
+      "ouverture": 394.619995,
+      "cloture": 405.48999,
+      "date_cloture": "2026-11-12",
+      "a_cote_ce_jour": true
+    },
+    "VT": {
+      "devise": "USD",
+      "ouverture": 155.490005,
+      "cloture": 155.75,
+      "date_cloture": "2026-11-12",
+      "a_cote_ce_jour": true
+    }
+  }
+}
