@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-12",
+  "heure_session": "08:05",
+  "brief_marche": "Wall Street a rebondi hier (S&P 500 +1,31 %, Nasdaq +1,60 %) et les bourses européennes ont progressé d'environ 1 %. Le SMI suisse est resté stable (+0,11 %). L'indice de la peur (VIX) a reculé à 17,5. L'or a perdu 0,74 % et le dollar a monté face au franc. Ma recherche web n'a donné aucun compte rendu fiable daté de ce matin.",
+  "points_cles": [
+    "Rebond hier : S&P 500 +1,3 %, Nasdaq +1,6 %, Euro Stoxx 50 +1,0 %",
+    "VIX en baisse à 17,5 ; SMI quasi stable (+0,1 %)",
+    "Journée sans ordre : aucune raison claire de bouger"
+  ],
+  "sources": [],
+  "portefeuilles": {
+    "patient": {
+      "decision": "rien",
+      "resume": "Le Patient est investi à plus de 95 % dans VT et ACWI ; il ne bouge plus et ne réagit pas aux nouvelles.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "VT", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "journaliste": {
+      "decision": "rien",
+      "resume": "Je n'ai trouvé aucune nouvelle concrète et vérifiable ce matin pour justifier un ordre ; je reste en cash.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "MSFT", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "risque": {
+      "decision": "rien",
+      "resume": "COIN et MSTR ont baissé avec le secteur crypto, mais la raison de l'achat n'a pas disparu ; je garde, car chaque ordre coûte environ 1 CHF.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "COIN", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "ia": {
+      "decision": "rien",
+      "resume": "NVDA a perdu environ 19 % en deux semaines, mais je n'ai vérifié aucune nouvelle qui affaiblisse le récit IA ; je garde mes convictions.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "NVDA", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "suisse": {
+      "decision": "rien",
+      "resume": "Rotation faible : Nestlé et Novartis restent de bonnes valeurs de qualité, rien ne justifie de payer des frais.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "NESN.SW", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "contrarien": {
+      "decision": "rien",
+      "resume": "Je n'ai vérifié aucune grande entreprise avec une baisse d'environ 10 % sans raison grave ; je reste en cash.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "ABBN.SW", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "momentum": {
+      "decision": "rien",
+      "resume": "LLY monte depuis une semaine et reste proche de son prix d'achat, loin du seuil de coupe d'environ −7 % ; je garde.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "LLY", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "defensif": {
+      "decision": "rien",
+      "resume": "Le portefeuille (or et Procter & Gamble) est stable ; le Défensif bouge peu.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "GLD", "direction": "hausse", "horizon_jours": 10 }
+    }
+  },
+  "incertitudes": [
+    "Je n'ai pas trouvé de brief de marché fiable daté de ce matin (une seule recherche, sans résultat daté du jour).",
+    "Agenda du jour (résultats d'entreprises, banques centrales, chiffres macro) non vérifié.",
+    "Aucune nouvelle d'entreprise vérifiée sur NVDA, COIN ou MSTR."
+  ]
+}

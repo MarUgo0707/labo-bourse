@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-12",
+  "genere_le": "2026-11-12T06:06:52Z",
+  "graine": "20261028-2026-11-12",
+  "mode_test": false,
+  "ordres": [
+    {
+      "action": "vendre",
+      "ticker": "GOOGL",
+      "nom": "Alphabet",
+      "secteur": "Communication",
+      "pays": "États-Unis",
+      "tout": true,
+      "montant_chf": 66.49,
+      "raison": "Tirage au sort : vente de toute la position.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    }
+  ]
+}
