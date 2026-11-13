@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-13",
+  "mode_test": false,
+  "horodatage_validation": "2026-11-13T06:06:52Z",
+  "session_ia": "ok",
+  "ordres": [
+    {
+      "portefeuille": "singe",
+      "auteur": "script",
+      "action": "vendre",
+      "sens": "vente",
+      "ticker": "SIKA.SW",
+      "nom": "Sika",
+      "secteur": "Matériaux",
+      "pays": "Suisse",
+      "montant_chf": 77.22,
+      "tout": true,
+      "raison": "Tirage au sort : vente de toute la position.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)",
+      "marche": "CH",
+      "devise": "CHF",
+      "prix_estime": 194.25,
+      "date_prix_estime": "2026-11-11",
+      "taux_estime": 1.0,
+      "frais_estimes_chf": 1.0,
+      "statut": "accepté",
+      "motif": ""
+    },
+    {
+      "portefeuille": "singe",
+      "auteur": "script",
+      "action": "acheter",
+      "sens": "achat",
+      "ticker": "ENEL.MI",
+      "nom": "Enel",
+      "secteur": "Services publics",
+      "pays": "Italie",
+      "montant_chf": 88.95,
+      "tout": false,
+      "raison": "Tirage au sort : achat d'un titre au hasard.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)",
+      "marche": "EU",
+      "devise": "EUR",
+      "prix_estime": 9.852,
+      "date_prix_estime": "2026-11-11",
+      "taux_estime": 0.92337,
+      "frais_estimes_chf": 1.44,
+      "statut": "accepté",
+      "motif": ""
+    }
+  ],
+  "resume": {
+    "acceptes": 2,
+    "rejetes": 0
+  }
+}

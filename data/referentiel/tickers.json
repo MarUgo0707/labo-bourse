@@ -23,6 +23,12 @@
     "nom_yahoo": "Coinbase Global, Inc.",
     "marche": "US"
   },
+  "ENEL.MI": {
+    "devise": "EUR",
+    "type": "EQUITY",
+    "nom_yahoo": "Enel SpA",
+    "marche": "EU"
+  },
   "GLD": {
     "devise": "USD",
     "type": "ETF",

@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-13",
+  "heure_session": "08:05",
+  "brief_marche": "À la clôture d'hier, le SMI a gagné 0,63 %, le DAX 0,41 % et l'Euro Stoxx 50 0,09 %, alors que Wall Street a reculé (S&P 500 −0,35 %, Nasdaq −0,39 %). Le VIX, indice de la peur, est monté à 18,7. L'or a perdu 2,88 % et le dollar a pris 0,9 % face au franc. Ma recherche web n'a donné aucun compte rendu fiable daté de ce matin : je n'ai donc aucune nouvelle vérifiée pour justifier un ordre.",
+  "points_cles": [
+    "SMI +0,6 % hier ; Wall Street en légère baisse (S&P 500 −0,35 %)",
+    "VIX en hausse à 18,7 ; or −2,9 %, dollar +0,9 % face au franc",
+    "Journée sans ordre : aucune nouvelle vérifiée ce matin"
+  ],
+  "sources": [],
+  "portefeuilles": {
+    "patient": {
+      "decision": "rien",
+      "resume": "Le Patient est investi à plus de 96 % dans VT et ACWI ; il ne bouge plus et ne réagit pas aux nouvelles.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "VT", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "journaliste": {
+      "decision": "rien",
+      "resume": "Je n'ai trouvé aucune nouvelle concrète, récente et vérifiable ce matin ; sans nouvelle citée, pas d'ordre. Je reste en cash.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "MSFT", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "risque": {
+      "decision": "rien",
+      "resume": "COIN et MSTR continuent de baisser avec la crypto, mais je n'ai vérifié aucun fait qui annule la raison de l'achat ; je garde et j'évite des frais.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "COIN", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "ia": {
+      "decision": "rien",
+      "resume": "NVDA a perdu près de 19 % en deux semaines, mais je n'ai vérifié aucune nouvelle qui affaiblisse le récit IA ; je garde mes convictions.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "NVDA", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "suisse": {
+      "decision": "rien",
+      "resume": "Rotation faible : Nestlé et Novartis restent des valeurs de qualité ; rien ne justifie de payer des frais.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "NESN.SW", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "contrarien": {
+      "decision": "rien",
+      "resume": "Je n'ai pas pu vérifier qu'une grande entreprise solide ait chuté d'environ 10 % sans raison grave (NVDA a beaucoup baissé, mais la cause n'est pas vérifiée) ; je reste en cash.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "ABBN.SW", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "momentum": {
+      "decision": "rien",
+      "resume": "LLY est proche de son prix d'achat (−1 %), loin du seuil de coupe d'environ −7 %, et sa tendance sur deux semaines reste correcte ; je garde.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "LLY", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "defensif": {
+      "decision": "rien",
+      "resume": "L'or a reculé (GLD −1,7 % depuis l'achat) mais rien n'indique une volatilité anormale ; le Défensif bouge peu.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "GLD", "direction": "hausse", "horizon_jours": 10 }
+    }
+  },
+  "incertitudes": [
+    "Aucun compte rendu de marché daté de ce matin trouvé ; le brief repose sur les clôtures d'hier.",
+    "Cause de la baisse de NVDA, de l'or et des valeurs crypto non vérifiée."
+  ]
+}
