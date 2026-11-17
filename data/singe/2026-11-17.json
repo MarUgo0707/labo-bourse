@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-17",
+  "genere_le": "2026-11-17T06:06:54Z",
+  "graine": "20261028-2026-11-17",
+  "mode_test": false,
+  "ordres": [
+    {
+      "action": "vendre",
+      "ticker": "ENEL.MI",
+      "nom": "Enel",
+      "secteur": "Services publics",
+      "pays": "Italie",
+      "tout": true,
+      "montant_chf": 87.25,
+      "raison": "Tirage au sort : vente de toute la position.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    }
+  ]
+}

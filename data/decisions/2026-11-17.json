@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-17",
+  "heure_session": "08:00",
+  "brief_marche": "Wall Street a fortement chuté hier (S&P 500 -1,92 %, Nasdaq -2,49 %) et l'indice de la peur (VIX) a bondi à 22,9. L'Europe a baissé plus légèrement, alors que la Suisse a progressé (+0,57 %). Les valeurs technologiques et liées à l'IA sont sous pression depuis début novembre ; une source signale la démission du patron de Nvidia, sans recoupement. L'or recule un peu.",
+  "points_cles": [
+    "Forte baisse de la tech américaine hier (Nasdaq -2,5 %)",
+    "L'indice de la peur (VIX) monte à 22,9",
+    "Séance prudente : aucun ordre pour les huit portefeuilles"
+  ],
+  "sources": [
+    { "titre": "Nvidia shares tumble as Wall Street reacts to Huang's exit (SF Standard)", "url": "https://sfstandard.com/2026/11/12/nvidia-shares-tumble-as-wall-street-reacts-huang-s-exit/" },
+    { "titre": "Nvidia slides into the red for 2026 as AI selloff intensifies", "url": "https://www.roic.ai/news/nvidia-slides-into-the-red-for-2026-as-ai-selloff-intensifies-11-05-2026" }
+  ],
+  "portefeuilles": {
+    "patient": {
+      "decision": "rien",
+      "resume": "Je ne touche à rien : le Patient garde VT et ACWI sans réagir aux nouvelles, aucun écart de plus de 10 points avec la cible.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "VT", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "journaliste": {
+      "decision": "rien",
+      "resume": "Aucune nouvelle concrète et vérifiée ce matin ne justifie un ordre ; la baisse de Nvidia repose sur une source unique que je n'ai pas pu recouper.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "MSFT", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "risque": {
+      "decision": "rien",
+      "resume": "Je garde COIN et MSTR malgré la chute : je n'ai pas vérifié de raison qui invaliderait l'achat, et le cash restant (7 CHF) ne permet rien d'utile.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "COIN", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "ia": {
+      "decision": "rien",
+      "resume": "Je garde NVDA et TSM. Le départ annoncé du patron de Nvidia (source unique, non recoupée) inquiète, mais je ne vends pas sur une information non vérifiée.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "NVDA", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "suisse": {
+      "decision": "rien",
+      "resume": "Rien à faire : Nestlé et Novartis tiennent bien, la rotation doit rester faible.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "NESN.SW", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "contrarien": {
+      "decision": "rien",
+      "resume": "Pas d'achat : NVDA a beaucoup baissé mais avec une raison possiblement grave (départ du patron) ; MSTR et COIN sont spéculatives, pas des entreprises solides.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "ABBN.SW", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "momentum": {
+      "decision": "rien",
+      "resume": "Je garde LLY (-0,14 %, loin du seuil de coupure de -7 %). Avec un marché en forte baisse, aucune nouvelle tendance haussière nette à acheter.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "LLY", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "defensif": {
+      "decision": "rien",
+      "resume": "Je ne bouge pas : GLD et PG correspondent au profil, et un ordre coûterait des frais sans raison.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "GLD", "direction": "hausse", "horizon_jours": 10 }
+    }
+  },
+  "incertitudes": [
+    "Démission du patron de Nvidia : source unique, non recoupée.",
+    "Je n'ai pas trouvé de bilan de marché daté d'aujourd'hui ni d'agenda détaillé (résultats d'entreprises, banques centrales)."
+  ]
+}

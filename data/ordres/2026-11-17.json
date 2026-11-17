@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-17",
+  "mode_test": false,
+  "horodatage_validation": "2026-11-17T06:06:54Z",
+  "session_ia": "ok",
+  "ordres": [
+    {
+      "portefeuille": "singe",
+      "auteur": "script",
+      "action": "vendre",
+      "sens": "vente",
+      "ticker": "ENEL.MI",
+      "nom": "Enel",
+      "secteur": "Services publics",
+      "pays": "Italie",
+      "montant_chf": 87.25,
+      "tout": true,
+      "raison": "Tirage au sort : vente de toute la position.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)",
+      "marche": "EU",
+      "devise": "EUR",
+      "prix_estime": 9.955,
+      "date_prix_estime": "2026-11-13",
+      "taux_estime": 0.92507,
+      "frais_estimes_chf": 1.44,
+      "statut": "accepté",
+      "motif": ""
+    }
+  ],
+  "resume": {
+    "acceptes": 1,
+    "rejetes": 0
+  }
+}
