@@ -1,29 +1,29 @@
 {
-  "genere_le": "2026-11-17T21:46:05Z",
+  "genere_le": "2026-11-18T21:46:07Z",
   "provisoire": true,
   "periode": {
     "debut": "2026-10-28",
     "fin": "2026-11-27",
     "nb_jours": 23,
-    "seances_cloturees": 15
+    "seances_cloturees": 16
   },
   "classement": [
     {
       "id": "defensif",
-      "valeur_chf": 203.27,
-      "performance_pct": 1.64,
-      "volatilite_pct": 0.828,
-      "pire_chute_pct": -1.52,
-      "ratio_rendement_risque": 0.135,
+      "valeur_chf": 200.57,
+      "performance_pct": 0.29,
+      "volatilite_pct": 0.874,
+      "pire_chute_pct": -1.62,
+      "ratio_rendement_risque": 0.025,
       "taux_gagnants_pct": 50.0,
       "nb_titres": 2,
       "nb_ordres": 2,
       "nb_annules": 2,
       "frais_chf": 2.75,
       "poids_frais_pct": 1.38,
-      "performance_sans_frais_pct": 3.01,
-      "ecart_patient_pts": 4.09,
-      "ecart_singe_pts": 6.8
+      "performance_sans_frais_pct": 1.66,
+      "ecart_patient_pts": 2.88,
+      "ecart_singe_pts": 6.54
     },
     {
       "id": "journaliste",
@@ -39,8 +39,8 @@
       "frais_chf": 0.0,
       "poids_frais_pct": 0.0,
       "performance_sans_frais_pct": 0.0,
-      "ecart_patient_pts": 2.45,
-      "ecart_singe_pts": 5.16
+      "ecart_patient_pts": 2.59,
+      "ecart_singe_pts": 6.25
     },
     {
       "id": "contrarien",
@@ -56,110 +56,110 @@
       "frais_chf": 0.0,
       "poids_frais_pct": 0.0,
       "performance_sans_frais_pct": 0.0,
-      "ecart_patient_pts": 2.45,
-      "ecart_singe_pts": 5.16
+      "ecart_patient_pts": 2.59,
+      "ecart_singe_pts": 6.25
     },
     {
       "id": "suisse",
-      "valeur_chf": 199.79,
-      "performance_pct": -0.1,
-      "volatilite_pct": 0.684,
-      "pire_chute_pct": -1.54,
-      "ratio_rendement_risque": -0.007,
+      "valeur_chf": 198.26,
+      "performance_pct": -0.87,
+      "volatilite_pct": 0.687,
+      "pire_chute_pct": -1.97,
+      "ratio_rendement_risque": -0.076,
       "taux_gagnants_pct": 50.0,
       "nb_titres": 2,
       "nb_ordres": 2,
       "nb_annules": 0,
       "frais_chf": 2.0,
       "poids_frais_pct": 1.0,
-      "performance_sans_frais_pct": 0.89,
-      "ecart_patient_pts": 2.35,
-      "ecart_singe_pts": 5.06
+      "performance_sans_frais_pct": 0.13,
+      "ecart_patient_pts": 1.72,
+      "ecart_singe_pts": 5.38
     },
     {
       "id": "momentum",
-      "valeur_chf": 199.08,
-      "performance_pct": -0.46,
-      "volatilite_pct": 0.211,
-      "pire_chute_pct": -0.68,
-      "ratio_rendement_risque": -0.144,
+      "valeur_chf": 197.57,
+      "performance_pct": -1.21,
+      "volatilite_pct": 0.27,
+      "pire_chute_pct": -1.43,
+      "ratio_rendement_risque": -0.281,
       "taux_gagnants_pct": 0.0,
       "nb_titres": 1,
       "nb_ordres": 1,
       "nb_annules": 0,
       "frais_chf": 1.38,
       "poids_frais_pct": 0.69,
-      "performance_sans_frais_pct": 0.23,
-      "ecart_patient_pts": 1.99,
-      "ecart_singe_pts": 4.7
+      "performance_sans_frais_pct": -0.53,
+      "ecart_patient_pts": 1.38,
+      "ecart_singe_pts": 5.04
     },
     {
       "id": "patient",
-      "valeur_chf": 195.09,
-      "performance_pct": -2.45,
-      "volatilite_pct": 1.543,
+      "valeur_chf": 194.82,
+      "performance_pct": -2.59,
+      "volatilite_pct": 1.494,
       "pire_chute_pct": -4.61,
-      "ratio_rendement_risque": -0.1,
+      "ratio_rendement_risque": -0.102,
       "taux_gagnants_pct": 0.0,
       "nb_titres": 2,
       "nb_ordres": 2,
       "nb_annules": 2,
       "frais_chf": 2.95,
       "poids_frais_pct": 1.48,
-      "performance_sans_frais_pct": -0.98,
+      "performance_sans_frais_pct": -1.12,
       "ecart_patient_pts": 0.0,
-      "ecart_singe_pts": 2.71
+      "ecart_singe_pts": 3.66
     },
     {
       "id": "singe",
-      "valeur_chf": 189.67,
-      "performance_pct": -5.16,
-      "volatilite_pct": 1.244,
-      "pire_chute_pct": -5.16,
-      "ratio_rendement_risque": -0.277,
-      "taux_gagnants_pct": 16.7,
-      "nb_titres": 6,
-      "nb_ordres": 12,
+      "valeur_chf": 187.5,
+      "performance_pct": -6.25,
+      "volatilite_pct": 1.22,
+      "pire_chute_pct": -6.25,
+      "ratio_rendement_risque": -0.324,
+      "taux_gagnants_pct": 14.3,
+      "nb_titres": 7,
+      "nb_ordres": 13,
       "nb_annules": 6,
-      "frais_chf": 14.71,
-      "poids_frais_pct": 7.36,
-      "performance_sans_frais_pct": 2.19,
-      "ecart_patient_pts": -2.71,
+      "frais_chf": 15.71,
+      "poids_frais_pct": 7.86,
+      "performance_sans_frais_pct": 1.61,
+      "ecart_patient_pts": -3.66,
       "ecart_singe_pts": 0.0
     },
     {
       "id": "ia",
-      "valeur_chf": 171.97,
-      "performance_pct": -14.02,
-      "volatilite_pct": 2.762,
-      "pire_chute_pct": -14.02,
-      "ratio_rendement_risque": -0.349,
+      "valeur_chf": 171.26,
+      "performance_pct": -14.37,
+      "volatilite_pct": 2.678,
+      "pire_chute_pct": -14.37,
+      "ratio_rendement_risque": -0.347,
       "taux_gagnants_pct": 0.0,
       "nb_titres": 2,
       "nb_ordres": 2,
       "nb_annules": 2,
       "frais_chf": 2.76,
       "poids_frais_pct": 1.38,
-      "performance_sans_frais_pct": -12.64,
-      "ecart_patient_pts": -11.57,
-      "ecart_singe_pts": -8.86
+      "performance_sans_frais_pct": -12.99,
+      "ecart_patient_pts": -11.78,
+      "ecart_singe_pts": -8.12
     },
     {
       "id": "risque",
-      "valeur_chf": 158.05,
-      "performance_pct": -20.97,
-      "volatilite_pct": 3.724,
-      "pire_chute_pct": -25.26,
-      "ratio_rendement_risque": -0.399,
+      "valeur_chf": 150.83,
+      "performance_pct": -24.58,
+      "volatilite_pct": 3.682,
+      "pire_chute_pct": -28.67,
+      "ratio_rendement_risque": -0.456,
       "taux_gagnants_pct": 0.0,
       "nb_titres": 2,
       "nb_ordres": 2,
       "nb_annules": 2,
       "frais_chf": 2.96,
       "poids_frais_pct": 1.48,
-      "performance_sans_frais_pct": -19.49,
-      "ecart_patient_pts": -18.52,
-      "ecart_singe_pts": -15.81
+      "performance_sans_frais_pct": -23.1,
+      "ecart_patient_pts": -21.99,
+      "ecart_singe_pts": -18.33
     }
   ],
   "secteurs": [
@@ -173,30 +173,9 @@
     {
       "secteur": "Consommation de base",
       "investi_chf": 197.56,
-      "resultat_chf": 2.34,
+      "resultat_chf": 1.36,
       "nb_titres": 3,
-      "resultat_pct": 1.18
-    },
-    {
-      "secteur": "Or et métaux précieux",
-      "investi_chf": 81.4,
-      "resultat_chf": -1.41,
-      "nb_titres": 1,
-      "resultat_pct": -1.73
-    },
-    {
-      "secteur": "Santé",
-      "investi_chf": 213.58,
-      "resultat_chf": -5.22,
-      "nb_titres": 3,
-      "resultat_pct": -2.44
-    },
-    {
-      "secteur": "ETF diversifié",
-      "investi_chf": 192.95,
-      "resultat_chf": -4.91,
-      "nb_titres": 2,
-      "resultat_pct": -2.54
+      "resultat_pct": 0.69
     },
     {
       "secteur": "Communication",
@@ -206,11 +185,39 @@
       "resultat_pct": -2.61
     },
     {
+      "secteur": "ETF diversifié",
+      "investi_chf": 192.95,
+      "resultat_chf": -5.18,
+      "nb_titres": 2,
+      "resultat_pct": -2.68
+    },
+    {
+      "secteur": "Finance",
+      "investi_chf": 66.51,
+      "resultat_chf": -2.17,
+      "nb_titres": 1,
+      "resultat_pct": -3.26
+    },
+    {
+      "secteur": "Santé",
+      "investi_chf": 213.58,
+      "resultat_chf": -7.67,
+      "nb_titres": 3,
+      "resultat_pct": -3.59
+    },
+    {
       "secteur": "Consommation discrétionnaire",
       "investi_chf": 28.79,
       "resultat_chf": -1.11,
       "nb_titres": 1,
       "resultat_pct": -3.86
+    },
+    {
+      "secteur": "Or et métaux précieux",
+      "investi_chf": 81.4,
+      "resultat_chf": -3.72,
+      "nb_titres": 1,
+      "resultat_pct": -4.57
     },
     {
       "secteur": "Services publics",
@@ -222,16 +229,16 @@
     {
       "secteur": "Semi-conducteurs",
       "investi_chf": 152.76,
-      "resultat_chf": -28.03,
+      "resultat_chf": -28.74,
       "nb_titres": 2,
-      "resultat_pct": -18.35
+      "resultat_pct": -18.81
     },
     {
       "secteur": "Crypto",
       "investi_chf": 192.96,
-      "resultat_chf": -41.95,
+      "resultat_chf": -49.17,
       "nb_titres": 2,
-      "resultat_pct": -21.74
+      "resultat_pct": -25.48
     }
   ],
   "titres": [
@@ -255,27 +262,27 @@
       "nom": "Nestlé",
       "secteur": "Consommation de base",
       "investi_chf": 71.0,
-      "resultat_chf": 1.49,
+      "resultat_chf": 0.9,
       "par": [
         {
           "portefeuille": "suisse",
           "investi_chf": 71.0,
-          "resultat_chf": 1.49
+          "resultat_chf": 0.9
         }
       ],
-      "resultat_pct": 2.1
+      "resultat_pct": 1.27
     },
     {
       "ticker": "PG",
       "nom": "Procter & Gamble",
       "secteur": "Consommation de base",
       "investi_chf": 126.56,
-      "resultat_chf": 0.85,
+      "resultat_chf": 0.46,
       "par": [
         {
           "portefeuille": "defensif",
           "investi_chf": 71.35,
-          "resultat_chf": 4.68
+          "resultat_chf": 4.29
         },
         {
           "portefeuille": "singe",
@@ -283,22 +290,7 @@
           "resultat_chf": -3.8335
         }
       ],
-      "resultat_pct": 0.67
-    },
-    {
-      "ticker": "LLY",
-      "nom": "Eli Lilly and Company",
-      "secteur": "Santé",
-      "investi_chf": 76.38,
-      "resultat_chf": -0.92,
-      "par": [
-        {
-          "portefeuille": "momentum",
-          "investi_chf": 76.38,
-          "resultat_chf": -0.92
-        }
-      ],
-      "resultat_pct": -1.2
+      "resultat_pct": 0.36
     },
     {
       "ticker": "CFR.SW",
@@ -316,36 +308,6 @@
       "resultat_pct": -3.86
     },
     {
-      "ticker": "GLD",
-      "nom": "SPDR Gold Shares",
-      "secteur": "Or et métaux précieux",
-      "investi_chf": 81.4,
-      "resultat_chf": -1.41,
-      "par": [
-        {
-          "portefeuille": "defensif",
-          "investi_chf": 81.4,
-          "resultat_chf": -1.41
-        }
-      ],
-      "resultat_pct": -1.73
-    },
-    {
-      "ticker": "NOVN.SW",
-      "nom": "Novartis",
-      "secteur": "Santé",
-      "investi_chf": 71.0,
-      "resultat_chf": -1.7,
-      "par": [
-        {
-          "portefeuille": "suisse",
-          "investi_chf": 71.0,
-          "resultat_chf": -1.7
-        }
-      ],
-      "resultat_pct": -2.39
-    },
-    {
       "ticker": "GOOGL",
       "nom": "Alphabet",
       "secteur": "Communication",
@@ -361,19 +323,49 @@
       "resultat_pct": -2.61
     },
     {
+      "ticker": "UBSG.SW",
+      "nom": "UBS",
+      "secteur": "Finance",
+      "investi_chf": 66.51,
+      "resultat_chf": -2.17,
+      "par": [
+        {
+          "portefeuille": "singe",
+          "investi_chf": 66.51,
+          "resultat_chf": -2.17
+        }
+      ],
+      "resultat_pct": -3.26
+    },
+    {
       "ticker": "ACWI",
       "nom": "iShares MSCI ACWI ETF",
       "secteur": "ETF diversifié",
       "investi_chf": 76.38,
-      "resultat_chf": -2.19,
+      "resultat_chf": -2.28,
       "par": [
         {
           "portefeuille": "patient",
           "investi_chf": 76.38,
-          "resultat_chf": -2.19
+          "resultat_chf": -2.28
         }
       ],
-      "resultat_pct": -2.87
+      "resultat_pct": -2.99
+    },
+    {
+      "ticker": "LLY",
+      "nom": "Eli Lilly and Company",
+      "secteur": "Santé",
+      "investi_chf": 76.38,
+      "resultat_chf": -2.43,
+      "par": [
+        {
+          "portefeuille": "momentum",
+          "investi_chf": 76.38,
+          "resultat_chf": -2.43
+        }
+      ],
+      "resultat_pct": -3.18
     },
     {
       "ticker": "JNJ",
@@ -391,19 +383,49 @@
       "resultat_pct": -3.93
     },
     {
+      "ticker": "NOVN.SW",
+      "nom": "Novartis",
+      "secteur": "Santé",
+      "investi_chf": 71.0,
+      "resultat_chf": -2.64,
+      "par": [
+        {
+          "portefeuille": "suisse",
+          "investi_chf": 71.0,
+          "resultat_chf": -2.64
+        }
+      ],
+      "resultat_pct": -3.72
+    },
+    {
       "ticker": "VT",
       "nom": "Vanguard Total World Stock ETF",
       "secteur": "ETF diversifié",
       "investi_chf": 116.57,
-      "resultat_chf": -2.72,
+      "resultat_chf": -2.9,
       "par": [
         {
           "portefeuille": "patient",
           "investi_chf": 116.57,
-          "resultat_chf": -2.72
+          "resultat_chf": -2.9
         }
       ],
-      "resultat_pct": -2.33
+      "resultat_pct": -2.49
+    },
+    {
+      "ticker": "GLD",
+      "nom": "SPDR Gold Shares",
+      "secteur": "Or et métaux précieux",
+      "investi_chf": 81.4,
+      "resultat_chf": -3.72,
+      "par": [
+        {
+          "portefeuille": "defensif",
+          "investi_chf": 81.4,
+          "resultat_chf": -3.72
+        }
+      ],
+      "resultat_pct": -4.57
     },
     {
       "ticker": "ENEL.MI",
@@ -425,60 +447,60 @@
       "nom": "Taiwan Semiconductor Manufacturing",
       "secteur": "Semi-conducteurs",
       "investi_chf": 76.38,
-      "resultat_chf": -9.28,
+      "resultat_chf": -8.51,
       "par": [
         {
           "portefeuille": "ia",
           "investi_chf": 76.38,
-          "resultat_chf": -9.28
+          "resultat_chf": -8.51
         }
       ],
-      "resultat_pct": -12.15
+      "resultat_pct": -11.14
     },
     {
       "ticker": "COIN",
       "nom": "Coinbase Global",
       "secteur": "Crypto",
       "investi_chf": 96.48,
-      "resultat_chf": -16.67,
+      "resultat_chf": -19.55,
       "par": [
         {
           "portefeuille": "risque",
           "investi_chf": 96.48,
-          "resultat_chf": -16.67
+          "resultat_chf": -19.55
         }
       ],
-      "resultat_pct": -17.28
+      "resultat_pct": -20.26
     },
     {
       "ticker": "NVDA",
       "nom": "NVIDIA",
       "secteur": "Semi-conducteurs",
       "investi_chf": 76.38,
-      "resultat_chf": -18.75,
+      "resultat_chf": -20.23,
       "par": [
         {
           "portefeuille": "ia",
           "investi_chf": 76.38,
-          "resultat_chf": -18.75
+          "resultat_chf": -20.23
         }
       ],
-      "resultat_pct": -24.55
+      "resultat_pct": -26.49
     },
     {
       "ticker": "MSTR",
       "nom": "Strategy Inc",
       "secteur": "Crypto",
       "investi_chf": 96.48,
-      "resultat_chf": -25.28,
+      "resultat_chf": -29.62,
       "par": [
         {
           "portefeuille": "risque",
           "investi_chf": 96.48,
-          "resultat_chf": -25.28
+          "resultat_chf": -29.62
         }
       ],
-      "resultat_pct": -26.2
+      "resultat_pct": -30.7
     }
   ],
   "meilleurs_paris": [
@@ -487,8 +509,8 @@
       "ticker": "PG",
       "nom": "Procter & Gamble",
       "investi_chf": 71.35,
-      "resultat_chf": 4.68,
-      "resultat_pct": 6.56
+      "resultat_chf": 4.29,
+      "resultat_pct": 6.01
     },
     {
       "portefeuille": "singe",
@@ -503,24 +525,24 @@
       "ticker": "NESN.SW",
       "nom": "Nestlé",
       "investi_chf": 71.0,
-      "resultat_chf": 1.49,
-      "resultat_pct": 2.1
+      "resultat_chf": 0.9,
+      "resultat_pct": 1.27
     },
     {
-      "portefeuille": "momentum",
-      "ticker": "LLY",
-      "nom": "Eli Lilly and Company",
-      "investi_chf": 76.38,
-      "resultat_chf": -0.92,
-      "resultat_pct": -1.2
+      "portefeuille": "patient",
+      "ticker": "VT",
+      "nom": "Vanguard Total World Stock ETF",
+      "investi_chf": 116.57,
+      "resultat_chf": -2.9,
+      "resultat_pct": -2.49
     },
     {
-      "portefeuille": "defensif",
-      "ticker": "GLD",
-      "nom": "SPDR Gold Shares",
-      "investi_chf": 81.4,
-      "resultat_chf": -1.41,
-      "resultat_pct": -1.73
+      "portefeuille": "singe",
+      "ticker": "GOOGL",
+      "nom": "Alphabet",
+      "investi_chf": 67.12,
+      "resultat_chf": -1.7503,
+      "resultat_pct": -2.61
     }
   ],
   "pires_paris": [
@@ -529,32 +551,32 @@
       "ticker": "MSTR",
       "nom": "Strategy Inc",
       "investi_chf": 96.48,
-      "resultat_chf": -25.28,
-      "resultat_pct": -26.2
+      "resultat_chf": -29.62,
+      "resultat_pct": -30.7
     },
     {
       "portefeuille": "ia",
       "ticker": "NVDA",
       "nom": "NVIDIA",
       "investi_chf": 76.38,
-      "resultat_chf": -18.75,
-      "resultat_pct": -24.55
+      "resultat_chf": -20.23,
+      "resultat_pct": -26.49
     },
     {
       "portefeuille": "risque",
       "ticker": "COIN",
       "nom": "Coinbase Global",
       "investi_chf": 96.48,
-      "resultat_chf": -16.67,
-      "resultat_pct": -17.28
+      "resultat_chf": -19.55,
+      "resultat_pct": -20.26
     },
     {
       "portefeuille": "ia",
       "ticker": "TSM",
       "nom": "Taiwan Semiconductor Manufacturing",
       "investi_chf": 76.38,
-      "resultat_chf": -9.28,
-      "resultat_pct": -12.15
+      "resultat_chf": -8.51,
+      "resultat_pct": -11.14
     },
     {
       "portefeuille": "singe",
@@ -1101,9 +1123,9 @@
       "ticker": "VT",
       "direction": "hausse",
       "horizon_jours": 10,
-      "verdict": "en cours",
-      "variation_pct": -4.54,
-      "date_fin": "2026-11-17"
+      "verdict": "fausse",
+      "variation_pct": -4.99,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-05",
@@ -1123,9 +1145,9 @@
       "ticker": "COIN",
       "direction": "hausse",
       "horizon_jours": 10,
-      "verdict": "en cours",
-      "variation_pct": -24.08,
-      "date_fin": "2026-11-17"
+      "verdict": "fausse",
+      "variation_pct": -27.06,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-05",
@@ -1134,9 +1156,9 @@
       "ticker": "NVDA",
       "direction": "hausse",
       "horizon_jours": 10,
-      "verdict": "en cours",
-      "variation_pct": -22.32,
-      "date_fin": "2026-11-17"
+      "verdict": "fausse",
+      "variation_pct": -24.57,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-05",
@@ -1178,9 +1200,9 @@
       "ticker": "GLD",
       "direction": "hausse",
       "horizon_jours": 10,
-      "verdict": "en cours",
-      "variation_pct": -5.37,
-      "date_fin": "2026-11-17"
+      "verdict": "fausse",
+      "variation_pct": -8.4,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-06",
@@ -1190,8 +1212,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": -0.48,
-      "date_fin": "2026-11-17"
+      "variation_pct": -0.96,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-06",
@@ -1212,8 +1234,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": -15.93,
-      "date_fin": "2026-11-17"
+      "variation_pct": -19.23,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-06",
@@ -1223,8 +1245,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": -14.39,
-      "date_fin": "2026-11-17"
+      "variation_pct": -16.87,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-06",
@@ -1267,8 +1289,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": -6.13,
-      "date_fin": "2026-11-17"
+      "variation_pct": -9.13,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-09",
@@ -1278,8 +1300,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": -0.71,
-      "date_fin": "2026-11-17"
+      "variation_pct": -1.19,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-09",
@@ -1300,8 +1322,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": -14.65,
-      "date_fin": "2026-11-17"
+      "variation_pct": -17.99,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-09",
@@ -1311,8 +1333,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": -16.71,
-      "date_fin": "2026-11-17"
+      "variation_pct": -19.12,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-09",
@@ -1355,8 +1377,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": -5.38,
-      "date_fin": "2026-11-17"
+      "variation_pct": -8.41,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-10",
@@ -1366,8 +1388,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": -3.23,
-      "date_fin": "2026-11-17"
+      "variation_pct": -3.69,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-10",
@@ -1388,8 +1410,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": -15.49,
-      "date_fin": "2026-11-17"
+      "variation_pct": -18.8,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-10",
@@ -1399,8 +1421,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": -12.99,
-      "date_fin": "2026-11-17"
+      "variation_pct": -15.51,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-10",
@@ -1443,8 +1465,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": -7.13,
-      "date_fin": "2026-11-17"
+      "variation_pct": -10.1,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-11",
@@ -1454,8 +1476,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": -2.77,
-      "date_fin": "2026-11-17"
+      "variation_pct": -3.23,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-11",
@@ -1476,8 +1498,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": -12.95,
-      "date_fin": "2026-11-17"
+      "variation_pct": -16.36,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-11",
@@ -1487,8 +1509,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": -7.95,
-      "date_fin": "2026-11-17"
+      "variation_pct": -10.62,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-11",
@@ -1531,8 +1553,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": -4.57,
-      "date_fin": "2026-11-17"
+      "variation_pct": -7.63,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-12",
@@ -1542,8 +1564,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": -3.87,
-      "date_fin": "2026-11-17"
+      "variation_pct": -4.33,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-12",
@@ -1552,9 +1574,9 @@
       "ticker": "MSFT",
       "direction": "hausse",
       "horizon_jours": 5,
-      "verdict": "en cours",
-      "variation_pct": -2.86,
-      "date_fin": "2026-11-17"
+      "verdict": "fausse",
+      "variation_pct": -2.46,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-12",
@@ -1564,8 +1586,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": -15.59,
-      "date_fin": "2026-11-17"
+      "variation_pct": -18.9,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-12",
@@ -1575,8 +1597,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": -10.52,
-      "date_fin": "2026-11-17"
+      "variation_pct": -13.11,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-12",
@@ -1585,9 +1607,9 @@
       "ticker": "NESN.SW",
       "direction": "hausse",
       "horizon_jours": 5,
-      "verdict": "en cours",
-      "variation_pct": 0.95,
-      "date_fin": "2026-11-17"
+      "verdict": "juste",
+      "variation_pct": 0.14,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-12",
@@ -1596,9 +1618,9 @@
       "ticker": "ABBN.SW",
       "direction": "hausse",
       "horizon_jours": 5,
-      "verdict": "en cours",
-      "variation_pct": -3.79,
-      "date_fin": "2026-11-17"
+      "verdict": "fausse",
+      "variation_pct": -3.85,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-12",
@@ -1607,9 +1629,9 @@
       "ticker": "LLY",
       "direction": "hausse",
       "horizon_jours": 5,
-      "verdict": "en cours",
-      "variation_pct": -1.51,
-      "date_fin": "2026-11-17"
+      "verdict": "fausse",
+      "variation_pct": -3.79,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-12",
@@ -1619,8 +1641,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": -3.48,
-      "date_fin": "2026-11-17"
+      "variation_pct": -6.57,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-13",
@@ -1630,8 +1652,8 @@
       "direction": "hausse",
       "horizon_jours": 10,
       "verdict": "en cours",
-      "variation_pct": -3.27,
-      "date_fin": "2026-11-17"
+      "variation_pct": -3.74,
+      "date_fin": "2026-11-18"
     },
     {
       "date": "2026-11-13",
@@ -1640,258 +1662,346 @@
       "ticker": "MSFT",
       "direction": "hausse",
       "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": -2.81,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-13",
+      "portefeuille": "risque",
+      "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "COIN",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
+      "variation_pct": -15.43,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-13",
+      "portefeuille": "ia",
+      "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "NVDA",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
+      "variation_pct": -9.16,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-13",
+      "portefeuille": "suisse",
+      "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.",
+      "ticker": "NESN.SW",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": -0.62,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-13",
+      "portefeuille": "contrarien",
+      "texte": "Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui.",
+      "ticker": "ABBN.SW",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": -3.46,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-13",
+      "portefeuille": "momentum",
+      "texte": "Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui.",
+      "ticker": "LLY",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": -3.12,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-13",
+      "portefeuille": "defensif",
+      "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "GLD",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
+      "variation_pct": -3.86,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-16",
+      "portefeuille": "patient",
+      "texte": "Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "VT",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
+      "variation_pct": -3.46,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-16",
+      "portefeuille": "journaliste",
+      "texte": "Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui.",
+      "ticker": "MSFT",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": -2.98,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-16",
+      "portefeuille": "risque",
+      "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "COIN",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
+      "variation_pct": -13.43,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-16",
+      "portefeuille": "ia",
+      "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "NVDA",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
+      "variation_pct": -7.3,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-16",
+      "portefeuille": "suisse",
+      "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.",
+      "ticker": "NESN.SW",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": -1.93,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-16",
+      "portefeuille": "contrarien",
+      "texte": "Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui.",
+      "ticker": "ABBN.SW",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": -2.83,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-16",
+      "portefeuille": "momentum",
+      "texte": "Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui.",
+      "ticker": "LLY",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": -4.21,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-16",
+      "portefeuille": "defensif",
+      "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "GLD",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
+      "variation_pct": -4.01,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-17",
+      "portefeuille": "patient",
+      "texte": "Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "VT",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
+      "variation_pct": -1.59,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-17",
+      "portefeuille": "journaliste",
+      "texte": "Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui.",
+      "ticker": "MSFT",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": -1.87,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-17",
+      "portefeuille": "risque",
+      "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "COIN",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
+      "variation_pct": -7.79,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-17",
+      "portefeuille": "ia",
+      "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "NVDA",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
+      "variation_pct": -3.32,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-17",
+      "portefeuille": "suisse",
+      "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.",
+      "ticker": "NESN.SW",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": -2.37,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-17",
+      "portefeuille": "contrarien",
+      "texte": "Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui.",
+      "ticker": "ABBN.SW",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": -1.79,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-17",
+      "portefeuille": "momentum",
+      "texte": "Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui.",
+      "ticker": "LLY",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": -3.42,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-17",
+      "portefeuille": "defensif",
+      "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "GLD",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
+      "variation_pct": -3.33,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-18",
+      "portefeuille": "patient",
+      "texte": "Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "VT",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
+      "variation_pct": -0.48,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-18",
+      "portefeuille": "journaliste",
+      "texte": "Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui.",
+      "ticker": "MSFT",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": 0.4,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-18",
+      "portefeuille": "risque",
+      "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "COIN",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
+      "variation_pct": -3.92,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-18",
+      "portefeuille": "ia",
+      "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "NVDA",
+      "direction": "hausse",
+      "horizon_jours": 10,
+      "verdict": "en cours",
+      "variation_pct": -2.89,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-18",
+      "portefeuille": "suisse",
+      "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.",
+      "ticker": "NESN.SW",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": -0.81,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-18",
+      "portefeuille": "contrarien",
+      "texte": "Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui.",
+      "ticker": "ABBN.SW",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": -0.06,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-18",
+      "portefeuille": "momentum",
+      "texte": "Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui.",
+      "ticker": "LLY",
+      "direction": "hausse",
+      "horizon_jours": 5,
+      "verdict": "en cours",
+      "variation_pct": -2.32,
+      "date_fin": "2026-11-18"
+    },
+    {
+      "date": "2026-11-18",
+      "portefeuille": "defensif",
+      "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.",
+      "ticker": "GLD",
+      "direction": "hausse",
+      "horizon_jours": 10,
       "verdict": "en cours",
       "variation_pct": -3.2,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-13",
-      "portefeuille": "risque",
-      "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.",
-      "ticker": "COIN",
-      "direction": "hausse",
-      "horizon_jours": 10,
-      "verdict": "en cours",
-      "variation_pct": -11.98,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-13",
-      "portefeuille": "ia",
-      "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.",
-      "ticker": "NVDA",
-      "direction": "hausse",
-      "horizon_jours": 10,
-      "verdict": "en cours",
-      "variation_pct": -6.46,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-13",
-      "portefeuille": "suisse",
-      "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.",
-      "ticker": "NESN.SW",
-      "direction": "hausse",
-      "horizon_jours": 5,
-      "verdict": "en cours",
-      "variation_pct": 0.18,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-13",
-      "portefeuille": "contrarien",
-      "texte": "Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui.",
-      "ticker": "ABBN.SW",
-      "direction": "hausse",
-      "horizon_jours": 5,
-      "verdict": "en cours",
-      "variation_pct": -3.41,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-13",
-      "portefeuille": "momentum",
-      "texte": "Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui.",
-      "ticker": "LLY",
-      "direction": "hausse",
-      "horizon_jours": 5,
-      "verdict": "en cours",
-      "variation_pct": -0.82,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-13",
-      "portefeuille": "defensif",
-      "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.",
-      "ticker": "GLD",
-      "direction": "hausse",
-      "horizon_jours": 10,
-      "verdict": "en cours",
-      "variation_pct": -0.68,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-16",
-      "portefeuille": "patient",
-      "texte": "Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui.",
-      "ticker": "VT",
-      "direction": "hausse",
-      "horizon_jours": 10,
-      "verdict": "en cours",
-      "variation_pct": -2.99,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-16",
-      "portefeuille": "journaliste",
-      "texte": "Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui.",
-      "ticker": "MSFT",
-      "direction": "hausse",
-      "horizon_jours": 5,
-      "verdict": "en cours",
-      "variation_pct": -3.37,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-16",
-      "portefeuille": "risque",
-      "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.",
-      "ticker": "COIN",
-      "direction": "hausse",
-      "horizon_jours": 10,
-      "verdict": "en cours",
-      "variation_pct": -9.89,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-16",
-      "portefeuille": "ia",
-      "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.",
-      "ticker": "NVDA",
-      "direction": "hausse",
-      "horizon_jours": 10,
-      "verdict": "en cours",
-      "variation_pct": -4.54,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-16",
-      "portefeuille": "suisse",
-      "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.",
-      "ticker": "NESN.SW",
-      "direction": "hausse",
-      "horizon_jours": 5,
-      "verdict": "en cours",
-      "variation_pct": -1.13,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-16",
-      "portefeuille": "contrarien",
-      "texte": "Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui.",
-      "ticker": "ABBN.SW",
-      "direction": "hausse",
-      "horizon_jours": 5,
-      "verdict": "en cours",
-      "variation_pct": -2.77,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-16",
-      "portefeuille": "momentum",
-      "texte": "Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui.",
-      "ticker": "LLY",
-      "direction": "hausse",
-      "horizon_jours": 5,
-      "verdict": "en cours",
-      "variation_pct": -1.94,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-16",
-      "portefeuille": "defensif",
-      "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.",
-      "ticker": "GLD",
-      "direction": "hausse",
-      "horizon_jours": 10,
-      "verdict": "en cours",
-      "variation_pct": -0.84,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-17",
-      "portefeuille": "patient",
-      "texte": "Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui.",
-      "ticker": "VT",
-      "direction": "hausse",
-      "horizon_jours": 10,
-      "verdict": "en cours",
-      "variation_pct": -1.12,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-17",
-      "portefeuille": "journaliste",
-      "texte": "Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui.",
-      "ticker": "MSFT",
-      "direction": "hausse",
-      "horizon_jours": 5,
-      "verdict": "en cours",
-      "variation_pct": -2.27,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-17",
-      "portefeuille": "risque",
-      "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.",
-      "ticker": "COIN",
-      "direction": "hausse",
-      "horizon_jours": 10,
-      "verdict": "en cours",
-      "variation_pct": -4.02,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-17",
-      "portefeuille": "ia",
-      "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.",
-      "ticker": "NVDA",
-      "direction": "hausse",
-      "horizon_jours": 10,
-      "verdict": "en cours",
-      "variation_pct": -0.44,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-17",
-      "portefeuille": "suisse",
-      "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.",
-      "ticker": "NESN.SW",
-      "direction": "hausse",
-      "horizon_jours": 5,
-      "verdict": "en cours",
-      "variation_pct": -1.58,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-17",
-      "portefeuille": "contrarien",
-      "texte": "Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui.",
-      "ticker": "ABBN.SW",
-      "direction": "hausse",
-      "horizon_jours": 5,
-      "verdict": "en cours",
-      "variation_pct": -1.73,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-17",
-      "portefeuille": "momentum",
-      "texte": "Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui.",
-      "ticker": "LLY",
-      "direction": "hausse",
-      "horizon_jours": 5,
-      "verdict": "en cours",
-      "variation_pct": -1.13,
-      "date_fin": "2026-11-17"
-    },
-    {
-      "date": "2026-11-17",
-      "portefeuille": "defensif",
-      "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.",
-      "ticker": "GLD",
-      "direction": "hausse",
-      "horizon_jours": 10,
-      "verdict": "en cours",
-      "variation_pct": -0.13,
-      "date_fin": "2026-11-17"
+      "date_fin": "2026-11-18"
     }
   ],
   "lecons": [
-    "Meilleure stratégie : 🛡️ Le Défensif (+1.64 %). Moins bonne : 🔥 Le Risque-tout (-20.97 %).",
+    "Meilleure stratégie : 🛡️ Le Défensif (+0.29 %). Moins bonne : 🔥 Le Risque-tout (-24.58 %).",
     "5 stratégie(s) IA active(s) sur 7 ont fait mieux que le Singe (le hasard), et 5 sur 7 mieux que le Patient (ne rien faire).",
-    "Les frais ont coûté en moyenne 1.64 % du capital. La stratégie la plus active, 🎲 Le Singe (12 ordres), y a laissé 7.36 %.",
-    "Secteur le plus rentable : Matériaux (+5.2 %). Le moins rentable : Crypto (-21.7 %).",
-    "Prédictions vérifiables : 27 justes sur 68 (40 %). Pour comparaison, deviner « hausse » ou « baisse » au hasard donne environ 50 %."
+    "Les frais ont coûté en moyenne 1.70 % du capital. La stratégie la plus active, 🎲 Le Singe (13 ordres), y a laissé 7.86 %.",
+    "Secteur le plus rentable : Matériaux (+5.2 %). Le moins rentable : Crypto (-25.5 %).",
+    "Prédictions vérifiables : 28 justes sur 76 (37 %). Pour comparaison, deviner « hausse » ou « baisse » au hasard donne environ 50 %."
   ]
 }
