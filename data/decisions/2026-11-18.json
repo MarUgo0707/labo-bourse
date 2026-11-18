@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-18",
+  "heure_session": "08:05",
+  "brief_marche": "La veille, les marchés ont nettement reculé : SMI -1,43 %, S&P 500 -1,03 %, DAX -2,08 %, Euro Stoxx 50 -2,15 %. L'indice de la peur (VIX) monte de 11 % à 25,5. L'or est stable (+0,29 %). Ma recherche d'actualités n'a rien donné de fiable pour ce matin ; je n'invente donc aucune explication.",
+  "points_cles": [
+    "Forte baisse des bourses hier, surtout en Europe (DAX -2,08 %)",
+    "Le VIX grimpe à 25,5 : les marchés sont nerveux",
+    "Aucun ordre aujourd'hui : pas de nouvelle vérifiable, pas de signal clair"
+  ],
+  "sources": [
+    {
+      "titre": "Bourses mondiales: les puces minent Wall Street, l'Europe plus modérée (DH)",
+      "url": "https://www.dhnet.be/dernieres-depeches/2026/11/14/bourses-mondiales-les-puces-minent-wall-street-leurope-plus-moderee-ZOLU7P346BDHNF4EJ3VUTJUNRA/"
+    }
+  ],
+  "portefeuilles": {
+    "patient": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : le Patient ne réagit pas aux nouvelles et VT/ACWI restent proches de leurs parts cibles (environ 61 %/39 %).",
+      "ordres": [],
+      "prediction": {
+        "texte": "Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui.",
+        "ticker": "VT",
+        "direction": "hausse",
+        "horizon_jours": 10
+      }
+    },
+    "journaliste": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : je n'ai pas pu vérifier de nouvelle concrète et récente justifiant un achat après la baisse d'hier.",
+      "ordres": [],
+      "prediction": {
+        "texte": "Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui.",
+        "ticker": "MSFT",
+        "direction": "hausse",
+        "horizon_jours": 5
+      }
+    },
+    "risque": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : COIN et MSTR sont en forte baisse, mais je n'ai pas de nouvelle montrant que la raison de l'achat a disparu ; vendre coûterait des frais.",
+      "ordres": [],
+      "prediction": {
+        "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.",
+        "ticker": "COIN",
+        "direction": "hausse",
+        "horizon_jours": 10
+      }
+    },
+    "ia": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : NVDA et TSM ont baissé, mais aucune information vérifiée n'affaiblit le récit IA.",
+      "ordres": [],
+      "prediction": {
+        "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.",
+        "ticker": "NVDA",
+        "direction": "hausse",
+        "horizon_jours": 10
+      }
+    },
+    "suisse": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : Nestlé et Novartis restent solides, rotation faible.",
+      "ordres": [],
+      "prediction": {
+        "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.",
+        "ticker": "NESN.SW",
+        "direction": "hausse",
+        "horizon_jours": 5
+      }
+    },
+    "contrarien": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : aucune grande valeur vérifiée n'a perdu environ 10 % en quelques semaines (ABB : -4,5 % environ).",
+      "ordres": [],
+      "prediction": {
+        "texte": "Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui.",
+        "ticker": "ABBN.SW",
+        "direction": "hausse",
+        "horizon_jours": 5
+      }
+    },
+    "momentum": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : LLY est à -1,2 % depuis l'achat, loin du seuil de coupe de -7 %, et aucune nouvelle tendance claire ne justifie un achat.",
+      "ordres": [],
+      "prediction": {
+        "texte": "Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui.",
+        "ticker": "LLY",
+        "direction": "hausse",
+        "horizon_jours": 5
+      }
+    },
+    "defensif": {
+      "decision": "rien",
+      "resume": "Je ne fais rien : l'or est stable et PG gagne environ 6,6 % ; le portefeuille bouge peu par principe.",
+      "ordres": [],
+      "prediction": {
+        "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.",
+        "ticker": "GLD",
+        "direction": "hausse",
+        "horizon_jours": 10
+      }
+    }
+  },
+  "incertitudes": [
+    "Je n'ai pas trouvé de couverture fiable des nouvelles de la nuit du 18 novembre ni de l'agenda du jour.",
+    "Je ne connais pas la cause exacte de la baisse d'hier."
+  ]
+}

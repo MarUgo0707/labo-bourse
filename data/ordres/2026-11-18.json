@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-18",
+  "mode_test": false,
+  "horodatage_validation": "2026-11-18T06:06:30Z",
+  "session_ia": "ok",
+  "ordres": [
+    {
+      "portefeuille": "singe",
+      "auteur": "script",
+      "action": "acheter",
+      "sens": "achat",
+      "ticker": "UBSG.SW",
+      "nom": "UBS",
+      "secteur": "Finance",
+      "pays": "Suisse",
+      "montant_chf": 65.51,
+      "tout": false,
+      "raison": "Tirage au sort : achat d'un titre au hasard.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)",
+      "marche": "CH",
+      "devise": "CHF",
+      "prix_estime": 39.060001,
+      "date_prix_estime": "2026-11-17",
+      "taux_estime": 1.0,
+      "frais_estimes_chf": 1.0,
+      "statut": "accepté",
+      "motif": ""
+    }
+  ],
+  "resume": {
+    "acceptes": 1,
+    "rejetes": 0
+  }
+}

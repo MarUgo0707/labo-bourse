@@ -119,6 +119,12 @@
     "nom_yahoo": "Taiwan Semiconductor Manufacturing Company Limited",
     "marche": "US"
   },
+  "UBSG.SW": {
+    "devise": "CHF",
+    "type": "EQUITY",
+    "nom_yahoo": "UBS Group AG",
+    "marche": "CH"
+  },
   "VT": {
     "devise": "USD",
     "type": "ETF",

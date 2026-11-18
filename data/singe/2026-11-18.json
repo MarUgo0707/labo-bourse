@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-18",
+  "genere_le": "2026-11-18T06:06:30Z",
+  "graine": "20261028-2026-11-18",
+  "mode_test": false,
+  "ordres": [
+    {
+      "action": "acheter",
+      "ticker": "UBSG.SW",
+      "nom": "UBS",
+      "secteur": "Finance",
+      "pays": "Suisse",
+      "montant_chf": 65.51,
+      "raison": "Tirage au sort : achat d'un titre au hasard.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    }
+  ]
+}
