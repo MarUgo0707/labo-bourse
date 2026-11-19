@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-19",
+  "heure_session": "08:05",
+  "brief_marche": "La veille, les indices européens ont reculé (DAX −1,2 %, SMI −0,6 %) alors que le Nasdaq a légèrement monté. Les valeurs IA restent nerveuses, selon la presse du 17 novembre. L'or a nettement baissé (−3 %) et le VIX reste élevé (24,6). Je n'ai pas pu confirmer d'agenda précis pour aujourd'hui.",
+  "points_cles": [
+    "Europe en baisse hier : DAX −1,2 %, SMI −0,6 %",
+    "Valeurs IA nerveuses ; or en recul de 3 %",
+    "Séance prudente : aucun ordre aujourd'hui"
+  ],
+  "sources": [
+    { "titre": "Another wipeout hits Wall Street as Nvidia, other jittery AI stocks swing lower", "url": "https://www.wbtv.com/2026/11/17/another-wipeout-hits-wall-street-nvidia-other-jittery-ai-stocks-swing-lower/" },
+    { "titre": "Stock Market Today 2026-11-17", "url": "https://pro.thestreet.com/stock-market-today/2026-11-17" }
+  ],
+  "portefeuilles": {
+    "patient": {
+      "decision": "rien",
+      "resume": "Je garde mes deux ETF (VT et ACWI) : aucun écart de plus de 10 points, donc aucun rééquilibrage.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "VT", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "journaliste": {
+      "decision": "rien",
+      "resume": "Aucune nouvelle concrète et vérifiée ce matin ne justifie un achat ; je reste en cash.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "MSFT", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "risque": {
+      "decision": "rien",
+      "resume": "COIN et MSTR ont beaucoup baissé, mais je n'ai pas vérifié de nouvelle qui invalide la raison de l'achat ; vendre ne ferait que payer des frais.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "COIN", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "ia": {
+      "decision": "rien",
+      "resume": "Le secteur IA est secoué, mais je n'ai pas vérifié de nouvelle qui casse le récit de TSM ou NVDA ; je garde mes convictions.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "NVDA", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "suisse": {
+      "decision": "rien",
+      "resume": "Nestlé et Novartis restent solides ; rotation faible, donc je ne change rien.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "NESN.SW", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "contrarien": {
+      "decision": "rien",
+      "resume": "Je n'ai identifié aucune grande entreprise avec une baisse d'environ 10 % sans raison grave (ABB ne recule que de 3,5 %). Je reste en cash.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "ABBN.SW", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "momentum": {
+      "decision": "rien",
+      "resume": "LLY perd environ 3 % depuis l'achat, loin du seuil de coupe (−7 %), et rien d'autre ne monte nettement ; je ne bouge pas.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "LLY", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "defensif": {
+      "decision": "rien",
+      "resume": "Je garde GLD et PG ; l'or a reculé, mais la stratégie demande de bouger peu.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "GLD", "direction": "hausse", "horizon_jours": 10 }
+    }
+  },
+  "incertitudes": [
+    "Je n'ai trouvé aucun compte rendu daté du 19 novembre 2026 : mon brief repose sur les clôtures des 17 et 18 novembre.",
+    "Je n'ai pas vérifié les nouvelles propres à chaque entreprise détenue."
+  ]
+}

@@ -101,6 +101,12 @@
     "nom_yahoo": "The Procter & Gamble Company",
     "marche": "US"
   },
+  "PLTR": {
+    "devise": "USD",
+    "type": "EQUITY",
+    "nom_yahoo": "Palantir Technologies Inc.",
+    "marche": "US"
+  },
   "SIKA.SW": {
     "devise": "CHF",
     "type": "EQUITY",

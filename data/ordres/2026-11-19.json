@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-19",
+  "mode_test": false,
+  "horodatage_validation": "2026-11-19T06:06:46Z",
+  "session_ia": "ok",
+  "ordres": [
+    {
+      "portefeuille": "singe",
+      "auteur": "script",
+      "action": "vendre",
+      "sens": "vente",
+      "ticker": "UBSG.SW",
+      "nom": "UBS",
+      "secteur": "Finance",
+      "pays": "Suisse",
+      "montant_chf": 64.34,
+      "tout": true,
+      "raison": "Tirage au sort : vente de toute la position.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)",
+      "marche": "CH",
+      "devise": "CHF",
+      "prix_estime": 39.060001,
+      "date_prix_estime": "2026-11-17",
+      "taux_estime": 1.0,
+      "frais_estimes_chf": 1.0,
+      "statut": "accepté",
+      "motif": ""
+    },
+    {
+      "portefeuille": "singe",
+      "auteur": "script",
+      "action": "acheter",
+      "sens": "achat",
+      "ticker": "PLTR",
+      "nom": "Palantir",
+      "secteur": "Technologie",
+      "pays": "États-Unis",
+      "montant_chf": 83.46,
+      "tout": false,
+      "raison": "Tirage au sort : achat d'un titre au hasard.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)",
+      "marche": "US",
+      "devise": "USD",
+      "prix_estime": 156.669998,
+      "date_prix_estime": "2026-11-18",
+      "taux_estime": 0.84129,
+      "frais_estimes_chf": 1.42,
+      "statut": "accepté",
+      "motif": ""
+    }
+  ],
+  "resume": {
+    "acceptes": 2,
+    "rejetes": 0
+  }
+}
