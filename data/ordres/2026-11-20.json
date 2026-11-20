@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-20",
+  "mode_test": false,
+  "horodatage_validation": "2026-11-20T06:06:43Z",
+  "session_ia": "ok",
+  "ordres": [
+    {
+      "portefeuille": "singe",
+      "auteur": "script",
+      "action": "vendre",
+      "sens": "vente",
+      "ticker": "PLTR",
+      "nom": "Palantir",
+      "secteur": "Technologie",
+      "pays": "États-Unis",
+      "montant_chf": 79.62,
+      "tout": true,
+      "raison": "Tirage au sort : vente de toute la position.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)",
+      "marche": "US",
+      "devise": "USD",
+      "prix_estime": 156.669998,
+      "date_prix_estime": "2026-11-18",
+      "taux_estime": 0.84348,
+      "frais_estimes_chf": 1.4,
+      "statut": "accepté",
+      "motif": ""
+    },
+    {
+      "portefeuille": "singe",
+      "auteur": "script",
+      "action": "acheter",
+      "sens": "achat",
+      "ticker": "NEM",
+      "nom": "Newmont",
+      "secteur": "Or et métaux précieux",
+      "pays": "États-Unis",
+      "montant_chf": 87.38,
+      "tout": false,
+      "raison": "Tirage au sort : achat d'un titre au hasard.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)",
+      "marche": "US",
+      "devise": "USD",
+      "prix_estime": 100.050003,
+      "date_prix_estime": "2026-11-19",
+      "taux_estime": 0.84348,
+      "frais_estimes_chf": 1.44,
+      "statut": "accepté",
+      "motif": ""
+    }
+  ],
+  "resume": {
+    "acceptes": 2,
+    "rejetes": 0
+  }
+}
