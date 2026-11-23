@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-23",
+  "genere_le": "2026-11-23T06:06:49Z",
+  "graine": "20261028-2026-11-23",
+  "mode_test": false,
+  "ordres": [
+    {
+      "action": "vendre",
+      "ticker": "NEM",
+      "nom": "Newmont",
+      "secteur": "Or et métaux précieux",
+      "pays": "États-Unis",
+      "tout": true,
+      "montant_chf": 83.87,
+      "raison": "Tirage au sort : vente de toute la position.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    },
+    {
+      "action": "acheter",
+      "ticker": "PLTR",
+      "nom": "Palantir",
+      "secteur": "Technologie",
+      "pays": "États-Unis",
+      "montant_chf": 72.42,
+      "raison": "Tirage au sort : achat d'un titre au hasard.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    }
+  ]
+}

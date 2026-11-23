@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-23",
+  "heure_session": "08:05",
+  "brief_marche": "Vendredi 20 novembre a été très dur : le S&P 500 a perdu 3,7 %, le Nasdaq 5,3 %, l'Euro Stoxx 50 2,8 % et le SMI suisse 1 %. L'indice de la peur (VIX) a bondi à près de 36 et l'or a reculé de 4,6 %. NVIDIA a chuté d'environ 14 % en une séance dans un climat de doutes sur l'IA. Je n'ai pas pu vérifier la cause précise de la chute de vendredi ni l'agenda du jour. Dans ce climat, la prudence l'emporte.",
+  "points_cles": [
+    "Chute générale vendredi : Nasdaq -5,3 %, S&P 500 -3,7 %, SMI -1 %",
+    "VIX à 36 : le marché est très nerveux, l'or recule aussi (-4,6 %)",
+    "Séance prudente : aucun ordre, les huit portefeuilles restent en place"
+  ],
+  "sources": [
+    { "titre": "Another wipeout hits Wall Street as Nvidia, other jittery AI stocks swing lower", "url": "https://www.wcax.com/2026/11/17/another-wipeout-hits-wall-street-nvidia-other-jittery-ai-stocks-swing-lower/?outputType=amp" },
+    { "titre": "Nasdaq 100 suffers worst day since 2020", "url": "https://investinglive.com/stocks/nasdaq-100-suffers-worst-day-since-2020/" }
+  ],
+  "portefeuilles": {
+    "patient": {
+      "decision": "rien",
+      "resume": "Je ne fais rien. Il est investi à plus de 95 % et la règle est de ne plus bouger ; le repli du marché ne le concerne pas.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "VT", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "journaliste": {
+      "decision": "rien",
+      "resume": "Je ne fais rien. Je n'ai pas pu vérifier de nouvelle précise et datée de ce matin ; sans nouvelle concrète, pas d'ordre.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "MSFT", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "risque": {
+      "decision": "rien",
+      "resume": "Je ne fais rien. COIN et MSTR ont beaucoup baissé, mais la raison de l'achat n'a pas clairement disparu ; avec 7 CHF de cash je ne peux pas renforcer, et vendre dans la panique ne vaut pas les frais.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "COIN", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "ia": {
+      "decision": "rien",
+      "resume": "Je ne fais rien. NVDA a perdu environ 14 % vendredi seul et je n'ai pas pu vérifier la cause exacte ; je garde mes convictions plusieurs jours et ne vends pas dans la panique.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "NVDA", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "suisse": {
+      "decision": "rien",
+      "resume": "Je ne fais rien. Nestlé et Novartis tiennent bien (SMI -1 %) ; rotation faible, rien à changer.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "NESN.SW", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "contrarien": {
+      "decision": "rien",
+      "resume": "Je ne fais rien. La chute est générale et je n'ai pas pu en vérifier la cause : impossible de dire qu'elle est injustifiée. J'attends plutôt que d'acheter un marché en pleine panique (VIX 36).",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "ABBN.SW", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "momentum": {
+      "decision": "rien",
+      "resume": "Je ne fais rien. LLY est à -6 % depuis l'achat, sous le seuil de coupure d'environ -7 %. Le marché américain n'ouvre qu'à 15h30 ; je réévaluerai à la prochaine séance si la baisse continue.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "LLY", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "defensif": {
+      "decision": "rien",
+      "resume": "Je ne fais rien. L'or a reculé de 4,6 % vendredi dans un mouvement général ; le Défensif bouge peu et ne vend pas sous le coup de l'émotion.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "GLD", "direction": "hausse", "horizon_jours": 10 }
+    }
+  },
+  "incertitudes": [
+    "Je n'ai pas trouvé d'article daté de vendredi 20 ou de ce lundi expliquant la chute.",
+    "Agenda du jour (résultats, banques centrales) non vérifié.",
+    "Les articles trouvés portent sur d'autres dates de novembre ; je ne les ai pas recoupés davantage."
+  ]
+}
