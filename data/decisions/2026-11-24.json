@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-24",
+  "heure_session": "08:05",
+  "brief_marche": "Lundi 23 novembre, les marchés ont fortement rebondi après la chute de vendredi : Nasdaq +6,5 %, S&P 500 +4,7 %, Euro Stoxx 50 +2,2 %, SMI +1,1 %. L'indice de la peur (VIX) a reculé de 26 % à 26,6, l'or a regagné 3,9 % et NVIDIA a repris environ 31 % après son plongeon. Je n'ai pas pu vérifier la cause de ces mouvements ni l'agenda du jour. Après de telles secousses, la prudence l'emporte.",
+  "points_cles": [
+    "Gros rebond lundi : Nasdaq +6,5 %, S&P 500 +4,7 %, SMI +1,1 %",
+    "VIX encore élevé (26,6) : le marché reste nerveux",
+    "Séance prudente : aucun ordre, les huit portefeuilles restent en place"
+  ],
+  "sources": [
+    {
+      "titre": "Indices et cours de clôture du 23 novembre (outil lire.py, données Yahoo Finance)",
+      "url": "https://finance.yahoo.com"
+    }
+  ],
+  "portefeuilles": {
+    "patient": {
+      "decision": "rien",
+      "resume": "Je ne fais rien. Il est investi à plus de 95 % et la règle est de ne plus bouger.",
+      "ordres": [],
+      "prediction": {
+        "texte": "Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui.",
+        "ticker": "VT",
+        "direction": "hausse",
+        "horizon_jours": 10
+      }
+    },
+    "journaliste": {
+      "decision": "rien",
+      "resume": "Je ne fais rien. Je n'ai pas trouvé de nouvelle concrète, datée et vérifiable de ce matin ; sans nouvelle, pas d'ordre.",
+      "ordres": [],
+      "prediction": {
+        "texte": "Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui.",
+        "ticker": "MSFT",
+        "direction": "hausse",
+        "horizon_jours": 5
+      }
+    },
+    "risque": {
+      "decision": "rien",
+      "resume": "Je ne fais rien. COIN et MSTR ont rebondi lundi mais restent très bas ; la raison de l'achat n'a pas disparu, et avec 7 CHF de cash je ne peux rien renforcer.",
+      "ordres": [],
+      "prediction": {
+        "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.",
+        "ticker": "COIN",
+        "direction": "hausse",
+        "horizon_jours": 10
+      }
+    },
+    "ia": {
+      "decision": "rien",
+      "resume": "Je ne fais rien. NVDA a rebondi lundi, le récit IA n'est pas cassé selon ce que je peux vérifier ; je garde mes convictions.",
+      "ordres": [],
+      "prediction": {
+        "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.",
+        "ticker": "NVDA",
+        "direction": "hausse",
+        "horizon_jours": 10
+      }
+    },
+    "suisse": {
+      "decision": "rien",
+      "resume": "Je ne fais rien. Nestlé et Novartis sont stables, la rotation est faible.",
+      "ordres": [],
+      "prediction": {
+        "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.",
+        "ticker": "NESN.SW",
+        "direction": "hausse",
+        "horizon_jours": 5
+      }
+    },
+    "contrarien": {
+      "decision": "rien",
+      "resume": "Je ne fais rien. Le marché a déjà rebondi et je n'ai pas pu vérifier qu'une baisse précise soit injustifiée ; pas d'achat.",
+      "ordres": [],
+      "prediction": {
+        "texte": "Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui.",
+        "ticker": "ABBN.SW",
+        "direction": "hausse",
+        "horizon_jours": 5
+      }
+    },
+    "momentum": {
+      "decision": "rien",
+      "resume": "Je ne fais rien. LLY est à environ -4,7 % depuis l'achat, sous le seuil de coupure de -7 %, et le marché a rebondi lundi.",
+      "ordres": [],
+      "prediction": {
+        "texte": "Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui.",
+        "ticker": "LLY",
+        "direction": "hausse",
+        "horizon_jours": 5
+      }
+    },
+    "defensif": {
+      "decision": "rien",
+      "resume": "Je ne fais rien. L'or a rebondi de 3,9 % ; le Défensif bouge peu et ne réagit pas à l'émotion du marché.",
+      "ordres": [],
+      "prediction": {
+        "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.",
+        "ticker": "GLD",
+        "direction": "hausse",
+        "horizon_jours": 10
+      }
+    }
+  },
+  "incertitudes": [
+    "Je n'ai pas trouvé d'article fiable daté du 23 ou 24 novembre 2026 expliquant le rebond.",
+    "Agenda du jour (résultats, banques centrales) non vérifié.",
+    "Les cours viennent de l'outil lire.py ; je n'ai pas de cours d'avant-bourse."
+  ]
+}
