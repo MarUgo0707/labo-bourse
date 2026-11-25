@@ -1,6 +1,6 @@
 # Rapport provisoire — Labo Bourse
 
-Période : 2026-10-28 → 2026-11-27 · 20 séance(s) clôturée(s) sur 23.
+Période : 2026-10-28 → 2026-11-27 · 21 séance(s) clôturée(s) sur 23.
 
 > **À lire avant tout.** Un mois est un échantillon très court. Sur une période aussi brève, le hasard pèse souvent plus lourd que la qualité d'une stratégie : un bon classement ici ne prouve pas qu'une stratégie est bonne, et un mauvais ne prouve pas qu'elle est mauvaise. Les résultats sont simulés (argent fictif).
 
@@ -10,51 +10,51 @@ Période : 2026-10-28 → 2026-11-27 · 20 séance(s) clôturée(s) sur 23.
 |---|---|---|---|---|---|
 | 1 | 📰 Le Journaliste | 200.00 CHF | +0.00 % | 0.00 CHF | 0 |
 | 2 | 🔄 Le Contrarien | 200.00 CHF | +0.00 % | 0.00 CHF | 0 |
-| 3 | 📈 Le Momentum | 198.21 CHF | -0.90 % | 1.38 CHF | 1 |
-| 4 | 🇨🇭 Le Suisse | 196.97 CHF | -1.51 % | 2.00 CHF | 2 |
-| 5 | 🛡️ Le Défensif | 196.56 CHF | -1.72 % | 2.75 CHF | 2 |
-| 6 | 🏛️ Le Patient | 190.08 CHF | -4.96 % | 2.95 CHF | 2 |
-| 7 | 🎲 Le Singe | 177.33 CHF | -11.34 % | 23.77 CHF | 19 |
-| 8 | 🤖 Le Thématique IA | 169.26 CHF | -15.37 % | 2.76 CHF | 2 |
-| 9 | 🔥 Le Risque-tout | 134.51 CHF | -32.75 % | 2.96 CHF | 2 |
+| 3 | 🇨🇭 Le Suisse | 197.44 CHF | -1.28 % | 2.00 CHF | 2 |
+| 4 | 📈 Le Momentum | 196.98 CHF | -1.51 % | 1.38 CHF | 1 |
+| 5 | 🛡️ Le Défensif | 196.51 CHF | -1.75 % | 2.75 CHF | 2 |
+| 6 | 🏛️ Le Patient | 188.97 CHF | -5.52 % | 2.95 CHF | 2 |
+| 7 | 🎲 Le Singe | 178.01 CHF | -11.00 % | 23.77 CHF | 19 |
+| 8 | 🤖 Le Thématique IA | 165.08 CHF | -17.46 % | 2.76 CHF | 2 |
+| 9 | 🔥 Le Risque-tout | 136.50 CHF | -31.75 % | 2.96 CHF | 2 |
 
 ## Leçons retenues
 
-- Meilleure stratégie : 📰 Le Journaliste (+0.00 %). Moins bonne : 🔥 Le Risque-tout (-32.75 %).
+- Meilleure stratégie : 📰 Le Journaliste (+0.00 %). Moins bonne : 🔥 Le Risque-tout (-31.75 %).
 - 5 stratégie(s) IA active(s) sur 7 ont fait mieux que le Singe (le hasard), et 5 sur 7 mieux que le Patient (ne rien faire).
 - Les frais ont coûté en moyenne 2.14 % du capital. La stratégie la plus active, 🎲 Le Singe (19 ordres), y a laissé 11.88 %.
-- Secteur le plus rentable : Matériaux (+5.2 %). Le moins rentable : Crypto (-33.9 %).
-- Prédictions vérifiables : 28 justes sur 108 (26 %). Pour comparaison, deviner « hausse » ou « baisse » au hasard donne environ 50 %.
+- Secteur le plus rentable : Matériaux (+5.2 %). Le moins rentable : Crypto (-32.9 %).
+- Prédictions vérifiables : 30 justes sur 116 (26 %). Pour comparaison, deviner « hausse » ou « baisse » au hasard donne environ 50 %.
 
 ## Par secteur
 
 - Matériaux : +3.77 CHF (+5.2 %)
-- Consommation de base : +1.83 CHF (+0.9 %)
+- Consommation de base : +2.47 CHF (+1.2 %)
 - Communication : -1.75 CHF (-2.6 %)
 - Consommation discrétionnaire : -1.11 CHF (-3.9 %)
-- Santé : -8.53 CHF (-4.0 %)
 - Finance : -2.70 CHF (-4.1 %)
-- Or et métaux précieux : -8.32 CHF (-4.9 %)
-- ETF diversifié : -9.92 CHF (-5.1 %)
+- Santé : -10.02 CHF (-4.7 %)
+- Or et métaux précieux : -8.28 CHF (-4.9 %)
 - Services publics : -4.81 CHF (-5.3 %)
-- Technologie : -9.31 CHF (-5.9 %)
-- Semi-conducteurs : -30.74 CHF (-20.1 %)
-- Crypto : -65.49 CHF (-33.9 %)
+- Technologie : -8.63 CHF (-5.4 %)
+- ETF diversifié : -11.03 CHF (-5.7 %)
+- Semi-conducteurs : -34.92 CHF (-22.9 %)
+- Crypto : -63.50 CHF (-32.9 %)
 
 ## Meilleurs paris
 
-- 🛡️ Le Défensif · Procter & Gamble (PG) : +6.4 %
+- 🛡️ Le Défensif · Procter & Gamble (PG) : +6.2 %
 - 🎲 Le Singe · Sika (SIKA.SW) : +5.2 %
-- 🇨🇭 Le Suisse · Nestlé (NESN.SW) : +1.6 %
+- 🇨🇭 Le Suisse · Nestlé (NESN.SW) : +2.6 %
 - 🎲 Le Singe · Newmont (NEM) : -0.4 %
-- 📈 Le Momentum · Eli Lilly and Company (LLY) : -2.3 %
+- 🎲 Le Singe · Alphabet (GOOGL) : -2.6 %
 
 ## Pires paris
 
-- 🔥 Le Risque-tout · Strategy Inc (MSTR) : -41.0 %
-- 🔥 Le Risque-tout · Coinbase Global (COIN) : -26.8 %
-- 🤖 Le Thématique IA · NVIDIA (NVDA) : -25.0 %
-- 🤖 Le Thématique IA · Taiwan Semiconductor Manufacturing (TSM) : -15.2 %
+- 🔥 Le Risque-tout · Strategy Inc (MSTR) : -39.5 %
+- 🤖 Le Thématique IA · NVIDIA (NVDA) : -28.4 %
+- 🔥 Le Risque-tout · Coinbase Global (COIN) : -26.3 %
+- 🤖 Le Thématique IA · Taiwan Semiconductor Manufacturing (TSM) : -17.4 %
 - 🛡️ Le Défensif · SPDR Gold Shares (GLD) : -9.8 %
 
 ## Prédictions vérifiables
@@ -147,14 +147,14 @@ Période : 2026-10-28 → 2026-11-27 · 20 séance(s) clôturée(s) sur 23.
 - 2026-11-11 · 🔄 Le Contrarien : « Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui. » → **fausse**
 - 2026-11-11 · 📈 Le Momentum : « Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui. » → **fausse**
 - 2026-11-11 · 🛡️ Le Défensif : « Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui. » → **fausse**
-- 2026-11-12 · 🏛️ Le Patient : « Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui. » → **en cours**
+- 2026-11-12 · 🏛️ Le Patient : « Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui. » → **fausse**
 - 2026-11-12 · 📰 Le Journaliste : « Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui. » → **fausse**
-- 2026-11-12 · 🔥 Le Risque-tout : « Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui. » → **en cours**
-- 2026-11-12 · 🤖 Le Thématique IA : « Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui. » → **en cours**
+- 2026-11-12 · 🔥 Le Risque-tout : « Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui. » → **fausse**
+- 2026-11-12 · 🤖 Le Thématique IA : « Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui. » → **fausse**
 - 2026-11-12 · 🇨🇭 Le Suisse : « Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui. » → **juste**
 - 2026-11-12 · 🔄 Le Contrarien : « Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui. » → **fausse**
 - 2026-11-12 · 📈 Le Momentum : « Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui. » → **fausse**
-- 2026-11-12 · 🛡️ Le Défensif : « Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui. » → **en cours**
+- 2026-11-12 · 🛡️ Le Défensif : « Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui. » → **fausse**
 - 2026-11-13 · 🏛️ Le Patient : « Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui. » → **en cours**
 - 2026-11-13 · 📰 Le Journaliste : « Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui. » → **fausse**
 - 2026-11-13 · 🔥 Le Risque-tout : « Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui. » → **en cours**
@@ -188,12 +188,12 @@ Période : 2026-10-28 → 2026-11-27 · 20 séance(s) clôturée(s) sur 23.
 - 2026-11-18 · 📈 Le Momentum : « Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui. » → **fausse**
 - 2026-11-18 · 🛡️ Le Défensif : « Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui. » → **en cours**
 - 2026-11-19 · 🏛️ Le Patient : « Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui. » → **en cours**
-- 2026-11-19 · 📰 Le Journaliste : « Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui. » → **en cours**
+- 2026-11-19 · 📰 Le Journaliste : « Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui. » → **fausse**
 - 2026-11-19 · 🔥 Le Risque-tout : « Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui. » → **en cours**
 - 2026-11-19 · 🤖 Le Thématique IA : « Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui. » → **en cours**
-- 2026-11-19 · 🇨🇭 Le Suisse : « Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui. » → **en cours**
-- 2026-11-19 · 🔄 Le Contrarien : « Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui. » → **en cours**
-- 2026-11-19 · 📈 Le Momentum : « Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui. » → **en cours**
+- 2026-11-19 · 🇨🇭 Le Suisse : « Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui. » → **juste**
+- 2026-11-19 · 🔄 Le Contrarien : « Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui. » → **fausse**
+- 2026-11-19 · 📈 Le Momentum : « Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui. » → **juste**
 - 2026-11-19 · 🛡️ Le Défensif : « Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui. » → **en cours**
 - 2026-11-20 · 🏛️ Le Patient : « Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui. » → **en cours**
 - 2026-11-20 · 📰 Le Journaliste : « Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui. » → **en cours**
@@ -219,3 +219,11 @@ Période : 2026-10-28 → 2026-11-27 · 20 séance(s) clôturée(s) sur 23.
 - 2026-11-24 · 🔄 Le Contrarien : « Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui. » → **en cours**
 - 2026-11-24 · 📈 Le Momentum : « Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui. » → **en cours**
 - 2026-11-24 · 🛡️ Le Défensif : « Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui. » → **en cours**
+- 2026-11-25 · 🏛️ Le Patient : « Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui. » → **en cours**
+- 2026-11-25 · 📰 Le Journaliste : « Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui. » → **en cours**
+- 2026-11-25 · 🔥 Le Risque-tout : « Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui. » → **en cours**
+- 2026-11-25 · 🤖 Le Thématique IA : « Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui. » → **en cours**
+- 2026-11-25 · 🇨🇭 Le Suisse : « Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui. » → **en cours**
+- 2026-11-25 · 🔄 Le Contrarien : « Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui. » → **en cours**
+- 2026-11-25 · 📈 Le Momentum : « Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui. » → **en cours**
+- 2026-11-25 · 🛡️ Le Défensif : « Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui. » → **en cours**
