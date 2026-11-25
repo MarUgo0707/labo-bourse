@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-25",
+  "heure_session": "08:05",
+  "brief_marche": "Hier, les marchés ont reculé : Nasdaq −1,48 %, S&P 500 −0,50 %, DAX −1,26 %, Euro Stoxx 50 −1,16 %, SMI stable (−0,01 %). L'or a perdu 2,45 % et le VIX reste élevé à 26,4. Ma recherche web ce matin n'a rien donné de daté d'aujourd'hui : je n'ai pas pu vérifier les nouvelles de la nuit.",
+  "points_cles": [
+    "Wall Street et l'Europe ont reculé hier, surtout la tech (Nasdaq −1,48 %)",
+    "L'or a chuté de 2,45 % ; le VIX reste élevé (26,4)",
+    "Séance prudente : aucun ordre, nouvelles du matin non vérifiables"
+  ],
+  "sources": [
+    { "titre": "Euronext Live – actualités des marchés (aucun article du 25 novembre trouvé)", "url": "https://live.euronext.com/en/financial-news" }
+  ],
+  "portefeuilles": {
+    "patient": {
+      "decision": "rien",
+      "resume": "Le Patient ne bouge plus : aucune position ne s'écarte de 10 points de sa part cible, et il ne réagit pas aux nouvelles.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que VT finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "VT", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "journaliste": {
+      "decision": "rien",
+      "resume": "Je n'ai pas pu vérifier de nouvelle concrète et récente ce matin : sans nouvelle citable, pas d'ordre.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que MSFT finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "MSFT", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "risque": {
+      "decision": "rien",
+      "resume": "Je garde COIN et MSTR : le bitcoin est stable (+0,08 %) et la raison d'achat (crypto) n'a pas disparu. Un ordre coûterait des frais sans raison claire.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que COIN finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "COIN", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "ia": {
+      "decision": "rien",
+      "resume": "Le Nasdaq a reculé de 1,48 % hier, mais je n'ai vu aucune nouvelle affaiblissant le récit IA de TSM ou NVDA : je garde mes convictions.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que NVDA finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "NVDA", "direction": "hausse", "horizon_jours": 10 }
+    },
+    "suisse": {
+      "decision": "rien",
+      "resume": "Rotation faible : Nestlé et Novartis restent des valeurs solides à dividende, la qualité ne se dégrade pas, donc aucun ordre.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que NESN.SW finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "NESN.SW", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "contrarien": {
+      "decision": "rien",
+      "resume": "Je n'ai pas vérifié de baisse marquée (environ 10 %) sur une grande entreprise solide sans raison grave : pas d'achat.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que ABBN.SW finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "ABBN.SW", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "momentum": {
+      "decision": "rien",
+      "resume": "LLY est à −2,35 % depuis l'achat, loin du seuil de coupe (−7 %). Je n'ai pas identifié de nouveau gagnant clair dans un marché en baisse.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que LLY finira dans 5 séances plus haut qu'aujourd'hui.", "ticker": "LLY", "direction": "hausse", "horizon_jours": 5 }
+    },
+    "defensif": {
+      "decision": "rien",
+      "resume": "L'or a reculé de 2,45 % hier et GLD est à −9,8 %, mais le Défensif bouge peu et garde sa position ainsi que PG (+6,4 %).",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que GLD finira dans 10 séances plus haut qu'aujourd'hui.", "ticker": "GLD", "direction": "hausse", "horizon_jours": 10 }
+    }
+  },
+  "incertitudes": [
+    "Aucune nouvelle ni agenda du 25 novembre n'a pu être vérifié (recherche web sans résultat daté d'aujourd'hui).",
+    "Les chiffres d'indices viennent de lire.py (clôture du 24 novembre)."
+  ]
+}
