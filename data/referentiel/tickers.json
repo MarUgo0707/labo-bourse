@@ -29,6 +29,12 @@
     "nom_yahoo": "Enel SpA",
     "marche": "EU"
   },
+  "GIVN.SW": {
+    "devise": "CHF",
+    "type": "EQUITY",
+    "nom_yahoo": "Givaudan SA",
+    "marche": "CH"
+  },
   "GLD": {
     "devise": "USD",
     "type": "ETF",

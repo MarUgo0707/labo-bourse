@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-26",
+  "mode_test": false,
+  "horodatage_validation": "2026-11-26T06:06:21Z",
+  "session_ia": "ok",
+  "ordres": [
+    {
+      "portefeuille": "singe",
+      "auteur": "script",
+      "action": "acheter",
+      "sens": "achat",
+      "ticker": "GIVN.SW",
+      "nom": "Givaudan",
+      "secteur": "Matériaux",
+      "pays": "Suisse",
+      "montant_chf": 59.61,
+      "tout": false,
+      "raison": "Tirage au sort : achat d'un titre au hasard.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)",
+      "marche": "CH",
+      "devise": "CHF",
+      "prix_estime": 4002.0,
+      "date_prix_estime": "2026-11-25",
+      "taux_estime": 1.0,
+      "frais_estimes_chf": 1.0,
+      "statut": "accepté",
+      "motif": ""
+    }
+  ],
+  "resume": {
+    "acceptes": 1,
+    "rejetes": 0
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-26",
+  "genere_le": "2026-11-26T06:06:21Z",
+  "graine": "20261028-2026-11-26",
+  "mode_test": false,
+  "ordres": [
+    {
+      "action": "acheter",
+      "ticker": "GIVN.SW",
+      "nom": "Givaudan",
+      "secteur": "Matériaux",
+      "pays": "Suisse",
+      "montant_chf": 59.61,
+      "raison": "Tirage au sort : achat d'un titre au hasard.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    }
+  ]
+}
