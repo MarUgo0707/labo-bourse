@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-27",
+  "genere_le": "2026-11-27T06:06:39Z",
+  "graine": "20261028-2026-11-27",
+  "mode_test": false,
+  "ordres": [
+    {
+      "action": "vendre",
+      "ticker": "PLTR",
+      "nom": "Palantir",
+      "secteur": "Technologie",
+      "pays": "États-Unis",
+      "tout": true,
+      "montant_chf": 74.59,
+      "raison": "Tirage au sort : vente de toute la position.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)"
+    }
+  ]
+}

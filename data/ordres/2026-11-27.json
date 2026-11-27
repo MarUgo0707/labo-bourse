@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-27",
+  "mode_test": false,
+  "horodatage_validation": "2026-11-27T06:06:39Z",
+  "session_ia": "ok",
+  "ordres": [
+    {
+      "portefeuille": "singe",
+      "auteur": "script",
+      "action": "vendre",
+      "sens": "vente",
+      "ticker": "PLTR",
+      "nom": "Palantir",
+      "secteur": "Technologie",
+      "pays": "États-Unis",
+      "montant_chf": 74.59,
+      "tout": true,
+      "raison": "Tirage au sort : vente de toute la position.",
+      "confiance": "faible",
+      "horizon": "aucun (hasard)",
+      "marche": "US",
+      "devise": "USD",
+      "prix_estime": 163.589996,
+      "date_prix_estime": "2026-11-25",
+      "taux_estime": 0.83121,
+      "frais_estimes_chf": 1.37,
+      "statut": "accepté",
+      "motif": ""
+    }
+  ],
+  "resume": {
+    "acceptes": 1,
+    "rejetes": 0
+  }
+}

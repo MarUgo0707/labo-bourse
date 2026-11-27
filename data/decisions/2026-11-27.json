@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-27",
+  "heure_session": "08:05",
+  "brief_marche": "Dernière séance de l'étude. À la dernière clôture connue, les bourses européennes ont bien rebondi (DAX +2,08 %, Euro Stoxx 50 +2,04 %, SMI +1,04 %) et le VIX recule à 26,8. Les chiffres américains datent du 25 novembre (S&P 500 -0,25 %). Ma recherche web n'a trouvé aucune nouvelle datée d'aujourd'hui, donc je n'invente rien.",
+  "points_cles": [
+    "Rebond européen à la dernière clôture : DAX +2,08 %, SMI +1,04 %",
+    "VIX à 26,8 : le marché reste nerveux",
+    "Dernier jour : aucun ordre, aucune nouvelle vérifiable"
+  ],
+  "sources": [
+    { "titre": "Données de scripts/lire.py contexte (clôtures des indices)", "url": "https://finance.yahoo.com" }
+  ],
+  "portefeuilles": {
+    "patient": {
+      "decision": "rien",
+      "resume": "Le Patient reste investi et ne touche à rien : aucune position ne s'écarte de plus de 10 points de sa cible, et les nouvelles ne le concernent pas.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que VT finira la prochaine séance plus haut qu'aujourd'hui.", "ticker": "VT", "direction": "hausse", "horizon_jours": 1 }
+    },
+    "journaliste": {
+      "decision": "rien",
+      "resume": "Aucune nouvelle concrète et vérifiable n'a pu être trouvée ce matin : pas d'ordre, des frais ne se justifieraient pas.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que MSFT finira la prochaine séance plus haut qu'aujourd'hui.", "ticker": "MSFT", "direction": "hausse", "horizon_jours": 1 }
+    },
+    "risque": {
+      "decision": "rien",
+      "resume": "Je garde COIN et MSTR : la raison de l'achat (crypto) n'a pas disparu, et un ordre le dernier jour ne ferait que coûter des frais.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que COIN finira la prochaine séance plus haut qu'aujourd'hui.", "ticker": "COIN", "direction": "hausse", "horizon_jours": 1 }
+    },
+    "ia": {
+      "decision": "rien",
+      "resume": "Le récit IA est inchangé et rien n'impose d'agir ; je garde TSM et NVDA.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que NVDA finira la prochaine séance plus haut qu'aujourd'hui.", "ticker": "NVDA", "direction": "hausse", "horizon_jours": 1 }
+    },
+    "suisse": {
+      "decision": "rien",
+      "resume": "Rotation faible : Nestlé et Novartis restent des entreprises solides à dividende, pas de raison de changer.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que NESN.SW finira la prochaine séance plus haut qu'aujourd'hui.", "ticker": "NESN.SW", "direction": "hausse", "horizon_jours": 1 }
+    },
+    "contrarien": {
+      "decision": "rien",
+      "resume": "Je n'ai vérifié aucune baisse marquée d'une grande entreprise solide ce matin : je reste en cash.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que ABBN.SW finira la prochaine séance plus haut qu'aujourd'hui.", "ticker": "ABBN.SW", "direction": "hausse", "horizon_jours": 1 }
+    },
+    "momentum": {
+      "decision": "rien",
+      "resume": "LLY est à environ -3,6 %, au-dessus du seuil de coupe d'environ -7 %, et je n'ai pas de signe clair de tendance cassée : je garde.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que LLY finira la prochaine séance plus haut qu'aujourd'hui.", "ticker": "LLY", "direction": "hausse", "horizon_jours": 1 }
+    },
+    "defensif": {
+      "decision": "rien",
+      "resume": "Le Défensif bouge peu : PG et GLD restent en place.",
+      "ordres": [],
+      "prediction": { "texte": "Je pense que GLD finira la prochaine séance plus haut qu'aujourd'hui.", "ticker": "GLD", "direction": "hausse", "horizon_jours": 1 }
+    }
+  },
+  "incertitudes": [
+    "Aucune nouvelle datée du 27 novembre 2026 n'a pu être vérifiée (la recherche web n'a rien renvoyé de récent).",
+    "Les cours américains les plus récents datent du 25 novembre.",
+    "Dernier jour de l'étude : les prédictions à 1 séance pourraient ne pas être vérifiables."
+  ]
+}
